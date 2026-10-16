@@ -1,0 +1,12 @@
+Testosterone treatment and risk of venous thromboembolism: population based case-control study.
+PMID 27903495
+DOI 10.1136/bmj.i5968
+Source https://pubmed.ncbi.nlm.nih.gov/27903495/
+
+Objective:  To determine the risk of venous thromboembolism associated with use of testosterone treatment in men, focusing particularly on the timing of the risk.
+Design:  Population based case-control study SETTING:  370 general practices in UK primary care with linked hospital discharge diagnoses and in-hospital procedures and information on all cause mortality.
+Participants:  19 215 patients with confirmed venous thromboembolism (comprising deep venous thrombosis and pulmonary embolism) and 909 530 age matched controls from source population including more than 2.22 million men between January 2001 and May 2013.
+Exposure of interest:  Three mutually exclusive testosterone exposure groups were identified: current treatment, recent (but not current) treatment, and no treatment in the previous two years. Current treatment was subdivided into duration of more or less than six months.
+Main outcome measure:  Rate ratios of venous thromboembolism in association with current testosterone treatment compared with no treatment were estimated using conditional logistic regression and adjusted for comorbidities and all matching factors.
+Results:  The adjusted rate ratio of venous thromboembolism was 1.25 (95% confidence interval 0.94 to 1.66) for current versus no testosterone treatment. In the first six months of testosterone treatment, the rate ratio of venous thromboembolism was 1.63 (1.12 to 2.37), corresponding to 10.0 (1.9 to 21.6) additional venous thromboembolisms above the base rate of 15.8 per 10 000 person years. The rate ratio after more than six months' treatment was 1.00 (0.68 to 1.47), and after treatment cessation it was 0.68 (0.43 to 1.07). Increased rate ratios within the first six months of treatment were observed in all strata: the rate ratio was 1.52 (0.94 to 2.46) for patients with pathological hypogonadism and 1.88 (1.02 to 3.45) for those without it, and 1.41 (0.82 to 2.41) for those with a known risk factor for venous thromboembolism and 1.91 (1.13 to 3.23) for those without one.
+Conclusions:  Starting testosterone treatment was associated with an increased risk of venous thromboembolism, which peaked within six months and declined thereafter.

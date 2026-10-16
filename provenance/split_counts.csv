@@ -1,0 +1,7 @@
+﻿original_split,label,count
+train,exaggerates,22
+train,same,61
+train,downplays,17
+test,same,345
+test,downplays,96
+test,exaggerates,122

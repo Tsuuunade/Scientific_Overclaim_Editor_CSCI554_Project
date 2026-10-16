@@ -1,0 +1,17 @@
+﻿example_id,assigned_reviewer,review_file
+CAL-01,Reviewer A,review/reviewer_a_independent_review.csv
+CAL-02,Reviewer A,review/reviewer_a_independent_review.csv
+CAL-03,Reviewer A,review/reviewer_a_independent_review.csv
+CAL-04,Reviewer B,review/reviewer_b_independent_review.csv
+CAL-05,Reviewer B,review/reviewer_b_independent_review.csv
+CAL-06,Reviewer B,review/reviewer_b_independent_review.csv
+CAL-07,Reviewer C,review/reviewer_c_independent_review.csv
+CAL-08,Reviewer C,review/reviewer_c_independent_review.csv
+CAL-01,Reviewer D,review/reviewer_d_independent_review.csv
+CAL-04,Reviewer D,review/reviewer_d_independent_review.csv
+CAL-07,Reviewer D,review/reviewer_d_independent_review.csv
+CAL-02,Reviewer E,review/reviewer_e_independent_review.csv
+CAL-05,Reviewer E,review/reviewer_e_independent_review.csv
+CAL-08,Reviewer E,review/reviewer_e_independent_review.csv
+CAL-03,Reviewer F,review/reviewer_f_independent_review.csv
+CAL-06,Reviewer F,review/reviewer_f_independent_review.csv

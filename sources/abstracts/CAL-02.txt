@@ -1,0 +1,9 @@
+Patient preference in psychological treatment and associations with self-reported outcome: national cross-sectional survey in England and Wales.
+PMID 26768890
+DOI 10.1186/s12888-015-0702-8
+Source https://pubmed.ncbi.nlm.nih.gov/26768890/
+
+Background: Providers of psychological therapies are encouraged to offer patients choice about their treatment, but there is very little information about what preferences people have or the impact that meeting these has on treatment outcomes.
+Method: Cross-sectional survey of people receiving psychological treatment from 184 NHS services in England and Wales. 14,587 respondents were asked about treatment preferences and the extent to which these were met by their service. They were also asked to rate the extent to which therapy helped them cope with their difficulties.
+Results: Most patients (12,549-86.0 %, 95 % CI: 85.5-86.6) expressed a preference for at least one aspect of their treatment. Of these, 4,600 (36.7 %, 95 % CI: 35.8-37.5) had at least one preference that was not met. While most patients reported that their preference for appointment times, venue and type of treatment were met, only 1,769 (40.5 %) of the 4,253 that had a preference for gender had it met. People who expressed a preference that was not met reported poorer outcomes than those with a preference that was met (Odds Ratios: appointment times = 0.29, venue = 0.32, treatment type = 0.16, therapist gender = 0.32, language in which treatment was delivered = 0.40).
+Conclusions: Most patients who took part in this survey had preferences about their treatment. People who reported preferences that were not met were less likely to state that treatment had helped them with their problems. Routinely assessing and meeting patient preferences may improve the outcomes of psychological treatment.

@@ -1,0 +1,273 @@
+{
+  "sha": "6e535ca60e1e5b09bb2b9b6119637073036660f0",
+  "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/trees/6e535ca60e1e5b09bb2b9b6119637073036660f0",
+  "tree": [
+    {
+      "path": ".gitmodules",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c408bb016a173c6bca88d4af08a265e0a0ce0b2",
+      "size": 76,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/4c408bb016a173c6bca88d4af08a265e0a0ce0b2"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0ccbc071a6dc4716edf1e8a550c1d13294deda3",
+      "size": 7309,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/b0ccbc071a6dc4716edf1e8a550c1d13294deda3"
+    },
+    {
+      "path": "create_pet_labelled_file.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0b10854c04b0c14b9b858260a57fffed0cf4278",
+      "size": 604,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/d0b10854c04b0c14b9b858260a57fffed0cf4278"
+    },
+    {
+      "path": "create_pet_unlabelled_sentences_file.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43fd70bcc585fb847a0ad6a8985d61f0c0606fe3",
+      "size": 2215,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/43fd70bcc585fb847a0ad6a8985d61f0c0606fe3"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "223ea1092a0cb0caf9e8d2c9b86da546facae30e",
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/trees/223ea1092a0cb0caf9e8d2c9b86da546facae30e"
+    },
+    {
+      "path": "data/combine_strength_annotation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eee6990645560f4b4e1bffeba464a818b8d7897e",
+      "size": 343,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/eee6990645560f4b4e1bffeba464a818b8d7897e"
+    },
+    {
+      "path": "data/conclusion_detection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fe2e21861f571d4ae05e4ea94768d68e21530ebe",
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/trees/fe2e21861f571d4ae05e4ea94768d68e21530ebe"
+    },
+    {
+      "path": "data/conclusion_detection/dev.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "data/conclusion_detection/dev_pet.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25f5dc972695a24b4f85b6d9eb15d8292a154d56",
+      "size": 67029,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/25f5dc972695a24b4f85b6d9eb15d8292a154d56"
+    },
+    {
+      "path": "data/conclusion_detection/test.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "data/conclusion_detection/train_pet.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd6333deb52854782ddb36a41863040be484396e",
+      "size": 209058,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/bd6333deb52854782ddb36a41863040be484396e"
+    },
+    {
+      "path": "data/conclusion_detection/unlabelled_ids.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b969e066da3351d2919cf55885a4c12a1e1d682",
+      "size": 4250205,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/5b969e066da3351d2919cf55885a4c12a1e1d682"
+    },
+    {
+      "path": "data/conclusion_detection/unlabelled_pet.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8148c60cecb083da25fd0ca4b43dd13ba84c154",
+      "size": 18067629,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/e8148c60cecb083da25fd0ca4b43dd13ba84c154"
+    },
+    {
+      "path": "data/download_strength_data.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "279ce14103869604b53de5052c58c036fdf91523",
+      "size": 289,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/279ce14103869604b53de5052c58c036fdf91523"
+    },
+    {
+      "path": "data/insciout_test.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e467ccfceadaa5b4b98a6d4307bb286c516d5272",
+      "size": 295696,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/e467ccfceadaa5b4b98a6d4307bb286c516d5272"
+    },
+    {
+      "path": "data/insciout_train.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bca5a46d5da05a9e7616f9fad7c9a6f0fc7e27a9",
+      "size": 52426,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/bca5a46d5da05a9e7616f9fad7c9a6f0fc7e27a9"
+    },
+    {
+      "path": "data/pet_cls",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f647f5461ea707277c572d6b750562bf6b32e60c",
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/trees/f647f5461ea707277c572d6b750562bf6b32e60c"
+    },
+    {
+      "path": "data/pet_cls/dev_pet.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "data/pet_cls/test_pet.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "data/pet_cls/train_pet.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94c9e1a420426c173315714e8b90bda16ad73f5c",
+      "size": 28313,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/94c9e1a420426c173315714e8b90bda16ad73f5c"
+    },
+    {
+      "path": "data/pet_nli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1c4ee9f6eec24b0b7fe283a372c4ef4b46423486",
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/trees/1c4ee9f6eec24b0b7fe283a372c4ef4b46423486"
+    },
+    {
+      "path": "data/pet_nli/dev_pet.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "data/pet_nli/test_pet.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "data/pet_nli/train_pet.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96c0f7c616ac8db22574f7d723a6ee31be7d85cc",
+      "size": 38466,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/96c0f7c616ac8db22574f7d723a6ee31be7d85cc"
+    },
+    {
+      "path": "data/pet_nli/verbalizers.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8d93f4609bb2d23bb00895d467c10146f463128",
+      "size": 511,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/c8d93f4609bb2d23bb00895d467c10146f463128"
+    },
+    {
+      "path": "datareader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "041647ae5148f677c94a5646cfde8f992514178e",
+      "size": 8187,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/041647ae5148f677c94a5646cfde8f992514178e"
+    },
+    {
+      "path": "environment.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7ff106b74cb72d0848a3e1a8691aec2052536f6",
+      "size": 584,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/a7ff106b74cb72d0848a3e1a8691aec2052536f6"
+    },
+    {
+      "path": "exaggeration.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7423e661100d2d6e281daa77df0a8c07fd3ac117",
+      "size": 412441,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/7423e661100d2d6e281daa77df0a8c07fd3ac117"
+    },
+    {
+      "path": "metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcc4ba9da707db4a70067e79495f40e3803e97aa",
+      "size": 7811,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/fcc4ba9da707db4a70067e79495f40e3803e97aa"
+    },
+    {
+      "path": "model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e360b13e2f3817733b8c64b969663be4db74816",
+      "size": 6570,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/1e360b13e2f3817733b8c64b969663be4db74816"
+    },
+    {
+      "path": "mt-pet",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "4a28a70d13dfe26851ca6f8cc0741bac17b2c69e"
+    },
+    {
+      "path": "run_cls.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abc0d2293cd908bcfc1c9fba567bbc1470089a27",
+      "size": 8151,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/abc0d2293cd908bcfc1c9fba567bbc1470089a27"
+    },
+    {
+      "path": "run_nli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01948b94da89d468528cc5534448db3c2d31fa52",
+      "size": 7400,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/01948b94da89d468528cc5534448db3c2d31fa52"
+    },
+    {
+      "path": "trainer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "790a23a705ff6a3b855565f50e20c4f4078c26ce",
+      "size": 16179,
+      "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/790a23a705ff6a3b855565f50e20c4f4078c26ce"
+    }
+  ],
+  "truncated": false
+}

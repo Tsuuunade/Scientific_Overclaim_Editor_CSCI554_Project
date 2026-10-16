@@ -1,0 +1,17 @@
+{
+  "commit": "00337f35825f4f116eaba6688f98b902a49c971c",
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/junwang4/correlation-to-causation-exaggeration/00337f35825f4f116eaba6688f98b902a49c971c/data/annotated_pubmed.csv",
+      "local_path": "raw/auxiliary_strength/annotated_pubmed.csv",
+      "bytes": 414298,
+      "sha256": "57973580bc93127289105c8f45e9886ad054b5e360a639d7678f15e7c202ad6d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/junwang4/correlation-to-causation-exaggeration/00337f35825f4f116eaba6688f98b902a49c971c/data/annotated_eureka.csv",
+      "local_path": "raw/auxiliary_strength/annotated_eureka.csv",
+      "bytes": 401355,
+      "sha256": "a0243352da856be39207a61816350f679ddb28d5d66d2621c786bd412345e2f9"
+    }
+  ]
+}

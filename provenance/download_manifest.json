@@ -1,0 +1,133 @@
+{
+  "repository": "https://github.com/copenlu/scientific-exaggeration-detection",
+  "commit": "6e535ca60e1e5b09bb2b9b6119637073036660f0",
+  "downloaded_utc": "2026-10-15T23:22:05.296412+00:00",
+  "files": [
+    {
+      "local_path": "raw/wright_augenstein_2021/README.md",
+      "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/README.md",
+      "size_bytes": 7309,
+      "sha256": "28f6f1ad39b1d8f979063f1c5344af5f3f3f26b3b2cff27c7ddcc430170fa96b",
+      "git_blob_sha": "b0ccbc071a6dc4716edf1e8a550c1d13294deda3"
+    },
+    {
+      "local_path": "raw/wright_augenstein_2021/data/combine_strength_annotation.py",
+      "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/combine_strength_annotation.py",
+      "size_bytes": 343,
+      "sha256": "90bc0f2c2ba2e7dd6ef0f62f83b4a8e8c9ea2191b6e4f990801c2945b08635b8",
+      "git_blob_sha": "eee6990645560f4b4e1bffeba464a818b8d7897e"
+    },
+    {
+      "local_path": "raw/wright_augenstein_2021/data/conclusion_detection/dev.jsonl",
+      "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/conclusion_detection/dev.jsonl",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "local_path": "raw/wright_augenstein_2021/data/conclusion_detection/dev_pet.jsonl",
+      "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/conclusion_detection/dev_pet.jsonl",
+      "size_bytes": 67029,
+      "sha256": "7a8e35b543e1a1045fa02d3694da57b958cc60b4a4ce14924e33b2ed4a9a6633",
+      "git_blob_sha": "25f5dc972695a24b4f85b6d9eb15d8292a154d56"
+    },
+    {
+      "local_path": "raw/wright_augenstein_2021/data/conclusion_detection/test.jsonl",
+      "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/conclusion_detection/test.jsonl",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "local_path": "raw/wright_augenstein_2021/data/conclusion_detection/train_pet.jsonl",
+      "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/conclusion_detection/train_pet.jsonl",
+      "size_bytes": 209058,
+      "sha256": "f060ca3718d44d02b39a6f06b036e573dddb80da4cb2428a64f256eb1b5247fa",
+      "git_blob_sha": "bd6333deb52854782ddb36a41863040be484396e"
+    },
+    {
+      "local_path": "raw/wright_augenstein_2021/data/conclusion_detection/unlabelled_ids.txt",
+      "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/conclusion_detection/unlabelled_ids.txt",
+      "size_bytes": 4250205,
+      "sha256": "664281863db28d8705a689a85e7c59069150e13bd0625eaf9873323a23fc95cd",
+      "git_blob_sha": "5b969e066da3351d2919cf55885a4c12a1e1d682"
+    },
+    {
+      "local_path": "raw/wright_augenstein_2021/data/conclusion_detection/unlabelled_pet.jsonl",
+      "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/conclusion_detection/unlabelled_pet.jsonl",
+      "size_bytes": 18067629,
+      "sha256": "a9b5dfccd999abbe6025361af55f822e6d59dd14bef2227170c1cd69315d9c98",
+      "git_blob_sha": "e8148c60cecb083da25fd0ca4b43dd13ba84c154"
+    },
+    {
+      "local_path": "raw/wright_augenstein_2021/data/download_strength_data.sh",
+      "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/download_strength_data.sh",
+      "size_bytes": 289,
+      "sha256": "27c1193cbe376a8b3841c134b432a46ab11c4b5221b64c3c3fe7f1011507e371",
+      "git_blob_sha": "279ce14103869604b53de5052c58c036fdf91523"
+    },
+    {
+      "local_path": "raw/wright_augenstein_2021/data/insciout_test.jsonl",
+      "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/insciout_test.jsonl",
+      "size_bytes": 295696,
+      "sha256": "41429cc76860e56b96791be8478c2eb831e19e5d605b529c626b5327f2ed7f0a",
+      "git_blob_sha": "e467ccfceadaa5b4b98a6d4307bb286c516d5272"
+    },
+    {
+      "local_path": "raw/wright_augenstein_2021/data/insciout_train.jsonl",
+      "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/insciout_train.jsonl",
+      "size_bytes": 52426,
+      "sha256": "ee5f42661e28d30271060047cdc7a284885ac6dc4e20cc6d780f21a76a56efd5",
+      "git_blob_sha": "bca5a46d5da05a9e7616f9fad7c9a6f0fc7e27a9"
+    },
+    {
+      "local_path": "raw/wright_augenstein_2021/data/pet_cls/dev_pet.csv",
+      "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/pet_cls/dev_pet.csv",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "local_path": "raw/wright_augenstein_2021/data/pet_cls/test_pet.csv",
+      "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/pet_cls/test_pet.csv",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "local_path": "raw/wright_augenstein_2021/data/pet_cls/train_pet.csv",
+      "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/pet_cls/train_pet.csv",
+      "size_bytes": 28313,
+      "sha256": "14a569721b5b926c4bb8bfe989eb3c71fb8626f356fb57c4751569e10df109b0",
+      "git_blob_sha": "94c9e1a420426c173315714e8b90bda16ad73f5c"
+    },
+    {
+      "local_path": "raw/wright_augenstein_2021/data/pet_nli/dev_pet.jsonl",
+      "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/pet_nli/dev_pet.jsonl",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "local_path": "raw/wright_augenstein_2021/data/pet_nli/test_pet.jsonl",
+      "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/pet_nli/test_pet.jsonl",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "local_path": "raw/wright_augenstein_2021/data/pet_nli/train_pet.jsonl",
+      "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/pet_nli/train_pet.jsonl",
+      "size_bytes": 38466,
+      "sha256": "e8e6e147ee4a34452945c668d320218581433fce6729c0a34490ad4f1c42925d",
+      "git_blob_sha": "96c0f7c616ac8db22574f7d723a6ee31be7d85cc"
+    },
+    {
+      "local_path": "raw/wright_augenstein_2021/data/pet_nli/verbalizers.json",
+      "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/pet_nli/verbalizers.json",
+      "size_bytes": 511,
+      "sha256": "b6d381dd8e2cc9fb51e88a982d81b7e94c7104ebb50fe0d25fd3920b275d8cf1",
+      "git_blob_sha": "c8d93f4609bb2d23bb00895d467c10146f463128"
+    }
+  ]
+}
