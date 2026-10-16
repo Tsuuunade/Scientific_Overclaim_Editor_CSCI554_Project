@@ -1,6 +1,6 @@
 {
   "package_version": "2.1",
-  "created_utc": "2026-10-16T00:40:39.849071+00:00",
+  "created_utc": "2026-10-16T00:43:09.857352+00:00",
   "excludes": [
     ".git",
     ".pytest_cache",
@@ -8,16 +8,6 @@
     "tmp"
   ],
   "files": [
-    {
-      "path": ".gitattributes",
-      "size_bytes": 8,
-      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
-    },
-    {
-      "path": ".gitignore",
-      "size_bytes": 35,
-      "sha256": "53d1059732ad6c3ff3a1e633e9361186796bfe3d416db7b6841a63770abe70c9"
-    },
     {
       "path": "annotations/ai_draft_annotations.csv",
       "size_bytes": 12347,
