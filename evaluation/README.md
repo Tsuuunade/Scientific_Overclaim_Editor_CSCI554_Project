@@ -1,6 +1,6 @@
-# Evaluation (Member 5)
+# Evaluation (Tianming)
 
-Owner: Evaluation and error analysis. Status: **specified, not yet run.** No model outputs have been rated, and no results are reported here.
+Status: **specified, not yet run.** No model outputs have been rated, and no results are reported here.
 
 This folder defines how editor outputs are rated and how the five reported measures are computed. It follows `data_package/docs/Decision_Policy.md` (scoring contract) and `data_package/docs/Review_Instructions.md` (Evaluation owner duties). Where this folder and the original team work plan differ on a denominator, this folder follows Decision_Policy.
 
