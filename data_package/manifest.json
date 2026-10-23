@@ -1,0 +1,1101 @@
+{
+  "package_version": "3.0",
+  "updated_date": "2026-10-23",
+  "previous_layout_commit": "60f0e50e846276e860a6610cbfa971fd802f905c",
+  "dataset_source": {
+    "repository": "https://github.com/copenlu/scientific-exaggeration-detection",
+    "commit": "6e535ca60e1e5b09bb2b9b6119637073036660f0",
+    "downloaded_utc": "2026-10-15T23:22:05.296412+00:00",
+    "files": [
+      {
+        "local_path": "raw/paired_dataset/README.md",
+        "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/README.md",
+        "size_bytes": 7309,
+        "sha256": "28f6f1ad39b1d8f979063f1c5344af5f3f3f26b3b2cff27c7ddcc430170fa96b",
+        "git_blob_sha": "b0ccbc071a6dc4716edf1e8a550c1d13294deda3"
+      },
+      {
+        "local_path": "raw/paired_dataset/data/combine_strength_annotation.py",
+        "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/combine_strength_annotation.py",
+        "size_bytes": 343,
+        "sha256": "90bc0f2c2ba2e7dd6ef0f62f83b4a8e8c9ea2191b6e4f990801c2945b08635b8",
+        "git_blob_sha": "eee6990645560f4b4e1bffeba464a818b8d7897e"
+      },
+      {
+        "local_path": "raw/paired_dataset/data/conclusion_detection/dev.jsonl",
+        "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/conclusion_detection/dev.jsonl",
+        "size_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "local_path": "raw/paired_dataset/data/conclusion_detection/dev_pet.jsonl",
+        "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/conclusion_detection/dev_pet.jsonl",
+        "size_bytes": 67029,
+        "sha256": "7a8e35b543e1a1045fa02d3694da57b958cc60b4a4ce14924e33b2ed4a9a6633",
+        "git_blob_sha": "25f5dc972695a24b4f85b6d9eb15d8292a154d56"
+      },
+      {
+        "local_path": "raw/paired_dataset/data/conclusion_detection/test.jsonl",
+        "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/conclusion_detection/test.jsonl",
+        "size_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "local_path": "raw/paired_dataset/data/conclusion_detection/train_pet.jsonl",
+        "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/conclusion_detection/train_pet.jsonl",
+        "size_bytes": 209058,
+        "sha256": "f060ca3718d44d02b39a6f06b036e573dddb80da4cb2428a64f256eb1b5247fa",
+        "git_blob_sha": "bd6333deb52854782ddb36a41863040be484396e"
+      },
+      {
+        "local_path": "raw/paired_dataset/data/conclusion_detection/unlabelled_ids.txt",
+        "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/conclusion_detection/unlabelled_ids.txt",
+        "size_bytes": 4250205,
+        "sha256": "664281863db28d8705a689a85e7c59069150e13bd0625eaf9873323a23fc95cd",
+        "git_blob_sha": "5b969e066da3351d2919cf55885a4c12a1e1d682"
+      },
+      {
+        "local_path": "raw/paired_dataset/data/conclusion_detection/unlabelled_pet.jsonl",
+        "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/conclusion_detection/unlabelled_pet.jsonl",
+        "size_bytes": 18067629,
+        "sha256": "a9b5dfccd999abbe6025361af55f822e6d59dd14bef2227170c1cd69315d9c98",
+        "git_blob_sha": "e8148c60cecb083da25fd0ca4b43dd13ba84c154"
+      },
+      {
+        "local_path": "raw/paired_dataset/data/download_strength_data.sh",
+        "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/download_strength_data.sh",
+        "size_bytes": 289,
+        "sha256": "27c1193cbe376a8b3841c134b432a46ab11c4b5221b64c3c3fe7f1011507e371",
+        "git_blob_sha": "279ce14103869604b53de5052c58c036fdf91523"
+      },
+      {
+        "local_path": "raw/paired_dataset/data/insciout_test.jsonl",
+        "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/insciout_test.jsonl",
+        "size_bytes": 295696,
+        "sha256": "41429cc76860e56b96791be8478c2eb831e19e5d605b529c626b5327f2ed7f0a",
+        "git_blob_sha": "e467ccfceadaa5b4b98a6d4307bb286c516d5272"
+      },
+      {
+        "local_path": "raw/paired_dataset/data/insciout_train.jsonl",
+        "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/insciout_train.jsonl",
+        "size_bytes": 52426,
+        "sha256": "ee5f42661e28d30271060047cdc7a284885ac6dc4e20cc6d780f21a76a56efd5",
+        "git_blob_sha": "bca5a46d5da05a9e7616f9fad7c9a6f0fc7e27a9"
+      },
+      {
+        "local_path": "raw/paired_dataset/data/pet_cls/dev_pet.csv",
+        "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/pet_cls/dev_pet.csv",
+        "size_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "local_path": "raw/paired_dataset/data/pet_cls/test_pet.csv",
+        "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/pet_cls/test_pet.csv",
+        "size_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "local_path": "raw/paired_dataset/data/pet_cls/train_pet.csv",
+        "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/pet_cls/train_pet.csv",
+        "size_bytes": 28313,
+        "sha256": "14a569721b5b926c4bb8bfe989eb3c71fb8626f356fb57c4751569e10df109b0",
+        "git_blob_sha": "94c9e1a420426c173315714e8b90bda16ad73f5c"
+      },
+      {
+        "local_path": "raw/paired_dataset/data/pet_nli/dev_pet.jsonl",
+        "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/pet_nli/dev_pet.jsonl",
+        "size_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "local_path": "raw/paired_dataset/data/pet_nli/test_pet.jsonl",
+        "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/pet_nli/test_pet.jsonl",
+        "size_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "local_path": "raw/paired_dataset/data/pet_nli/train_pet.jsonl",
+        "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/pet_nli/train_pet.jsonl",
+        "size_bytes": 38466,
+        "sha256": "e8e6e147ee4a34452945c668d320218581433fce6729c0a34490ad4f1c42925d",
+        "git_blob_sha": "96c0f7c616ac8db22574f7d723a6ee31be7d85cc"
+      },
+      {
+        "local_path": "raw/paired_dataset/data/pet_nli/verbalizers.json",
+        "url": "https://raw.githubusercontent.com/copenlu/scientific-exaggeration-detection/6e535ca60e1e5b09bb2b9b6119637073036660f0/data/pet_nli/verbalizers.json",
+        "size_bytes": 511,
+        "sha256": "b6d381dd8e2cc9fb51e88a982d81b7e94c7104ebb50fe0d25fd3920b275d8cf1",
+        "git_blob_sha": "c8d93f4609bb2d23bb00895d467c10146f463128"
+      }
+    ]
+  },
+  "auxiliary_source": {
+    "commit": "00337f35825f4f116eaba6688f98b902a49c971c",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/junwang4/correlation-to-causation-exaggeration/00337f35825f4f116eaba6688f98b902a49c971c/data/annotated_pubmed.csv",
+        "local_path": "raw/auxiliary_strength/annotated_pubmed.csv",
+        "bytes": 414298,
+        "sha256": "57973580bc93127289105c8f45e9886ad054b5e360a639d7678f15e7c202ad6d"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/junwang4/correlation-to-causation-exaggeration/00337f35825f4f116eaba6688f98b902a49c971c/data/annotated_eureka.csv",
+        "local_path": "raw/auxiliary_strength/annotated_eureka.csv",
+        "bytes": 401355,
+        "sha256": "a0243352da856be39207a61816350f679ddb28d5d66d2621c786bd412345e2f9"
+      }
+    ]
+  },
+  "upstream_repository_tree": {
+    "sha": "6e535ca60e1e5b09bb2b9b6119637073036660f0",
+    "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/trees/6e535ca60e1e5b09bb2b9b6119637073036660f0",
+    "tree": [
+      {
+        "path": ".gitmodules",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4c408bb016a173c6bca88d4af08a265e0a0ce0b2",
+        "size": 76,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/4c408bb016a173c6bca88d4af08a265e0a0ce0b2"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b0ccbc071a6dc4716edf1e8a550c1d13294deda3",
+        "size": 7309,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/b0ccbc071a6dc4716edf1e8a550c1d13294deda3"
+      },
+      {
+        "path": "create_pet_labelled_file.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d0b10854c04b0c14b9b858260a57fffed0cf4278",
+        "size": 604,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/d0b10854c04b0c14b9b858260a57fffed0cf4278"
+      },
+      {
+        "path": "create_pet_unlabelled_sentences_file.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "43fd70bcc585fb847a0ad6a8985d61f0c0606fe3",
+        "size": 2215,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/43fd70bcc585fb847a0ad6a8985d61f0c0606fe3"
+      },
+      {
+        "path": "data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "223ea1092a0cb0caf9e8d2c9b86da546facae30e",
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/trees/223ea1092a0cb0caf9e8d2c9b86da546facae30e"
+      },
+      {
+        "path": "data/combine_strength_annotation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "eee6990645560f4b4e1bffeba464a818b8d7897e",
+        "size": 343,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/eee6990645560f4b4e1bffeba464a818b8d7897e"
+      },
+      {
+        "path": "data/conclusion_detection",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fe2e21861f571d4ae05e4ea94768d68e21530ebe",
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/trees/fe2e21861f571d4ae05e4ea94768d68e21530ebe"
+      },
+      {
+        "path": "data/conclusion_detection/dev.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "data/conclusion_detection/dev_pet.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "25f5dc972695a24b4f85b6d9eb15d8292a154d56",
+        "size": 67029,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/25f5dc972695a24b4f85b6d9eb15d8292a154d56"
+      },
+      {
+        "path": "data/conclusion_detection/test.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "data/conclusion_detection/train_pet.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bd6333deb52854782ddb36a41863040be484396e",
+        "size": 209058,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/bd6333deb52854782ddb36a41863040be484396e"
+      },
+      {
+        "path": "data/conclusion_detection/unlabelled_ids.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5b969e066da3351d2919cf55885a4c12a1e1d682",
+        "size": 4250205,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/5b969e066da3351d2919cf55885a4c12a1e1d682"
+      },
+      {
+        "path": "data/conclusion_detection/unlabelled_pet.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e8148c60cecb083da25fd0ca4b43dd13ba84c154",
+        "size": 18067629,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/e8148c60cecb083da25fd0ca4b43dd13ba84c154"
+      },
+      {
+        "path": "data/download_strength_data.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "279ce14103869604b53de5052c58c036fdf91523",
+        "size": 289,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/279ce14103869604b53de5052c58c036fdf91523"
+      },
+      {
+        "path": "data/insciout_test.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e467ccfceadaa5b4b98a6d4307bb286c516d5272",
+        "size": 295696,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/e467ccfceadaa5b4b98a6d4307bb286c516d5272"
+      },
+      {
+        "path": "data/insciout_train.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bca5a46d5da05a9e7616f9fad7c9a6f0fc7e27a9",
+        "size": 52426,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/bca5a46d5da05a9e7616f9fad7c9a6f0fc7e27a9"
+      },
+      {
+        "path": "data/pet_cls",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f647f5461ea707277c572d6b750562bf6b32e60c",
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/trees/f647f5461ea707277c572d6b750562bf6b32e60c"
+      },
+      {
+        "path": "data/pet_cls/dev_pet.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "data/pet_cls/test_pet.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "data/pet_cls/train_pet.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "94c9e1a420426c173315714e8b90bda16ad73f5c",
+        "size": 28313,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/94c9e1a420426c173315714e8b90bda16ad73f5c"
+      },
+      {
+        "path": "data/pet_nli",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1c4ee9f6eec24b0b7fe283a372c4ef4b46423486",
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/trees/1c4ee9f6eec24b0b7fe283a372c4ef4b46423486"
+      },
+      {
+        "path": "data/pet_nli/dev_pet.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "data/pet_nli/test_pet.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "data/pet_nli/train_pet.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "96c0f7c616ac8db22574f7d723a6ee31be7d85cc",
+        "size": 38466,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/96c0f7c616ac8db22574f7d723a6ee31be7d85cc"
+      },
+      {
+        "path": "data/pet_nli/verbalizers.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c8d93f4609bb2d23bb00895d467c10146f463128",
+        "size": 511,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/c8d93f4609bb2d23bb00895d467c10146f463128"
+      },
+      {
+        "path": "datareader.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "041647ae5148f677c94a5646cfde8f992514178e",
+        "size": 8187,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/041647ae5148f677c94a5646cfde8f992514178e"
+      },
+      {
+        "path": "environment.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a7ff106b74cb72d0848a3e1a8691aec2052536f6",
+        "size": 584,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/a7ff106b74cb72d0848a3e1a8691aec2052536f6"
+      },
+      {
+        "path": "exaggeration.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7423e661100d2d6e281daa77df0a8c07fd3ac117",
+        "size": 412441,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/7423e661100d2d6e281daa77df0a8c07fd3ac117"
+      },
+      {
+        "path": "metrics.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fcc4ba9da707db4a70067e79495f40e3803e97aa",
+        "size": 7811,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/fcc4ba9da707db4a70067e79495f40e3803e97aa"
+      },
+      {
+        "path": "model.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1e360b13e2f3817733b8c64b969663be4db74816",
+        "size": 6570,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/1e360b13e2f3817733b8c64b969663be4db74816"
+      },
+      {
+        "path": "mt-pet",
+        "mode": "160000",
+        "type": "commit",
+        "sha": "4a28a70d13dfe26851ca6f8cc0741bac17b2c69e"
+      },
+      {
+        "path": "run_cls.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "abc0d2293cd908bcfc1c9fba567bbc1470089a27",
+        "size": 8151,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/abc0d2293cd908bcfc1c9fba567bbc1470089a27"
+      },
+      {
+        "path": "run_nli.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "01948b94da89d468528cc5534448db3c2d31fa52",
+        "size": 7400,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/01948b94da89d468528cc5534448db3c2d31fa52"
+      },
+      {
+        "path": "trainer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "790a23a705ff6a3b855565f50e20c4f4078c26ce",
+        "size": 16179,
+        "url": "https://api.github.com/repos/copenlu/scientific-exaggeration-detection/git/blobs/790a23a705ff6a3b855565f50e20c4f4078c26ce"
+      }
+    ],
+    "truncated": false
+  },
+  "dataset_audit": {
+    "dataset_commit": "6e535ca60e1e5b09bb2b9b6119637073036660f0",
+    "counts": {
+      "train": {
+        "rows": 100,
+        "labels": {
+          "exaggerates": 22,
+          "same": 61,
+          "downplays": 17
+        },
+        "unique_original_file_ids": 100
+      },
+      "test": {
+        "rows": 563,
+        "labels": {
+          "same": 345,
+          "downplays": 96,
+          "exaggerates": 122
+        },
+        "unique_original_file_ids": 563
+      }
+    },
+    "source_fields": [
+      "original_file_id",
+      "press_release_conclusion",
+      "press_release_strength",
+      "abstract_conclusion",
+      "abstract_strength",
+      "exaggeration_label"
+    ],
+    "missing_required_fields": {
+      "train": 0,
+      "test": 0
+    },
+    "blank_values": {
+      "train": {
+        "original_file_id": 0,
+        "press_release_conclusion": 0,
+        "press_release_strength": 0,
+        "abstract_conclusion": 0,
+        "abstract_strength": 0,
+        "exaggeration_label": 0
+      },
+      "test": {
+        "original_file_id": 0,
+        "press_release_conclusion": 0,
+        "press_release_strength": 0,
+        "abstract_conclusion": 0,
+        "abstract_strength": 0,
+        "exaggeration_label": 0
+      }
+    },
+    "original_id_overlap": [],
+    "normalized_abstract_overlap": 0,
+    "normalized_press_release_overlap": 0,
+    "complete_paper_identity_audit": "not completed for all 663 pairs; original spreadsheet IDs are not verified publication IDs",
+    "calibration_examples": 8,
+    "recovered_complete_abstracts": 8,
+    "independent_human_reviews_completed": 0,
+    "selection_policy": "Eight purposively selected original training pairs only. Calibration and presentation use; not a performance sample.",
+    "auxiliary_counts": {
+      "annotated_pubmed.csv": {
+        "rows": 3061,
+        "columns": [
+          "sentence",
+          "label"
+        ]
+      },
+      "annotated_eureka.csv": {
+        "rows": 2076,
+        "columns": [
+          "sentId",
+          "sentence",
+          "label"
+        ]
+      }
+    },
+    "conclusion_detection": {
+      "labeled_train_sentences": 1138,
+      "labeled_dev_sentences": 355,
+      "unlabeled_sentences": 94920,
+      "unlabeled_ids": 94920,
+      "empty_files": [
+        "raw/paired_dataset/data/pet_cls/dev_pet.csv",
+        "raw/paired_dataset/data/pet_cls/test_pet.csv",
+        "raw/paired_dataset/data/conclusion_detection/dev.jsonl",
+        "raw/paired_dataset/data/conclusion_detection/test.jsonl",
+        "raw/paired_dataset/data/pet_nli/test_pet.jsonl",
+        "raw/paired_dataset/data/pet_nli/dev_pet.jsonl"
+      ]
+    },
+    "package_version": "3.0",
+    "ai_working_reviews_completed": 8,
+    "human_gold_examples": 0,
+    "working_label_counts": {
+      "overclaim": 3,
+      "supported": 3,
+      "insufficient_evidence": 2
+    },
+    "working_reference_status": "AI_REVIEWED_WORKING_REFERENCE",
+    "pilot_candidate_count": 44,
+    "pilot_source_abstracts_recovered": 8,
+    "pilot_split_frozen": false
+  },
+  "original_split_counts": [
+    {
+      "original_split": "train",
+      "label": "exaggerates",
+      "count": "22"
+    },
+    {
+      "original_split": "train",
+      "label": "same",
+      "count": "61"
+    },
+    {
+      "original_split": "train",
+      "label": "downplays",
+      "count": "17"
+    },
+    {
+      "original_split": "test",
+      "label": "same",
+      "count": "345"
+    },
+    {
+      "original_split": "test",
+      "label": "downplays",
+      "count": "96"
+    },
+    {
+      "original_split": "test",
+      "label": "exaggerates",
+      "count": "122"
+    }
+  ],
+  "pilot_plan": {
+    "version": "2.1",
+    "adopted_date": "2026-10-15",
+    "selection_seed_hex": "6d656d626572312d70696c6f742d76322d323032362d31302d3135",
+    "selection_seed_encoding": "hexadecimal bytes; preserves the acquired candidate set",
+    "candidate_count": 44,
+    "acquisition_label_counts": {
+      "exaggerates": 22,
+      "same": 22
+    },
+    "recovered_abstracts": 8,
+    "abstracts_to_recover": 36,
+    "selection_rule": "All original exaggerates; four calibration same plus first 18 other same by SHA256(seed|source_record_key)",
+    "planned_development_approx": 20,
+    "planned_evaluation_max": 24,
+    "split_frozen": false,
+    "development_locked_ids": [
+      "CAL-01",
+      "CAL-02",
+      "CAL-03",
+      "CAL-04",
+      "CAL-05",
+      "CAL-06",
+      "CAL-07",
+      "CAL-08"
+    ],
+    "unassigned_candidates": 36,
+    "human_verified_examples": 0,
+    "pilot_target_type": "acquisition_candidates_not_verified_examples",
+    "primary_metric_scope": "causal_strength_overclaims_and_clean_supported_controls",
+    "separate_diagnostic_strata": [
+      "population_scope",
+      "outcome_scope",
+      "insufficient_evidence"
+    ],
+    "expansion_target": "150-250 stretch goal after pilot",
+    "benchmark_test_policy": "563 test pairs protected; complete paper-identity audit pending"
+  },
+  "preservation": {
+    "raw_files": [
+      {
+        "previous_path": "raw/auxiliary_strength/annotated_eureka.csv",
+        "path": "raw/auxiliary_strength/annotated_eureka.csv",
+        "sha256": "a0243352da856be39207a61816350f679ddb28d5d66d2621c786bd412345e2f9",
+        "size_bytes": 401355,
+        "rows_before": 2076,
+        "rows_after": 2076,
+        "unchanged": true
+      },
+      {
+        "previous_path": "raw/auxiliary_strength/annotated_pubmed.csv",
+        "path": "raw/auxiliary_strength/annotated_pubmed.csv",
+        "sha256": "57973580bc93127289105c8f45e9886ad054b5e360a639d7678f15e7c202ad6d",
+        "size_bytes": 414298,
+        "rows_before": 3061,
+        "rows_after": 3061,
+        "unchanged": true
+      },
+      {
+        "previous_path": "raw/wright_augenstein_2021/data/combine_strength_annotation.py",
+        "path": "raw/paired_dataset/data/combine_strength_annotation.py",
+        "sha256": "90bc0f2c2ba2e7dd6ef0f62f83b4a8e8c9ea2191b6e4f990801c2945b08635b8",
+        "size_bytes": 343,
+        "rows_before": null,
+        "rows_after": null,
+        "unchanged": true
+      },
+      {
+        "previous_path": "raw/wright_augenstein_2021/data/conclusion_detection/dev.jsonl",
+        "path": "raw/paired_dataset/data/conclusion_detection/dev.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0,
+        "rows_before": 0,
+        "rows_after": 0,
+        "unchanged": true
+      },
+      {
+        "previous_path": "raw/wright_augenstein_2021/data/conclusion_detection/dev_pet.jsonl",
+        "path": "raw/paired_dataset/data/conclusion_detection/dev_pet.jsonl",
+        "sha256": "7a8e35b543e1a1045fa02d3694da57b958cc60b4a4ce14924e33b2ed4a9a6633",
+        "size_bytes": 67029,
+        "rows_before": 355,
+        "rows_after": 355,
+        "unchanged": true
+      },
+      {
+        "previous_path": "raw/wright_augenstein_2021/data/conclusion_detection/test.jsonl",
+        "path": "raw/paired_dataset/data/conclusion_detection/test.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0,
+        "rows_before": 0,
+        "rows_after": 0,
+        "unchanged": true
+      },
+      {
+        "previous_path": "raw/wright_augenstein_2021/data/conclusion_detection/train_pet.jsonl",
+        "path": "raw/paired_dataset/data/conclusion_detection/train_pet.jsonl",
+        "sha256": "f060ca3718d44d02b39a6f06b036e573dddb80da4cb2428a64f256eb1b5247fa",
+        "size_bytes": 209058,
+        "rows_before": 1138,
+        "rows_after": 1138,
+        "unchanged": true
+      },
+      {
+        "previous_path": "raw/wright_augenstein_2021/data/conclusion_detection/unlabelled_ids.txt",
+        "path": "raw/paired_dataset/data/conclusion_detection/unlabelled_ids.txt",
+        "sha256": "664281863db28d8705a689a85e7c59069150e13bd0625eaf9873323a23fc95cd",
+        "size_bytes": 4250205,
+        "rows_before": 94920,
+        "rows_after": 94920,
+        "unchanged": true
+      },
+      {
+        "previous_path": "raw/wright_augenstein_2021/data/conclusion_detection/unlabelled_pet.jsonl",
+        "path": "raw/paired_dataset/data/conclusion_detection/unlabelled_pet.jsonl",
+        "sha256": "a9b5dfccd999abbe6025361af55f822e6d59dd14bef2227170c1cd69315d9c98",
+        "size_bytes": 18067629,
+        "rows_before": 94920,
+        "rows_after": 94920,
+        "unchanged": true
+      },
+      {
+        "previous_path": "raw/wright_augenstein_2021/data/download_strength_data.sh",
+        "path": "raw/paired_dataset/data/download_strength_data.sh",
+        "sha256": "27c1193cbe376a8b3841c134b432a46ab11c4b5221b64c3c3fe7f1011507e371",
+        "size_bytes": 289,
+        "rows_before": null,
+        "rows_after": null,
+        "unchanged": true
+      },
+      {
+        "previous_path": "raw/wright_augenstein_2021/data/insciout_test.jsonl",
+        "path": "raw/paired_dataset/data/insciout_test.jsonl",
+        "sha256": "41429cc76860e56b96791be8478c2eb831e19e5d605b529c626b5327f2ed7f0a",
+        "size_bytes": 295696,
+        "rows_before": 563,
+        "rows_after": 563,
+        "unchanged": true
+      },
+      {
+        "previous_path": "raw/wright_augenstein_2021/data/insciout_train.jsonl",
+        "path": "raw/paired_dataset/data/insciout_train.jsonl",
+        "sha256": "ee5f42661e28d30271060047cdc7a284885ac6dc4e20cc6d780f21a76a56efd5",
+        "size_bytes": 52426,
+        "rows_before": 100,
+        "rows_after": 100,
+        "unchanged": true
+      },
+      {
+        "previous_path": "raw/wright_augenstein_2021/data/pet_cls/dev_pet.csv",
+        "path": "raw/paired_dataset/data/pet_cls/dev_pet.csv",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0,
+        "rows_before": 0,
+        "rows_after": 0,
+        "unchanged": true
+      },
+      {
+        "previous_path": "raw/wright_augenstein_2021/data/pet_cls/test_pet.csv",
+        "path": "raw/paired_dataset/data/pet_cls/test_pet.csv",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0,
+        "rows_before": 0,
+        "rows_after": 0,
+        "unchanged": true
+      },
+      {
+        "previous_path": "raw/wright_augenstein_2021/data/pet_cls/train_pet.csv",
+        "path": "raw/paired_dataset/data/pet_cls/train_pet.csv",
+        "sha256": "14a569721b5b926c4bb8bfe989eb3c71fb8626f356fb57c4751569e10df109b0",
+        "size_bytes": 28313,
+        "rows_before": 200,
+        "rows_after": 200,
+        "unchanged": true
+      },
+      {
+        "previous_path": "raw/wright_augenstein_2021/data/pet_nli/dev_pet.jsonl",
+        "path": "raw/paired_dataset/data/pet_nli/dev_pet.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0,
+        "rows_before": 0,
+        "rows_after": 0,
+        "unchanged": true
+      },
+      {
+        "previous_path": "raw/wright_augenstein_2021/data/pet_nli/test_pet.jsonl",
+        "path": "raw/paired_dataset/data/pet_nli/test_pet.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_bytes": 0,
+        "rows_before": 0,
+        "rows_after": 0,
+        "unchanged": true
+      },
+      {
+        "previous_path": "raw/wright_augenstein_2021/data/pet_nli/train_pet.jsonl",
+        "path": "raw/paired_dataset/data/pet_nli/train_pet.jsonl",
+        "sha256": "e8e6e147ee4a34452945c668d320218581433fce6729c0a34490ad4f1c42925d",
+        "size_bytes": 38466,
+        "rows_before": 100,
+        "rows_after": 100,
+        "unchanged": true
+      },
+      {
+        "previous_path": "raw/wright_augenstein_2021/data/pet_nli/verbalizers.json",
+        "path": "raw/paired_dataset/data/pet_nli/verbalizers.json",
+        "sha256": "b6d381dd8e2cc9fb51e88a982d81b7e94c7104ebb50fe0d25fd3920b275d8cf1",
+        "size_bytes": 511,
+        "rows_before": null,
+        "rows_after": null,
+        "unchanged": true
+      },
+      {
+        "previous_path": "raw/wright_augenstein_2021/README.md",
+        "path": "raw/paired_dataset/README.md",
+        "sha256": "28f6f1ad39b1d8f979063f1c5344af5f3f3f26b3b2cff27c7ddcc430170fa96b",
+        "size_bytes": 7309,
+        "rows_before": null,
+        "rows_after": null,
+        "unchanged": true
+      }
+    ],
+    "records": [
+      {
+        "records": "original raw files",
+        "before": 20,
+        "after": 20,
+        "comparison": "identical SHA-256 and bytes"
+      },
+      {
+        "records": "training pairs",
+        "before": 100,
+        "after": 100
+      },
+      {
+        "records": "reserved test pairs",
+        "before": 563,
+        "after": 563
+      },
+      {
+        "records": "abstract strength sentences",
+        "before": 3061,
+        "after": 3061
+      },
+      {
+        "records": "press release strength sentences",
+        "before": 2076,
+        "after": 2076
+      },
+      {
+        "records": "unlabeled sentences",
+        "before": 94920,
+        "after": 94920
+      },
+      {
+        "records": "aligned unlabeled identifiers",
+        "before": 94920,
+        "after": 94920
+      },
+      {
+        "records": "prepared training rows",
+        "before": 100,
+        "after": 100
+      },
+      {
+        "records": "pilot candidates",
+        "before": 44,
+        "after": 44
+      },
+      {
+        "records": "calibration inputs",
+        "before": 8,
+        "after": 8
+      },
+      {
+        "records": "working annotations",
+        "before": 8,
+        "after": 8
+      },
+      {
+        "records": "initial annotations",
+        "before": 8,
+        "after": 8
+      },
+      {
+        "records": "independent review records",
+        "before": 16,
+        "after": 16
+      },
+      {
+        "records": "review assignments",
+        "before": 16,
+        "after": 16
+      },
+      {
+        "records": "adjudication records",
+        "before": 8,
+        "after": 8
+      },
+      {
+        "records": "decision log records",
+        "before": 8,
+        "after": 8
+      },
+      {
+        "records": "abstract metadata",
+        "before": 8,
+        "after": 8
+      },
+      {
+        "records": "original provider responses",
+        "before": 8,
+        "after": 8,
+        "comparison": "identical SHA-256 and bytes"
+      }
+    ],
+    "all_original_rows_preserved": true,
+    "csv_mirrors_checked_against_retained_records": true,
+    "scope": "Raw file bytes and every unique prepared annotation, source and review record. Duplicate CSV views are consolidated.",
+    "prior_layout_recovery": "The previous commit retains the complete earlier layout and its archives."
+  },
+  "files": [
+    {
+      "path": "docs/annotation_guide.md",
+      "size_bytes": 6440,
+      "sha256": "2016d65dd565764948dff3a78caebb74504af8eb34db99daeda56a19e9572ffa"
+    },
+    {
+      "path": "docs/data_dictionary.md",
+      "size_bytes": 6933,
+      "sha256": "2c1b3f1d0deb3ab3e355b539a84e6bd7d7b621e9b5910657d50a07d5143aecd4"
+    },
+    {
+      "path": "prepared/abstracts/CAL-01.txt",
+      "size_bytes": 2175,
+      "sha256": "10f0864d29db445fc49f1eb90d647afc06ee62a8fe7c6012ef32ca8221fd3b7b"
+    },
+    {
+      "path": "prepared/abstracts/CAL-01_europepmc.json",
+      "size_bytes": 8255,
+      "sha256": "6439cb11c55e52e91de3809c6d554995986a5848473797addcdc8547aff89800"
+    },
+    {
+      "path": "prepared/abstracts/CAL-02.txt",
+      "size_bytes": 1831,
+      "sha256": "81ceb5a930af96b713e5935246d0f6e827844b08c7819936d60ab8112ed46c82"
+    },
+    {
+      "path": "prepared/abstracts/CAL-02_europepmc.json",
+      "size_bytes": 8205,
+      "sha256": "6c68b7a20b45e7d8d1695a2f99a7ad99312886ddd5255f5927e81957b02edf0c"
+    },
+    {
+      "path": "prepared/abstracts/CAL-03.txt",
+      "size_bytes": 1344,
+      "sha256": "63e0e3f5aef38199b68b3a6ed9184f7779fbb7cd5c63ff9ad6fa993c351807d4"
+    },
+    {
+      "path": "prepared/abstracts/CAL-03_europepmc.json",
+      "size_bytes": 5694,
+      "sha256": "143ee0bfea088e5003d15fde836d5b4be9ca898ca7a1d15175cc58c9c66a97ba"
+    },
+    {
+      "path": "prepared/abstracts/CAL-04.txt",
+      "size_bytes": 2133,
+      "sha256": "36ea6f53a2688451ad2bd149d481c19b637588ea7bfc04e2c944ac6cfc533b08"
+    },
+    {
+      "path": "prepared/abstracts/CAL-04_europepmc.json",
+      "size_bytes": 6943,
+      "sha256": "b4482f554cfdadd9105e0a031c34583f3297af45e3ddbf1c1a024afe90801f2a"
+    },
+    {
+      "path": "prepared/abstracts/CAL-05.txt",
+      "size_bytes": 2405,
+      "sha256": "6c1c9339a9a65e5260739dbca43d5fe1669e0edcb8277d7bfc24d22742fd7dd8"
+    },
+    {
+      "path": "prepared/abstracts/CAL-05_europepmc.json",
+      "size_bytes": 8523,
+      "sha256": "08d07870075a7b5875c219b4a516775ec7189831e1cebcb06d1246be6e33755c"
+    },
+    {
+      "path": "prepared/abstracts/CAL-06.txt",
+      "size_bytes": 1941,
+      "sha256": "9399e7f9e0a6d0299fa4463af6015a26f7c3c4a5d4cd26553ffca80755bdf362"
+    },
+    {
+      "path": "prepared/abstracts/CAL-06_europepmc.json",
+      "size_bytes": 14624,
+      "sha256": "46acbf4b2f700ed4eeaeb3486ebeeb6c46140d8a58a326ee71d5fb0c4bfd7cb9"
+    },
+    {
+      "path": "prepared/abstracts/CAL-07.txt",
+      "size_bytes": 2659,
+      "sha256": "75dca1ac698ea20265c963b159f1546c733946de69db770608b24dcaff502b12"
+    },
+    {
+      "path": "prepared/abstracts/CAL-07_europepmc.json",
+      "size_bytes": 9267,
+      "sha256": "50c1a1796339dd333c9cb557a17cc046a895ae2d9a79584189c756bdc4bede2a"
+    },
+    {
+      "path": "prepared/abstracts/CAL-08.txt",
+      "size_bytes": 2120,
+      "sha256": "37ea707d61d4b1ca8f09c36fcce79069279f57c3c1277d3e6039846fbe417f33"
+    },
+    {
+      "path": "prepared/abstracts/CAL-08_europepmc.json",
+      "size_bytes": 8461,
+      "sha256": "72b3e9e7f39595d89e0fdad55865198aba072cdc48857c15adcfcbe53dd2ef9d"
+    },
+    {
+      "path": "prepared/abstracts/metadata.jsonl",
+      "size_bytes": 37720,
+      "sha256": "abbce759f5e8890b33f06d4a25bd0551177993b7115224e982d0e7cc40629c50"
+    },
+    {
+      "path": "prepared/calibration_examples.jsonl",
+      "size_bytes": 129728,
+      "sha256": "20ce4d5403629ae4d0c199db1016100eb0f94e2385db83ac81961724782c7f68"
+    },
+    {
+      "path": "prepared/pilot_candidates.jsonl",
+      "size_bytes": 24224,
+      "sha256": "1585d4c25485c903982ca08545ff051162a0a41738e702c9d837080a36a77001"
+    },
+    {
+      "path": "prepared/train_original_labels.jsonl",
+      "size_bytes": 62094,
+      "sha256": "f30b9c85540b39b8e07accb3b31bfcfe23255aacf8cf82c5520d66766966e7bb"
+    },
+    {
+      "path": "raw/auxiliary_strength/annotated_eureka.csv",
+      "size_bytes": 401355,
+      "sha256": "a0243352da856be39207a61816350f679ddb28d5d66d2621c786bd412345e2f9"
+    },
+    {
+      "path": "raw/auxiliary_strength/annotated_pubmed.csv",
+      "size_bytes": 414298,
+      "sha256": "57973580bc93127289105c8f45e9886ad054b5e360a639d7678f15e7c202ad6d"
+    },
+    {
+      "path": "raw/paired_dataset/data/combine_strength_annotation.py",
+      "size_bytes": 343,
+      "sha256": "90bc0f2c2ba2e7dd6ef0f62f83b4a8e8c9ea2191b6e4f990801c2945b08635b8"
+    },
+    {
+      "path": "raw/paired_dataset/data/conclusion_detection/dev.jsonl",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "raw/paired_dataset/data/conclusion_detection/dev_pet.jsonl",
+      "size_bytes": 67029,
+      "sha256": "7a8e35b543e1a1045fa02d3694da57b958cc60b4a4ce14924e33b2ed4a9a6633"
+    },
+    {
+      "path": "raw/paired_dataset/data/conclusion_detection/test.jsonl",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "raw/paired_dataset/data/conclusion_detection/train_pet.jsonl",
+      "size_bytes": 209058,
+      "sha256": "f060ca3718d44d02b39a6f06b036e573dddb80da4cb2428a64f256eb1b5247fa"
+    },
+    {
+      "path": "raw/paired_dataset/data/conclusion_detection/unlabelled_ids.txt",
+      "size_bytes": 4250205,
+      "sha256": "664281863db28d8705a689a85e7c59069150e13bd0625eaf9873323a23fc95cd"
+    },
+    {
+      "path": "raw/paired_dataset/data/conclusion_detection/unlabelled_pet.jsonl",
+      "size_bytes": 18067629,
+      "sha256": "a9b5dfccd999abbe6025361af55f822e6d59dd14bef2227170c1cd69315d9c98"
+    },
+    {
+      "path": "raw/paired_dataset/data/download_strength_data.sh",
+      "size_bytes": 289,
+      "sha256": "27c1193cbe376a8b3841c134b432a46ab11c4b5221b64c3c3fe7f1011507e371"
+    },
+    {
+      "path": "raw/paired_dataset/data/insciout_test.jsonl",
+      "size_bytes": 295696,
+      "sha256": "41429cc76860e56b96791be8478c2eb831e19e5d605b529c626b5327f2ed7f0a"
+    },
+    {
+      "path": "raw/paired_dataset/data/insciout_train.jsonl",
+      "size_bytes": 52426,
+      "sha256": "ee5f42661e28d30271060047cdc7a284885ac6dc4e20cc6d780f21a76a56efd5"
+    },
+    {
+      "path": "raw/paired_dataset/data/pet_cls/dev_pet.csv",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "raw/paired_dataset/data/pet_cls/test_pet.csv",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "raw/paired_dataset/data/pet_cls/train_pet.csv",
+      "size_bytes": 28313,
+      "sha256": "14a569721b5b926c4bb8bfe989eb3c71fb8626f356fb57c4751569e10df109b0"
+    },
+    {
+      "path": "raw/paired_dataset/data/pet_nli/dev_pet.jsonl",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "raw/paired_dataset/data/pet_nli/test_pet.jsonl",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "raw/paired_dataset/data/pet_nli/train_pet.jsonl",
+      "size_bytes": 38466,
+      "sha256": "e8e6e147ee4a34452945c668d320218581433fce6729c0a34490ad4f1c42925d"
+    },
+    {
+      "path": "raw/paired_dataset/data/pet_nli/verbalizers.json",
+      "size_bytes": 511,
+      "sha256": "b6d381dd8e2cc9fb51e88a982d81b7e94c7104ebb50fe0d25fd3920b275d8cf1"
+    },
+    {
+      "path": "raw/paired_dataset/README.md",
+      "size_bytes": 7309,
+      "sha256": "28f6f1ad39b1d8f979063f1c5344af5f3f3f26b3b2cff27c7ddcc430170fa96b"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 4872,
+      "sha256": "7e78219a1d69f0de1ae578a9a335c4e7f60f5b27af54c9251c1f18b8a313eb69"
+    }
+  ]
+}

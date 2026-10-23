@@ -2,7 +2,7 @@
 
 Status: **specified, not yet run.** No model outputs have been rated, and no results are reported here.
 
-This folder defines how editor outputs are rated and how the five reported measures are computed. It follows `data_package/docs/Decision_Policy.md` (scoring contract) and `data_package/docs/Review_Instructions.md` (Evaluation owner duties). Where this folder and the original team work plan differ on a denominator, this folder follows Decision_Policy.
+This folder defines how editor outputs are rated and how the five reported measures are computed. It follows `data_package/docs/annotation_guide.md#scoring-contract` (scoring contract) and `data_package/docs/annotation_guide.md#review-procedure` (Evaluation owner duties). Where this folder and the original team work plan differ on a denominator, this folder follows the annotation guide scoring contract.
 
 | File | Purpose |
 |---|---|

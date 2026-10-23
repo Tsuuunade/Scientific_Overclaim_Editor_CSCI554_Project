@@ -1,88 +1,95 @@
-# Scientific Overclaim Editor Project Data Package
+# Scientific Overclaim Editor Data Package
 
-Version 2.1 | October 15 2026
+Version 3.0 | October 23 2026
 
-This package contains source data, calibration examples, working annotations, review materials and scripts for the Scientific Overclaim Editor. It supports data preparation, system development, evaluation, presentations and the final report.
+This package contains the original datasets and the prepared examples used to develop and evaluate the Scientific Overclaim Editor.
 
-## Original paired dataset
+## Layout
 
-Each record contains a press-release claim, an aligned abstract excerpt, wording-strength codes and an exaggeration label.
-
-| Split | Exaggerates | Same | Downplays | Total |
-|---|---:|---:|---:|---:|
-| Train | 22 | 61 | 17 | 100 |
-| Test | 122 | 345 | 96 | 563 |
-| Total | 144 | 406 | 113 | 663 |
-
-The original files are stored in raw/wright_augenstein_2021/. The prepared training records are available as data/train_original_labels.jsonl and .csv.
-
-Additional source files include 3,061 abstract sentences and 2,076 press-release sentences labeled for claim strength, plus 94,920 unlabeled sentences with aligned identifiers. These files support claim-strength classification and conclusion detection.
-
-## Calibration examples and annotations
-
-data/calibration_examples.jsonl contains eight training examples, identified as CAL-01 through CAL-08. Each includes the original claim, aligned excerpt, complete abstract, original labels, PMID, DOI and source paths. The compact index is data/calibration_examples_index.csv.
-
-annotations/reviewed_annotations.jsonl and .csv contain the working decisions:
-
-- Three overclaims: one causal-strength case, one population-scope case and one outcome-scope case.
-- Three supported claims.
-- Two insufficient-evidence cases.
-
-Each annotation records the decision, issue type, expected action, reference passages with character offsets, proposed correction and rationale. Supported claims retain the original wording. Insufficient-evidence cases have a blank correction and an explanation of the source limitation.
-
-The eight calibration examples are assigned to development. docs/Calibration_Examples.md explains each decision with its source evidence.
-
-## Pilot candidate list
-
-data/pilot_candidates.jsonl and .csv contain 44 training records: all 22 originally labeled exaggerates pairs and 22 originally labeled same pairs. The list includes all eight calibration examples.
-
-Each entry records its selection rule, source identifier, abstract availability, annotation status and proposed split. provenance/pilot_plan.json stores the selection settings and planning counts.
-
-## Documentation and review materials
-
-| File or directory | Contents |
-|---|---|
-| docs/Project_Guide.docx | Project overview, data status, annotation decisions, pilot design and responsibilities |
-| docs/Annotation_Guide.md | Label definitions, evidence requirements and review procedure |
-| docs/Decision_Policy.md | Evidence boundary, correction rules, abstention rules and scoring definitions |
-| docs/Calibration_Examples.md | Original claims, working decisions, expected outputs and exact evidence |
-| docs/Data_Dictionary.md | Field definitions, formats and relationships between files |
-| docs/Project_Plan.md | Candidate selection, split procedure, evaluation conditions and workload |
-| docs/Review_Instructions.md | Review procedure and responsibilities |
-| docs/Presentation_and_Report_Guide.md | Guidance for progress presentations, the final presentation and the final report |
-| review/ | Six reviewer forms, paired assignments and decision records |
-| provenance/ | Download manifests, dataset audit, split counts, selection settings and checksums |
-
-## Load and verify
-
-Run these commands from the package directory:
-
-~~~bash
-python scripts/verify_package.py
-python scripts/load_examples.py
+~~~text
+data_package/
+├── README.md
+├── manifest.json
+├── raw/
+│   ├── paired_dataset/
+│   └── auxiliary_strength/
+├── prepared/
+│   ├── calibration_examples.jsonl
+│   ├── pilot_candidates.jsonl
+│   ├── train_original_labels.jsonl
+│   └── abstracts/
+└── docs/
+    ├── annotation_guide.md
+    └── data_dictionary.md
 ~~~
 
-To inspect the working decisions alongside the development examples:
+## Original data
 
-~~~bash
-python scripts/load_examples.py --show-reference
+All original raw files retain their complete contents, including every row, original label and empty upstream file. Their hashes and row counts are recorded in manifest.json.
+
+| Collection | File | Records |
+|---|---|---:|
+| Training claim-source pairs | raw/paired_dataset/data/insciout_train.jsonl | 100 |
+| Reserved test claim-source pairs | raw/paired_dataset/data/insciout_test.jsonl | 563 |
+| Abstract sentences labeled for claim strength | raw/auxiliary_strength/annotated_pubmed.csv | 3,061 |
+| Press-release sentences labeled for claim strength | raw/auxiliary_strength/annotated_eureka.csv | 2,076 |
+
+The paired collection contains 144 exaggerates, 406 same and 113 downplays labels across its 663 records. Each record pairs a press-release claim with an aligned abstract excerpt.
+
+The paired dataset folder also retains the authors' supporting data: 94,920 unlabeled sentences and their aligned identifiers, 1,138 training and 355 development sentences for conclusion detection, and alternate PET data formats. These records remain available in their original subfolders.
+
+## Prepared data
+
+- **calibration_examples.jsonl:** eight training examples with complete abstracts, publication identifiers, evidence passages, working decisions, expected corrections and rationales. Each example includes its annotation and associated review records in one place.
+- **pilot_candidates.jsonl:** all 44 selected training candidates, with original labels, selection details, source availability and proposed splits.
+- **train_original_labels.jsonl:** all 100 training pairs with original labels, row numbers and stable source-record keys.
+- **abstracts/:** eight readable abstracts, eight original provider responses and metadata.jsonl with the eight source records.
+
+The eight calibration examples are included in the 44 candidates and the 100 training pairs. All eight are development examples. Their working decisions are three overclaims, three supported claims and two insufficient-evidence cases.
+
+## How to use the package
+
+Use the raw paired files for the original exaggeration-detection task. Use the prepared calibration file to inspect evidence and expected editing behavior. The auxiliary files support sentence-level claim-strength classification.
+
+Read [annotation_guide.md](docs/annotation_guide.md) for the labeling and scoring rules and [data_dictionary.md](docs/data_dictionary.md) for column definitions and the pilot plan.
+
+Load the eight prepared examples from the repository root:
+
+~~~python
+import json
+from pathlib import Path
+
+path = Path("data_package/prepared/calibration_examples.jsonl")
+examples = [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+print(examples[0]["original_claim"])
+print(examples[0]["annotation"]["working_label"])
 ~~~
 
-To emit model inputs as JSONL:
+Use the claim and supplied evidence as model inputs. Labels, reference corrections and review records are reference outputs for development and evaluation.
 
-~~~bash
-python scripts/load_examples.py --jsonl
+## Data integrity
+
+manifest.json records the source versions, original raw-file hashes and row counts, the candidate-selection settings, and hashes for the current package files.
+
+Verify all packaged file hashes from the repository root:
+
+~~~python
+import hashlib
+import json
+from pathlib import Path
+
+package = Path("data_package")
+manifest = json.loads((package / "manifest.json").read_text(encoding="utf-8"))
+for item in manifest["files"]:
+    actual = hashlib.sha256((package / item["path"]).read_bytes()).hexdigest()
+    assert actual == item["sha256"], item["path"]
+print("All package files verified.")
 ~~~
 
-The verification script checks source hashes, original-label preservation, evidence offsets, annotation actions, candidate selection, matching CSV/JSONL records and package checksums.
-
-JSONL files use UTF-8. CSV files use UTF-8 with a byte-order mark for spreadsheet compatibility. Character offsets are zero-based and end-exclusive.
+JSONL files use UTF-8. CSV files retain their original encoding and headers. Character offsets are zero-based and end-exclusive.
 
 ## Sources
 
-- Wright and Augenstein (2021), [Semi-Supervised Exaggeration Detection of Health Science Press Releases](https://aclanthology.org/2021.emnlp-main.845/).
-- [Official dataset repository](https://github.com/copenlu/scientific-exaggeration-detection).
-- [Auxiliary claim-strength data](https://github.com/junwang4/correlation-to-causation-exaggeration).
-- Complete abstract records, retrieval metadata and article license information are recorded in sources/abstracts.jsonl.
-
-Source versions and file hashes are recorded in provenance/. Original article text is attributed to its authors.
+- [Wright and Augenstein (2021)](https://aclanthology.org/2021.emnlp-main.845/) and the [paired dataset repository](https://github.com/copenlu/scientific-exaggeration-detection).
+- [Auxiliary claim-strength dataset](https://github.com/junwang4/correlation-to-causation-exaggeration).
+- Abstract retrieval URLs, identifiers and recorded article license information are in prepared/abstracts/metadata.jsonl.

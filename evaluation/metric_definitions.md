@@ -26,10 +26,10 @@ Strata (see `rating_protocol.md`): S1 verified causal overclaims, S2 clean suppo
 
 ## Differences from the original work plan
 
-1. Successful correction uses verified S1 inputs as the denominator, not all overclaims, per Decision_Policy.md. Scope-only inputs are separate strata.
+1. Successful correction uses verified S1 inputs as the denominator, not all overclaims, per the annotation guide scoring contract. Scope-only inputs are separate strata.
 2. Factual preservation excludes abstentions from the denominator and reports them separately. The work plan said "all evaluated outputs" without defining abstentions.
 3. Harmful weakening is read off q2 (changed, weakened or removed anything the source supports), so it needs no separate question.
 
 ## Sample size note
 
-With a 24-input evaluation set and four methods the maximum is 96 outputs and 192 human ratings (about 32 per member), per `data_package/docs/Project_Plan.md`. Report exact counts. Do not present percentages alone when a stratum is small.
+With a 24-input evaluation set and four methods the maximum is 96 outputs and 192 human ratings (about 32 per member), per `data_package/docs/data_dictionary.md#pilot-plan`. Report exact counts. Do not present percentages alone when a stratum is small.

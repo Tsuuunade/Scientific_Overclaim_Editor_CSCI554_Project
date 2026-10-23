@@ -1,13 +1,11 @@
 # Scientific Overclaim Editor CSCI554 Project
 
-The project data package is in [data_package/](data_package/).
+The [data package](data_package/README.md) contains the original datasets, prepared examples and two reference guides.
 
-Start with the [package README](data_package/README.md) for dataset counts, file descriptions and loading commands. The [project guide](data_package/docs/Project_Guide.docx) explains the data, annotation decisions and evaluation plan.
+- [Original paired dataset](data_package/raw/paired_dataset/data/): 100 training and 563 reserved test claim-source pairs.
+- [Auxiliary strength data](data_package/raw/auxiliary_strength/): labeled abstract and press-release sentences.
+- [Prepared examples](data_package/prepared/calibration_examples.jsonl): eight complete-source calibration records with their annotations.
+- [Annotation guide](data_package/docs/annotation_guide.md) and [data dictionary](data_package/docs/data_dictionary.md).
+- [Evaluation](evaluation/README.md): rating protocol, metrics and calculation code.
 
-To verify and inspect the package, run these commands from the repository root:
-
-~~~bash
-cd data_package
-python scripts/verify_package.py
-python scripts/load_examples.py
-~~~
+See the [package README](data_package/README.md) for exact counts, loading examples and integrity verification.
