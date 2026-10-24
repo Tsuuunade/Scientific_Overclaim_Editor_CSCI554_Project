@@ -1,0 +1,9 @@
+﻿example_id,key_evidence_found_v1,auto_evidence_sufficient_v1,error_type_v1,key_evidence_found_v2,auto_evidence_sufficient_v2,error_type_v2,coverage_change,sufficiency_change,special_case
+CAL-01,partial,uncertain,missing_design;missing_result,partial,uncertain,missing_design;missing_result,unchanged,unchanged,
+CAL-02,partial,no,missing_result;missing_conclusion,partial,no,missing_result;missing_conclusion,unchanged,unchanged,
+CAL-03,partial,no,source_insufficient,partial,no,source_insufficient,unchanged,unchanged,source_insufficient
+CAL-04,partial,uncertain,missing_result;missing_design;policy_pending,yes,uncertain,missing_result;policy_pending,improved,unchanged,policy_pending
+CAL-05,yes,yes,none,yes,yes,none,unchanged,unchanged,
+CAL-06,partial,no,missing_experiment;missing_result;missing_population_context,partial,no,missing_experiment;missing_result;missing_population_context,unchanged,unchanged,
+CAL-07,yes,uncertain,missing_result;missing_design;missing_limitation,yes,yes,irrelevant_context,unchanged,changed_uncertain,
+CAL-08,no,no,missing_outcome;missing_result;missing_conclusion,partial,uncertain,missing_result;missing_conclusion,improved,changed_uncertain,
