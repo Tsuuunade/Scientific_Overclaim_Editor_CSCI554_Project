@@ -1,0 +1,57 @@
+﻿example_id,selected_evidence_text,selected_sentence_ids,selected_offsets,top_ranked_sentence_ids,similarity_scores,retrieval_method,top_k,context_window
+CAL-01,"This result in mortality was consistent for different types of cancer (apart from breast cancer) and with other stratifications of the dataset, and was not sensitive to adjustment for potential confounders and other details of the statistical model.
+
+Conclusions: Use of the urgent referral pathway could be efficacious.
+
+General practices that consistently have a low propensity to use urgent referrals could consider increasing the use of this pathway to improve the survival of their patients with cancer.","[12, 13, 14]","[{""start_char"": 1453, ""end_char"": 1702}, {""start_char"": 1703, ""end_char"": 1772}, {""start_char"": 1773, ""end_char"": 1959}]","[13, 14]","[0.1857239062908297, 0.14622584509013148]",tfidf_context,2,1
+CAL-02,"Background: Providers of psychological therapies are encouraged to offer patients choice about their treatment, but there is very little information about what preferences people have or the impact that meeting these has on treatment outcomes.
+
+Method: Cross-sectional survey of people receiving psychological treatment from 184 NHS services in England and Wales.
+
+14,587 respondents were asked about treatment preferences and the extent to which these were met by their service.
+
+They were also asked to rate the extent to which therapy helped them cope with their difficulties.","[1, 2, 3, 4]","[{""start_char"": 0, ""end_char"": 243}, {""start_char"": 244, ""end_char"": 362}, {""start_char"": 363, ""end_char"": 477}, {""start_char"": 478, ""end_char"": 576}]","[3, 2]","[0.17676350058313933, 0.15646131980422986]",tfidf_context,2,1
+CAL-03,"These patterns have been explained in terms of developmental costs (larger brains take longer to grow) and cognitive benefits (large brains enhance survival and increase lifespan).
+
+In support of the developmental cost hypothesis, we show that evolutionary changes in pre- and postnatal brain growth correlate specifically with duration of the relevant phases of maternal investment (gestation and lactation, respectively).
+
+We also find support for the hypothesis that the rate of fetal brain growth is related to the energy turnover of the mother.
+
+In contrast, we find no support for hypotheses proposing that costs are accommodated through direct tradeoffs between brain and body growth, or between brain growth and litter size.
+
+When the duration of maternal investment is taken into account, adult brain size is uncorrelated with other life history traits such as lifespan.","[2, 3, 4, 5, 6]","[{""start_char"": 155, ""end_char"": 335}, {""start_char"": 336, ""end_char"": 577}, {""start_char"": 578, ""end_char"": 702}, {""start_char"": 703, ""end_char"": 884}, {""start_char"": 885, ""end_char"": 1030}]","[5, 3]","[0.06639939492794976, 0.05259977203016048]",tfidf_context,2,1
+CAL-04,"Aims: To determine if concomitant metformin reduced the risk of death, major adverse cardiac events (MACE), and cancer in people with type 2 diabetes treated with insulin.
+
+Methods: For this retrospective cohort study, people with type 2 diabetes who progressed to insulin with or without metformin from 2000 onwards were identified from the UK Clinical Practice Research Datalink (≈7% sample of the UK population).
+
+For MACE, the aHR was 1.06 (0.75-1.49) prior to 1,275 days and 1.87 (1.22-2.86) after 1,275 days post-index.
+
+Conclusions: People with type 2 diabetes treated with insulin plus concomitant metformin had a reduced risk of death and MACE compared with people treated with insulin monotherapy.
+
+There was no statistically significant difference in the risk of cancer between people treated with insulin as monotherapy or in combination with metformin.","[1, 2, 10, 11, 12]","[{""start_char"": 0, ""end_char"": 171}, {""start_char"": 172, ""end_char"": 414}, {""start_char"": 1414, ""end_char"": 1522}, {""start_char"": 1523, ""end_char"": 1703}, {""start_char"": 1704, ""end_char"": 1860}]","[11, 1]","[0.6007872598187274, 0.501808293858363]",tfidf_context,2,1
+CAL-05,"Objective:  To determine the risk of venous thromboembolism associated with use of testosterone treatment in men, focusing particularly on the timing of the risk.
+
+Design:  Population based case-control study SETTING:  370 general practices in UK primary care with linked hospital discharge diagnoses and in-hospital procedures and information on all cause mortality.
+
+Increased rate ratios within the first six months of treatment were observed in all strata: the rate ratio was 1.52 (0.94 to 2.46) for patients with pathological hypogonadism and 1.88 (1.02 to 3.45) for those without it, and 1.41 (0.82 to 2.41) for those with a known risk factor for venous thromboembolism and 1.91 (1.13 to 3.23) for those without one.
+
+Conclusions:  Starting testosterone treatment was associated with an increased risk of venous thromboembolism, which peaked within six months and declined thereafter.","[1, 2, 10, 11]","[{""start_char"": 0, ""end_char"": 162}, {""start_char"": 163, ""end_char"": 366}, {""start_char"": 1676, ""end_char"": 2029}, {""start_char"": 2030, ""end_char"": 2196}]","[11, 1]","[0.3318695604822347, 0.11496012985646242]",tfidf_context,2,1
+CAL-06,"We showed direct regulation of ENDOG by ERR-α and PGC1α (which are master regulators of mitochondrial and cardiac function), interaction of ENDOG with the mitochondrial genome and ENDOG-mediated regulation of mitochondrial mass.
+
+At baseline, the Endog-deleted mouse heart had depleted mitochondria, mitochondrial dysfunction and elevated levels of reactive oxygen species, which were associated with enlarged and steatotic cardiomyocytes.
+
+Our study has further established the link between mitochondrial dysfunction, reactive oxygen species and heart disease and has uncovered a role for Endog in maladaptive cardiac hypertrophy.","[7, 8, 9]","[{""start_char"": 1126, ""end_char"": 1354}, {""start_char"": 1355, ""end_char"": 1564}, {""start_char"": 1565, ""end_char"": 1755}]","[9, 8]","[0.04798114612331799, 0.04413257043827172]",tfidf_context,2,1
+CAL-07,"Study question: Is oral contraceptive use around the time of pregnancy onset associated with an increased risk of major birth defects?
+
+Methods: In a prospective observational cohort study, data on oral contraceptive use and major birth defects were collected among 880,694 live births from Danish registries between 1997 and 2011.
+
+Residual confounding was possible, and the analysis lacked information on folate, one of the proposed mechanisms.
+
+What this study adds: Oral contraceptive exposure just before or during pregnancy does not appear to be associated with an increased risk of major birth defects.
+
+Funding, competing interests, data sharing: BMC was funded by the Harvard T H Chan School of Public Health's Maternal Health Task Force and Department of Epidemiology Rose Traveling Fellowship; training grant T32HD060454 in reproductive, perinatal, and paediatric epidemiology and award F32HD084000 from the Eunice Kennedy Shriver National Institute of Child Health and Human Development; and grant T32CA09001 from the National Cancer Institute.","[1, 2, 11, 12, 13]","[{""start_char"": 0, ""end_char"": 134}, {""start_char"": 135, ""end_char"": 330}, {""start_char"": 1660, ""end_char"": 1773}, {""start_char"": 1774, ""end_char"": 1935}, {""start_char"": 1936, ""end_char"": 2381}]","[1, 12]","[0.404206164711271, 0.40254177076183734]",tfidf_context,2,1
+CAL-08,"Background: The clinical impact of telephone-delivered cognitive behavioral therapy (TCBT), exercise, or a combined intervention in primary care patients with chronic widespread pain (CWP) is unclear.
+
+Methods: A total of 442 patients with CWP (meeting the American College of Rheumatology criteria) were randomized to receive 6 months of TCBT, graded exercise, combined intervention, or treatment as usual (TAU).
+
+The primary outcome, using a 7-point patient global assessment scale of change in health since trial enrollment (range: very much worse to very much better), was assessed at baseline and 6 months (intervention end) and 9 months after randomization.","[1, 2, 3]","[{""start_char"": 0, ""end_char"": 200}, {""start_char"": 201, ""end_char"": 412}, {""start_char"": 413, ""end_char"": 661}]","[1, 2]","[0.20807300725544925, 0.0]",tfidf_context,2,1

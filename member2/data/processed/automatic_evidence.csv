@@ -1,0 +1,25 @@
+﻿example_id,selected_evidence_text,similarity_scores,retrieval_method,top_k
+CAL-01,"Conclusions: Use of the urgent referral pathway could be efficacious.
+
+General practices that consistently have a low propensity to use urgent referrals could consider increasing the use of this pathway to improve the survival of their patients with cancer.","[0.1857239062908297, 0.14622584509013148]",tfidf_cosine,2
+CAL-02,"14,587 respondents were asked about treatment preferences and the extent to which these were met by their service.
+
+Method: Cross-sectional survey of people receiving psychological treatment from 184 NHS services in England and Wales.","[0.17676350058313933, 0.15646131980422986]",tfidf_cosine,2
+CAL-03,"In contrast, we find no support for hypotheses proposing that costs are accommodated through direct tradeoffs between brain and body growth, or between brain growth and litter size.
+
+In support of the developmental cost hypothesis, we show that evolutionary changes in pre- and postnatal brain growth correlate specifically with duration of the relevant phases of maternal investment (gestation and lactation, respectively).","[0.06639939492794976, 0.05259977203016048]",tfidf_cosine,2
+CAL-04,"Conclusions: People with type 2 diabetes treated with insulin plus concomitant metformin had a reduced risk of death and MACE compared with people treated with insulin monotherapy.
+
+Aims: To determine if concomitant metformin reduced the risk of death, major adverse cardiac events (MACE), and cancer in people with type 2 diabetes treated with insulin.","[0.6007872598187274, 0.501808293858363]",tfidf_cosine,2
+CAL-05,"Conclusions:  Starting testosterone treatment was associated with an increased risk of venous thromboembolism, which peaked within six months and declined thereafter.
+
+Objective:  To determine the risk of venous thromboembolism associated with use of testosterone treatment in men, focusing particularly on the timing of the risk.","[0.3318695604822347, 0.11496012985646242]",tfidf_cosine,2
+CAL-06,"Our study has further established the link between mitochondrial dysfunction, reactive oxygen species and heart disease and has uncovered a role for Endog in maladaptive cardiac hypertrophy.
+
+At baseline, the Endog-deleted mouse heart had depleted mitochondria, mitochondrial dysfunction and elevated levels of reactive oxygen species, which were associated with enlarged and steatotic cardiomyocytes.","[0.04798114612331799, 0.04413257043827172]",tfidf_cosine,2
+CAL-07,"Study question: Is oral contraceptive use around the time of pregnancy onset associated with an increased risk of major birth defects?
+
+What this study adds: Oral contraceptive exposure just before or during pregnancy does not appear to be associated with an increased risk of major birth defects.","[0.404206164711271, 0.40254177076183734]",tfidf_cosine,2
+CAL-08,"Background: The clinical impact of telephone-delivered cognitive behavioral therapy (TCBT), exercise, or a combined intervention in primary care patients with chronic widespread pain (CWP) is unclear.
+
+Methods: A total of 442 patients with CWP (meeting the American College of Rheumatology criteria) were randomized to receive 6 months of TCBT, graded exercise, combined intervention, or treatment as usual (TAU).","[0.20807300725544925, 0.0]",tfidf_cosine,2
