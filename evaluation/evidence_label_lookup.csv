@@ -1,0 +1,25 @@
+example_id,evidence_condition,evidence_sufficient,error_tags,key_evidence_found,source_note
+CAL-01,gold,yes,,,gold review_status=verified
+CAL-01,auto_v1,uncertain,insufficient_context,partial,
+CAL-01,auto_v2,uncertain,insufficient_context,partial,
+CAL-02,gold,yes,,,gold review_status=verified
+CAL-02,auto_v1,no,insufficient_context,partial,
+CAL-02,auto_v2,no,insufficient_context,partial,
+CAL-03,gold,no,,,gold review_status=unresolved; source_insufficient
+CAL-03,auto_v1,no,,partial,source_insufficient
+CAL-03,auto_v2,no,,partial,source_insufficient
+CAL-04,gold,uncertain,,,gold review_status=needs_verification; policy_pending
+CAL-04,auto_v1,uncertain,insufficient_context,partial,policy_pending
+CAL-04,auto_v2,uncertain,insufficient_context,yes,policy_pending
+CAL-05,gold,yes,,,gold review_status=verified
+CAL-05,auto_v1,yes,,yes,
+CAL-05,auto_v2,yes,,yes,
+CAL-06,gold,yes,,,gold review_status=verified
+CAL-06,auto_v1,no,insufficient_context,partial,
+CAL-06,auto_v2,no,insufficient_context,partial,
+CAL-07,gold,yes,,,gold review_status=verified
+CAL-07,auto_v1,uncertain,insufficient_context,yes,
+CAL-07,auto_v2,yes,wrong_evidence,yes,
+CAL-08,gold,yes,,,gold review_status=verified
+CAL-08,auto_v1,no,insufficient_context,no,
+CAL-08,auto_v2,uncertain,insufficient_context,partial,
