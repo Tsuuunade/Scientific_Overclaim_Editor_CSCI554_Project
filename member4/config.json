@@ -1,0 +1,39 @@
+{
+  "specification_version": "0.1",
+  "status": "specified_not_evaluated",
+  "frozen_for_evaluation": false,
+  "structured_prompt": "prompts/structured_editor_v1.txt",
+  "baseline_prompt": "prompts/direct_rewrite_v1.txt",
+  "prompt_version": "structured_editor_v1",
+  "baseline_prompt_version": "direct_rewrite_v1",
+  "model_identifier": "",
+  "generation": {
+    "temperature": 0,
+    "top_p": 1,
+    "max_tokens": 900,
+    "seed": 544
+  },
+  "api": {
+    "base_url_env": "MEMBER4_API_BASE_URL",
+    "api_key_env": "MEMBER4_API_KEY",
+    "model_env": "MEMBER4_MODEL",
+    "default_base_url": "https://api.openai.com/v1",
+    "timeout_seconds": 120
+  },
+  "evidence": {
+    "gold_file": "../member2/data/processed/gold_evidence.csv",
+    "gold_text_field": "gold_evidence_text",
+    "automatic_file": "../member2/data/processed/automatic_evidence_v2.csv",
+    "automatic_text_field": "selected_evidence_text",
+    "review_file": "../member2/data/processed/evidence_review_all.csv",
+    "candidate_text_field": "candidate_evidence_text",
+    "calibration_file": "../data_package/prepared/calibration_examples.jsonl"
+  },
+  "anonymized_method_codes": {
+    "B": "M-17",
+    "C": "M-42",
+    "D": "M-08"
+  },
+  "exploratory_example_ids": ["CAL-01", "CAL-06"],
+  "supported_strong_causal_example_id": "CAL-06"
+}

@@ -1,0 +1,7 @@
+Rewrite the draft claim so it does not overstate the source. Use only the source text. Return the rewritten claim and nothing else.
+
+Draft claim:
+<<ORIGINAL_CLAIM>>
+
+Source:
+<<EVIDENCE>>
