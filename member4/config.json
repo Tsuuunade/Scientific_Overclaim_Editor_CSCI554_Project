@@ -1,24 +1,17 @@
 {
-  "specification_version": "0.1",
+  "specification_version": "0.2",
   "status": "specified_not_evaluated",
   "frozen_for_evaluation": false,
+  "fine_tuned": false,
+  "model_identifier": "Qwen/Qwen2.5-7B-Instruct",
+  "framework": "transformers",
   "structured_prompt": "prompts/structured_editor_v1.txt",
   "baseline_prompt": "prompts/direct_rewrite_v1.txt",
   "prompt_version": "structured_editor_v1",
   "baseline_prompt_version": "direct_rewrite_v1",
-  "model_identifier": "",
   "generation": {
-    "temperature": 0,
-    "top_p": 1,
-    "max_tokens": 900,
-    "seed": 544
-  },
-  "api": {
-    "base_url_env": "MEMBER4_API_BASE_URL",
-    "api_key_env": "MEMBER4_API_KEY",
-    "model_env": "MEMBER4_MODEL",
-    "default_base_url": "https://api.openai.com/v1",
-    "timeout_seconds": 120
+    "do_sample": false,
+    "max_new_tokens": 512
   },
   "evidence": {
     "gold_file": "../member2/data/processed/gold_evidence.csv",

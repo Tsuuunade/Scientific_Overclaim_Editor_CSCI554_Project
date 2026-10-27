@@ -11,10 +11,8 @@ import argparse
 import csv
 import hashlib
 import json
-import os
 import sys
-import urllib.error
-import urllib.request
+import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -29,7 +27,8 @@ METHOD_BY_CONDITION = {
 }
 EXPERIMENT_CONDITIONS = ("full_source", "gold", "automatic")
 CONDITION_ORDER = {"full_source": 0, "gold": 1, "automatic": 2, "candidate_not_gold": 3}
-DECISIONS = {"supported", "overclaim", "insufficient_evidence"}
+DECISIONS = {"revise", "unchanged", "abstain"}
+ABSTAIN_TOKEN = "ABSTAIN"
 MODEL_KEYS = {
     "input_id",
     "example_id",
@@ -51,6 +50,13 @@ class EditorError(Exception):
 
 def utc_now() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def new_run_id(exploratory: bool) -> str:
+    """Microseconds plus a random suffix, so two runs in one second stay distinct."""
+    stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
+    label = "_exploratory" if exploratory else ""
+    return f"{stamp}_{uuid.uuid4().hex[:8]}{label}"
 
 
 def sha256_text(text: str) -> str:
@@ -210,6 +216,24 @@ def load_inputs(config: dict | None = None) -> tuple[list[dict], dict[str, dict]
     return rows, audit
 
 
+def empty_check() -> dict:
+    return {
+        "parse_status": "unparseable",
+        "failures": ["unparseable_json"],
+        "output_action": None,
+        "quote_check": "",
+        "span_check": "",
+        "decision": None,
+        "original_claim": None,
+        "revised_claim": None,
+        "evidence_passage": None,
+        "explanation": None,
+        "claim_span": None,
+        "span_start": None,
+        "span_end": None,
+    }
+
+
 def _text_field(payload: dict, key: str, failures: list[str]) -> str | None:
     value = payload.get(key)
     if key not in payload:
@@ -221,19 +245,39 @@ def _text_field(payload: dict, key: str, failures: list[str]) -> str | None:
     return value
 
 
+def _offset_field(payload: dict, key: str, failures: list[str]):
+    if key not in payload:
+        failures.append(f"missing_field:{key}")
+        return None
+    return payload[key]
+
+
+def check_claim_span(claim: str, span: str | None, start, end, failures: list[str], decision: str | None) -> str:
+    """Accept a span only when its offsets select that exact claim text."""
+    if span is None:
+        return "missing_span"
+    if span == "":
+        if start is not None or end is not None:
+            failures.append("empty_span_has_offsets")
+            return "invalid_offsets"
+        if decision == "revise":
+            failures.append("claim_span_missing")
+            return "missing_span"
+        return "empty_span"
+    if not isinstance(start, int) or not isinstance(end, int) or isinstance(start, bool) or isinstance(end, bool):
+        failures.append("claim_offsets_not_integers")
+        return "invalid_offsets"
+    if start < 0 or end > len(claim) or start >= end or claim[start:end] != span:
+        failures.append("claim_offsets_mismatch")
+        return "offset_mismatch"
+    if decision == "unchanged":
+        failures.append("unchanged_has_claim_span")
+    return "exact_span"
+
+
 def validate_structured(raw_text: str | None, claim: str, evidence: str) -> dict:
-    """Check the editor JSON. Model strings are returned unchanged."""
-    result = {
-        "parse_status": "unparseable",
-        "failures": ["unparseable_json"],
-        "output_action": None,
-        "quote_check": "",
-        "decision": None,
-        "original_claim": None,
-        "revised_claim": None,
-        "evidence_passage": None,
-        "explanation": None,
-    }
+    """Check the editor JSON. Model strings and offsets are returned unchanged."""
+    result = empty_check()
     if raw_text is None:
         return result
     try:
@@ -246,18 +290,18 @@ def validate_structured(raw_text: str | None, claim: str, evidence: str) -> dict
 
     failures: list[str] = []
     decision = payload.get("decision")
-    original = _text_field(payload, "original_claim", failures)
-    revised = _text_field(payload, "revised_claim", failures)
+    revised = _text_field(payload, "revision", failures)
     quote = _text_field(payload, "evidence_passage", failures)
     explanation = _text_field(payload, "explanation", failures)
+    span = _text_field(payload, "claim_span", failures)
+    start = _offset_field(payload, "span_start", failures)
+    end = _offset_field(payload, "span_end", failures)
     if decision not in DECISIONS:
         failures.append("invalid_decision")
         decision = decision if isinstance(decision, str) else None
-    if original is not None and original != claim:
-        failures.append("original_claim_mismatch")
     if quote is None:
         quote_check = "missing_quote"
-    elif quote == "" and decision == "insufficient_evidence":
+    elif quote == "" and decision == "abstain":
         quote_check = "empty_quote_on_abstention"
     elif quote == "":
         failures.append("evidence_passage_missing")
@@ -269,56 +313,60 @@ def validate_structured(raw_text: str | None, claim: str, evidence: str) -> dict
         quote_check = "quote_not_in_evidence"
     if explanation is not None and explanation.strip() == "":
         failures.append("explanation_missing")
-    if decision == "supported" and revised is not None and revised != claim:
-        failures.append("supported_text_changed")
-    if decision == "overclaim" and revised == "":
-        failures.append("overclaim_empty_revision")
-    if decision == "overclaim" and revised == claim:
-        failures.append("overclaim_text_unchanged")
-    if decision == "insufficient_evidence" and revised not in (None, ""):
+    span_check = check_claim_span(claim, span, start, end, failures, decision)
+    if decision == "unchanged" and revised is not None and revised != claim:
+        failures.append("unchanged_text_changed")
+    if decision == "revise" and revised == "":
+        failures.append("revise_empty_revision")
+    if decision == "revise" and revised == claim:
+        failures.append("revise_text_unchanged")
+    if decision == "abstain" and revised not in (None, ""):
         failures.append("abstain_nonempty_revision")
 
-    action = None
-    if not failures and decision == "supported" and revised == claim:
-        action = "unchanged"
-    elif not failures and decision == "overclaim":
-        action = "revise"
-    elif not failures and decision == "insufficient_evidence" and revised == "":
-        action = "abstain"
     result.update({
         "parse_status": "ok" if not failures else "schema_invalid",
         "failures": failures,
-        "output_action": action,
+        "output_action": decision if not failures else None,
         "quote_check": quote_check,
+        "span_check": span_check,
         "decision": decision,
-        "original_claim": original,
         "revised_claim": revised,
         "evidence_passage": quote,
         "explanation": explanation,
+        "claim_span": span,
+        "span_start": start,
+        "span_end": end,
     })
     return result
 
 
 def validate_baseline(raw_text: str | None, claim: str) -> dict:
-    result = {
-        "parse_status": "unparseable",
-        "failures": ["empty_baseline_output"] if raw_text == "" else ["unparseable_json"],
-        "output_action": None,
-        "quote_check": "not_requested_for_baseline",
-        "decision": None,
-        "original_claim": None,
-        "revised_claim": raw_text if raw_text is not None else None,
-        "evidence_passage": None,
-        "explanation": None,
-    }
-    if raw_text:
-        result.update({
-            "parse_status": "ok",
-            "failures": [],
-            "output_action": "unchanged" if raw_text == claim else "revise",
-        })
-    elif raw_text == "":
+    result = empty_check()
+    result["quote_check"] = "not_requested_for_baseline"
+    result["span_check"] = "not_requested_for_baseline"
+    if raw_text is None:
+        return result
+    if raw_text == "":
         result["parse_status"] = "schema_invalid"
+        result["failures"] = ["empty_baseline_output"]
+        result["revised_claim"] = raw_text
+        return result
+    if raw_text == ABSTAIN_TOKEN:
+        action = "abstain"
+        revised = ""
+    elif raw_text == claim:
+        action = "unchanged"
+        revised = raw_text
+    else:
+        action = "revise"
+        revised = raw_text
+    result.update({
+        "parse_status": "ok",
+        "failures": [],
+        "output_action": action,
+        "decision": action,
+        "revised_claim": revised,
+    })
     return result
 
 
@@ -339,42 +387,41 @@ def select_inputs(rows, conditions, example_ids=None) -> list[dict]:
     return selected
 
 
-def require_model(config: dict) -> str:
-    api = config["api"]
-    if not os.environ.get(api["api_key_env"], "").strip():
-        raise EditorError(f"Set {api['api_key_env']}. No output was written.")
-    model = os.environ.get(api["model_env"], "").strip() or config.get("model_identifier", "")
-    if not model:
-        raise EditorError(f"Set {api['model_env']} or config model_identifier.")
-    return model
+def generation_settings(config: dict) -> dict:
+    generation = config["generation"]
+    if config.get("model_identifier") != "Qwen/Qwen2.5-7B-Instruct":
+        raise EditorError("B, C, and D share Qwen/Qwen2.5-7B-Instruct.")
+    if generation.get("do_sample") is not False or generation.get("max_new_tokens") != 512:
+        raise EditorError("B, C, and D use greedy decoding and a 512-token output limit.")
+    if config.get("fine_tuned"):
+        raise EditorError("The pilot uses the released generator without task-specific fine-tuning.")
+    return {"do_sample": False, "max_new_tokens": 512}
 
 
-def call_model(messages: list[dict], config: dict, model: str) -> dict:
-    api = config["api"]
-    settings = dict(config["generation"])
-    body = {"model": model, "messages": messages, **settings}
-    base_url = os.environ.get(api["base_url_env"], "").strip() or api["default_base_url"]
-    request = urllib.request.Request(
-        base_url.rstrip("/") + "/chat/completions",
-        data=json.dumps(body).encode("utf-8"),
-        headers={
-            "Authorization": f"Bearer {os.environ[api['api_key_env']].strip()}",
-            "Content-Type": "application/json",
-        },
-        method="POST",
-    )
-    result = {"model": model, "settings": settings, "raw_text": None, "http_status": None, "api_error": ""}
+def load_generator(config: dict):
+    """Load the shared generator before a run directory is created."""
+    settings = generation_settings(config)
     try:
-        with urllib.request.urlopen(request, timeout=api["timeout_seconds"]) as response:
-            payload = json.loads(response.read().decode("utf-8"))
-            result["http_status"] = response.status
-            result["raw_text"] = payload["choices"][0]["message"]["content"]
-    except urllib.error.HTTPError as exc:
-        result["http_status"] = exc.code
-        result["api_error"] = exc.read().decode("utf-8", errors="replace")
-    except (urllib.error.URLError, KeyError, IndexError, TypeError) as exc:
-        result["api_error"] = str(getattr(exc, "reason", exc))
-    return result
+        import torch
+        from transformers import AutoModelForCausalLM, AutoTokenizer
+    except ImportError as exc:
+        raise EditorError("Install torch and transformers. No output was written.") from exc
+    model_name = config["model_identifier"]
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype="auto", device_map="auto")
+    model.eval()
+    return tokenizer, model, torch, settings
+
+
+def generate_text(tokenizer, model, torch_module, prompt: str, settings: dict) -> str:
+    messages = [{"role": "user", "content": prompt}]
+    chat = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    inputs = tokenizer(chat, return_tensors="pt")
+    inputs = {key: value.to(model.device) for key, value in inputs.items()}
+    with torch_module.no_grad():
+        output = model.generate(**inputs, do_sample=settings["do_sample"], max_new_tokens=settings["max_new_tokens"])
+    new_tokens = output[0, inputs["input_ids"].shape[-1]:]
+    return tokenizer.decode(new_tokens, skip_special_tokens=True)
 
 
 def guard_evaluation(selected, audit, config, evaluation_run: bool) -> None:
@@ -409,10 +456,11 @@ def run_batch(args, config: dict | None = None) -> Path:
     if not selected:
         raise EditorError("No inputs matched.")
     guard_evaluation(selected, audit, config, args.evaluation_run)
-    model = require_model(config)
+    tokenizer, model, torch_module, settings = load_generator(config)
+    model_name = config["model_identifier"]
     exploratory = bool(args.exploratory)
     measured = bool(args.evaluation_run and config.get("frozen_for_evaluation") and not exploratory)
-    run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ") + ("_exploratory" if exploratory else "")
+    run_id = new_run_id(exploratory)
     run_dir = ROOT / "data" / "outputs" / "runs" / run_id
     run_dir.mkdir(parents=True, exist_ok=False)
     raw_rows = []
@@ -422,7 +470,12 @@ def run_batch(args, config: dict | None = None) -> Path:
         if version != item["prompt_version"]:
             raise EditorError("Prompt version changed. Review config.json before running.")
         rendered = render_prompt(template, item["original_claim"], item["evidence_passage"])
-        api_result = call_model([{"role": "user", "content": rendered}], config, model)
+        raw_text = None
+        model_error = ""
+        try:
+            raw_text = generate_text(tokenizer, model, torch_module, rendered, settings)
+        except Exception as exc:
+            model_error = str(exc)
         raw_rows.append({
             "input_id": item["input_id"],
             "example_id": item["example_id"],
@@ -431,21 +484,20 @@ def run_batch(args, config: dict | None = None) -> Path:
             "prompt_version": version,
             "prompt_sha256": item["prompt_sha256"],
             "rendered_prompt": rendered,
-            "model_identifier": api_result["model"],
-            "generation_settings": api_result["settings"],
-            "http_status": api_result["http_status"],
-            "raw_text": api_result["raw_text"],
-            "api_error": api_result["api_error"],
+            "model_identifier": model_name,
+            "generation_settings": settings,
+            "raw_text": raw_text,
+            "model_error": model_error,
             "created_utc": utc_now(),
             "run_id": run_id,
             "exploratory": exploratory,
         })
         checked = validate_output(
-            api_result["raw_text"], item["evidence_condition"], item["original_claim"], item["evidence_passage"]
+            raw_text, item["evidence_condition"], item["original_claim"], item["evidence_passage"]
         )
-        if api_result["api_error"]:
-            checked["parse_status"] = "api_error"
-            checked["failures"] = ["api_error"]
+        if model_error:
+            checked["parse_status"] = "model_error"
+            checked["failures"] = ["model_error"]
             checked["output_action"] = None
         accepted = checked["parse_status"] == "ok"
         parsed_rows.append({
@@ -455,8 +507,8 @@ def run_batch(args, config: dict | None = None) -> Path:
             "evidence_condition": item["evidence_condition"],
             "prompt_version": version,
             "prompt_sha256": item["prompt_sha256"],
-            "model_identifier": api_result["model"],
-            "generation_settings": api_result["settings"],
+            "model_identifier": model_name,
+            "generation_settings": settings,
             "input_original_claim": item["original_claim"],
             "supplied_evidence": item["evidence_passage"],
             "run_id": run_id,
@@ -467,8 +519,11 @@ def run_batch(args, config: dict | None = None) -> Path:
             "parse_status": checked["parse_status"],
             "validation_failures": checked["failures"],
             "quote_check": checked["quote_check"],
+            "span_check": checked["span_check"],
             "model_decision": checked["decision"],
-            "model_original_claim": checked["original_claim"],
+            "model_claim_span": checked["claim_span"],
+            "model_span_start": checked["span_start"],
+            "model_span_end": checked["span_end"],
             "model_revised_claim": checked["revised_claim"],
             "model_evidence_passage": checked["evidence_passage"],
             "model_explanation": checked["explanation"],
@@ -481,8 +536,8 @@ def run_batch(args, config: dict | None = None) -> Path:
         "exploratory": exploratory,
         "counts_as_measured_quality": measured,
         "input_ids": [row["input_id"] for row in selected],
-        "model_identifier": model,
-        "generation_settings": config["generation"],
+        "model_identifier": model_name,
+        "generation_settings": settings,
         "rerun_policy": "No automatic retry. A replacement run uses a new run_id.",
         "repair_invalid_outputs": False,
     }, indent=2) + "\n", encoding="utf-8")

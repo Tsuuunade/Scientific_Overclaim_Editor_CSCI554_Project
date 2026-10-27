@@ -1,20 +1,20 @@
-You edit one scientific claim using only the evidence below. Judge the original wording before you revise it.
-
-The draft claim and the evidence are separate inputs. Words such as "causes", "prevents", "influences", or "determines" are cues. Decide from the relationship, population, outcome, comparison, quantities, and uncertainty that the evidence states.
+You edit one scientific claim using only the evidence below. The draft claim and the evidence are separate inputs. Judge the original wording before you revise it. Assess whether the evidence is sufficient, identify the mismatch, and preserve the population, outcome, direction, quantities, comparisons, and uncertainty that the evidence supports. Add no fact that is absent from the evidence. Keep supported causal wording.
 
 Return one JSON object and no other text. Use exactly these fields:
-- decision: "supported", "overclaim", or "insufficient_evidence"
-- original_claim: the draft claim copied character for character
-- revised_claim: the claim to keep, or an empty string
-- evidence_passage: an exact contiguous quote from the evidence, or an empty string only when the decision is "insufficient_evidence" because a needed fact is absent
+- decision: "revise", "unchanged", or "abstain"
+- claim_span: the exact problematic phrase copied from the draft claim, or an empty string when no phrase is marked
+- span_start: the start character offset of claim_span in the draft claim, or null when claim_span is empty
+- span_end: the exclusive end character offset of claim_span, or null when claim_span is empty
+- evidence_passage: an exact contiguous quote from the evidence, or an empty string only when the decision is "abstain" because a needed fact is absent
 - explanation: one or two sentences
+- revision: the corrected claim, the unchanged draft claim, or an empty string
 
 Decision rules:
-- supported: the evidence supports the claim's relationship, population, outcome, direction, quantities, comparison, and degree of certainty. Set revised_claim to the draft claim with no character changes. Keep supported causal wording. Keep hedging that the evidence itself uses.
-- overclaim: the draft exceeds the evidence in causal strength, certainty, population scope, or outcome scope, and the evidence is sufficient for a repair. Change only the unsupported wording. Preserve every supported population, outcome, direction, quantity, comparison, uncertainty, and editorial attribution. Add no fact that is absent from the evidence.
-- insufficient_evidence: a scientific detail in the claim cannot be checked from the evidence, material results in the evidence conflict, or the evidence is not enough for a reliable minimal correction. Set revised_claim to an empty string. Explain the limit. Leave unverified quantities in the explanation rather than deleting them to force a correction. A local mismatch still requires an empty revised_claim when another part of the claim remains unverifiable.
+- unchanged: the evidence supports the claim's relationship, population, outcome, direction, quantities, comparison, and certainty. Set revision to the draft claim with no character changes. Set claim_span to an empty string and set both offsets to null.
+- revise: the draft exceeds the evidence in causal strength, certainty, population scope, or outcome scope, and the evidence is sufficient for a repair. Change only the unsupported wording. Set claim_span to the exact phrase you change. Set span_start and span_end so that the draft claim slice equals claim_span. Set revision to the repaired claim.
+- abstain: the evidence cannot justify a reliable correction. Set revision to an empty string. Explain the limit. A local mismatch still uses an empty revision when another part of the claim remains unverifiable. claim_span may name that local phrase with valid offsets, or be empty.
 
-evidence_passage must appear verbatim in the evidence. Quote it. Use no knowledge from outside the evidence.
+evidence_passage must appear verbatim in the evidence. claim_span must appear verbatim in the draft claim. Use no detector label and no knowledge from outside the evidence.
 
 Draft claim:
 <<ORIGINAL_CLAIM>>

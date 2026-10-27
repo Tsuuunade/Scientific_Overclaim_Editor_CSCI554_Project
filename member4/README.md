@@ -2,35 +2,25 @@
 
 **Status:** specified, not evaluated. No model outputs are saved yet.
 
-The editor receives a draft claim and one evidence passage as separate inputs. It judges the original wording first.
+B, C, and D share `Qwen/Qwen2.5-7B-Instruct` with greedy decoding and a 512-token output limit. The released model is used without task-specific fine-tuning. These settings are in `config.json` and have not been run.
 
-| Decision | Revised claim |
-| --- | --- |
-| `supported` | Exact copy of the draft claim |
-| `overclaim` | Smallest change the evidence supports |
-| `insufficient_evidence` | Empty string |
+C and D use one structured prompt. The model returns `decision`, `claim_span`, `span_start`, `span_end`, `evidence_passage`, `explanation`, and `revision`. The decision is `revise`, `unchanged`, or `abstain`. A repair preserves population, outcome, direction, quantities, comparisons, and uncertainty. An abstention leaves `revision` empty. The checker accepts a claim span only when the offsets match that exact phrase, and an evidence quote only when it appears verbatim in the supplied passage. Invalid JSON is saved unchanged.
 
-Supported causal wording stays unchanged. A repair preserves population, outcome, direction, quantities, comparisons, and uncertainty, and adds no fact absent from the evidence. An insufficient-evidence decision explains the limit and does not return a guessed sentence.
-
-Every result keeps `example_id`, `evidence_condition`, `decision`, `original_claim`, `revised_claim`, `evidence_passage`, and `explanation`. A quote must appear exactly in the supplied evidence. Invalid outputs are saved as written. Each run is a new directory and is not retried.
+B uses a short instruction on the full abstract: correct the claim only when a change is necessary, return the original claim when it is supported, or return `ABSTAIN` when no reliable correction is possible.
 
 | Code | Role | Prompt | Evidence |
 | --- | --- | --- | --- |
 | C | Evidence-conditioned editor | `prompts/structured_editor_v1.txt` | Member 2 verified gold passages |
-| D | Same editor | same prompt and settings as C | Member 2 automatic V2 passages |
+| D | Same editor and settings | same prompt as C | Member 2 automatic V2 passages |
 | B | Direct-rewrite baseline | `prompts/direct_rewrite_v1.txt` | Full source abstract |
 
-CAL-06 is the supported strong causal control and is included under B, C, and D. CAL-03 and CAL-04 are outside the verified gold set. Labels and reference corrections are not placed in the prompt. Settings live in `config.json`. `frozen_for_evaluation` is false.
-
-`evaluation/` belongs to Member 5. This folder only reads `evaluation/rating_protocol.md`. Handoff files stay in `data/outputs/runs/`.
+CAL-06 is the supported strong causal control under B, C, and D. Labels, reference corrections, and detector outputs are not prompt inputs. `evaluation/` belongs to Member 5.
 
 ```bash
 python3 test_editor.py
-export MEMBER4_API_KEY=...
-export MEMBER4_MODEL=...
 python3 editor.py run --exploratory
 python3 editor.py run --condition all
 python3 editor.py export --run data/outputs/runs/<run_id>
 ```
 
-`--exploratory` runs CAL-01 and CAL-06 on gold evidence. That pair is a trial, not a quality score. `--condition all` runs B, C, and D. Member 5 receives `member5_handoff.csv`, `rater_sheet_seed.csv`, `parse_failures.csv`, and `anonymization_key.json`. The opaque codes are B = M-17, C = M-42, D = M-08.
+The run command loads `Qwen/Qwen2.5-7B-Instruct` through Transformers. `--exploratory` runs CAL-01 and CAL-06 on gold evidence and is not a quality score.

@@ -1,4 +1,4 @@
-Rewrite the draft claim so it does not overstate the source. Use only the source text. Return the rewritten claim and nothing else.
+Correct the draft claim only when the source shows that a change is necessary. If the source supports the claim, return the draft claim unchanged. If the source cannot support a reliable correction, return exactly ABSTAIN and no other text. Otherwise return only the corrected claim. Use only the source text.
 
 Draft claim:
 <<ORIGINAL_CLAIM>>
