@@ -1,0 +1,7 @@
+Correct the draft claim only when the source shows that a change is necessary. If the source supports the claim, return the draft claim unchanged. If the source cannot support a reliable correction, return exactly ABSTAIN and no other text. Otherwise return only the corrected claim. Use only the source text.
+
+Draft claim:
+<<ORIGINAL_CLAIM>>
+
+Source:
+<<EVIDENCE>>
