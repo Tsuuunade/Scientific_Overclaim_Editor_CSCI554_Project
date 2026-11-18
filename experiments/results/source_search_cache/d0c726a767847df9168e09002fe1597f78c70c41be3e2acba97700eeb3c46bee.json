@@ -1,0 +1,618 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "ABSTRACT:\"Cannabis acutely induced a transient amotivational state and CBD influenced the effects of THC on expected value.\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "27585792",
+        "source": "MED",
+        "pmid": "27585792",
+        "pmcid": "PMC5021728",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5021728"
+          ]
+        },
+        "doi": "10.1007/s00213-016-4383-x",
+        "title": "Acute and chronic effects of cannabinoids on effort-related decision-making and reward learning: an evaluation of the cannabis 'amotivational' hypotheses.",
+        "authorString": "Lawn W, Freeman TP, Pope RA, Joye A, Harvey L, Hindocha C, Mokrysz C, Moss A, Wall MB, Bloomfield MA, Das RK, Morgan CJ, Nutt DJ, Curran HV.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lawn W",
+              "lastName": "Lawn",
+              "firstName": "Will",
+              "initials": "W",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0143-2724"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Psychopharmacology Unit, University College London, Gower Street, London, WC1E 6BT, UK. will.lawn.12@ucl.ac.uk."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Freeman TP",
+              "lastName": "Freeman",
+              "firstName": "Tom P",
+              "initials": "TP",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5667-507X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Psychopharmacology Unit, University College London, Gower Street, London, WC1E 6BT, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pope RA",
+              "lastName": "Pope",
+              "firstName": "Rebecca A",
+              "initials": "RA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6889-589X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Psychopharmacology Unit, University College London, Gower Street, London, WC1E 6BT, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Joye A",
+              "lastName": "Joye",
+              "firstName": "Alyssa",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Psychopharmacology Unit, University College London, Gower Street, London, WC1E 6BT, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Harvey L",
+              "lastName": "Harvey",
+              "firstName": "Lisa",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Psychopharmacology Unit, University College London, Gower Street, London, WC1E 6BT, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hindocha C",
+              "lastName": "Hindocha",
+              "firstName": "Chandni",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1692-7401"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Psychopharmacology Unit, University College London, Gower Street, London, WC1E 6BT, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mokrysz C",
+              "lastName": "Mokrysz",
+              "firstName": "Claire",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Psychopharmacology Unit, University College London, Gower Street, London, WC1E 6BT, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Moss A",
+              "lastName": "Moss",
+              "firstName": "Abigail",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2465-0174"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Psychopharmacology Unit, University College London, Gower Street, London, WC1E 6BT, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wall MB",
+              "lastName": "Wall",
+              "firstName": "Matthew B",
+              "initials": "MB",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0493-6274"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Psychopharmacology Unit, University College London, Gower Street, London, WC1E 6BT, UK."
+                  },
+                  {
+                    "affiliation": "Imanova Ltd, Burlington Danes Building, Imperial College London, Hammersmith Hospital, Du Cane Road, London, UK."
+                  },
+                  {
+                    "affiliation": "Division of Brain Sciences, Imperial College London, London, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bloomfield MA",
+              "lastName": "Bloomfield",
+              "firstName": "Michael Ap",
+              "initials": "MA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Psychopharmacology Unit, University College London, Gower Street, London, WC1E 6BT, UK."
+                  },
+                  {
+                    "affiliation": "Psychiatric Imaging Group, Medical Research Council Clinical Sciences Centre, Hammersmith Hospital, London, UK."
+                  },
+                  {
+                    "affiliation": "Division of Psychiatry, University College London, Maple House, London, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Das RK",
+              "lastName": "Das",
+              "firstName": "Ravi K",
+              "initials": "RK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Psychopharmacology Unit, University College London, Gower Street, London, WC1E 6BT, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Morgan CJ",
+              "lastName": "Morgan",
+              "firstName": "Celia Ja",
+              "initials": "CJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Psychopharmacology Unit, University College London, Gower Street, London, WC1E 6BT, UK."
+                  },
+                  {
+                    "affiliation": "Psychopharmacology and Addiction Research Centre, University of Exeter, Exeter, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nutt DJ",
+              "lastName": "Nutt",
+              "firstName": "David J",
+              "initials": "DJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1286-1401"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Neuropsychopharmacology Unit, Division of Experimental Medicine, Imperial College London, Burlington Danes Building, Du Cane Road, London, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Curran HV",
+              "lastName": "Curran",
+              "firstName": "H Valerie",
+              "initials": "HV",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Psychopharmacology Unit, University College London, Gower Street, London, WC1E 6BT, UK."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6889-589X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0143-2724"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0493-6274"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1286-1401"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5667-507X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1692-7401"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2465-0174"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "issue": "19-20",
+          "volume": "233",
+          "journalIssueId": 2451484,
+          "dateOfPublication": "2016 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Psychopharmacology (Berl)",
+            "title": "Psychopharmacology",
+            "essn": "1432-2072",
+            "issn": "0033-3158",
+            "isoabbreviation": "Psychopharmacology (Berl)",
+            "nlmid": "7608025"
+          },
+          "printPublicationDate": "2016-10-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "3537-3552",
+        "abstractText": "<h4>Rationale</h4>Anecdotally, both acute and chronic cannabis use have been associated with apathy, amotivation, and other reward processing deficits. To date, empirical support for these effects is limited, and no previous studies have assessed both acute effects of Δ-9-tetrahydrocannabinol (THC) and cannabidiol (CBD), as well as associations with cannabis dependence.<h4>Objectives</h4>The objectives of this study were (1) to examine acute effects of cannabis with CBD (Cann + CBD) and without CBD (Cann-CBD) on effort-related decision-making and (2) to examine associations between cannabis dependence, effort-related decision-making and reward learning.<h4>Methods</h4>In study 1, 17 participants each received three acute vaporized treatments, namely Cann-CBD (8 mg THC), Cann + CBD (8 mg THC + 10 mg CBD) and matched placebo, followed by a 50 % dose top-up 1.5 h later, and completed the Effort Expenditure for Rewards Task (EEfRT). In study 2, 20 cannabis-dependent participants were compared with 20 non-dependent, drug-using control participants on the EEfRT and the Probabilistic Reward Task (PRT) in a non-intoxicated state.<h4>Results</h4>Cann-CBD reduced the likelihood of high-effort choices relative to placebo (p = 0.042) and increased sensitivity to expected value compared to both placebo (p = 0.014) and Cann + CBD (p = 0.006). The cannabis-dependent and control groups did not differ on the EEfRT. However, the cannabis-dependent group exhibited a weaker response bias than the control group on the PRT (p = 0.007).<h4>Conclusions</h4>Cannabis acutely induced a transient amotivational state and CBD influenced the effects of THC on expected value. In contrast, cannabis dependence was associated with preserved motivation alongside impaired reward learning, although confounding factors, including depression, cannot be disregarded. This is the first well powered, fully controlled study to objectively demonstrate the acute amotivational effects of THC.",
+        "affiliation": "Clinical Psychopharmacology Unit, University College London, Gower Street, London, WC1E 6BT, UK. will.lawn.12@ucl.ac.uk.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Biotechnology and Biological Sciences Research Council",
+              "acronym": "BB_",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute for Health Research (NIHR)",
+              "grantId": "ACF-2014-18-010",
+              "orderIn": 0
+            },
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "MR/L023032/1",
+              "orderIn": 0
+            },
+            {
+              "agency": "University College London (UCL)",
+              "orderIn": 0
+            },
+            {
+              "agency": "Biotechnology and Biological Sciences Research Council",
+              "acronym": "BB_",
+              "grantId": "1251665",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute for Health Research (NIHR)",
+              "grantId": "CL-2015-18-005",
+              "orderIn": 0
+            },
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "G0800268",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cannabis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Marijuana Abuse",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PX",
+                    "qualifierName": "psychology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cannabidiol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Administration, Inhalation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Double-Blind Method"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Depression"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Marijuana Smoking"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Motivation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Learning",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reward"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Decision Making",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Choice Behavior",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cannabinoid Receptor Agonists",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dronabinol",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Cannabis",
+            "Addiction",
+            "Motivation",
+            "Reinforcement Learning",
+            "Reward",
+            "Cannabinoids",
+            "Cannabidiol",
+            "Thc",
+            "Effort-related Decision-making"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Cannabinoid Receptor Agonists",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Dronabinol",
+              "registryNumber": "7J8897W37S"
+            },
+            {
+              "name": "Cannabidiol",
+              "registryNumber": "19GBJ60SN5"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Unpaywall",
+              "url": "https://kclpure.kcl.ac.uk/portal/en/publications/8db663b7-8077-44c1-90cc-7624352273b5"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00213-016-4383-x"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5021728"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5021728?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 86,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-11-24",
+        "dateOfCreation": "2016-09-03",
+        "dateOfRevision": "2026-09-06",
+        "electronicPublicationDate": "2016-09-02",
+        "firstPublicationDate": "2016-09-02",
+        "firstIndexDate": "2016-09-08",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22Cannabis+acutely+induced+a+transient+amotivational+state+and+CBD+influenced+the+effects+of+THC+on+expected+value.%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"Cannabis acutely induced a transient amotivational state and CBD influenced the effects of THC on expected value.\""
+}

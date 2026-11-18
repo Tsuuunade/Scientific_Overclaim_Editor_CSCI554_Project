@@ -1,0 +1,266 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "ABSTRACT:carotenoids AND ABSTRACT:individuals AND ABSTRACT:reflectance AND ABSTRACT:absorption AND ABSTRACT:carotenoid",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "22412966",
+        "source": "MED",
+        "pmid": "22412966",
+        "pmcid": "PMC3296758",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3296758"
+          ]
+        },
+        "doi": "10.1371/journal.pone.0032988",
+        "title": "You are what you eat: within-subject increases in fruit and vegetable consumption confer beneficial skin-color changes.",
+        "authorString": "Whitehead RD, Re D, Xiao D, Ozakinci G, Perrett DI.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Whitehead RD",
+              "lastName": "Whitehead",
+              "firstName": "Ross D",
+              "initials": "RD",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Psychology, Perception Lab, University of St Andrews, St Andrews, Fife, Scotland. rw394@st-andrews.ac.uk"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Re D",
+              "lastName": "Re",
+              "firstName": "Daniel",
+              "initials": "D"
+            },
+            {
+              "fullName": "Xiao D",
+              "lastName": "Xiao",
+              "firstName": "Dengke",
+              "initials": "D"
+            },
+            {
+              "fullName": "Ozakinci G",
+              "lastName": "Ozakinci",
+              "firstName": "Gozde",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5869-3274"
+              }
+            },
+            {
+              "fullName": "Perrett DI",
+              "lastName": "Perrett",
+              "firstName": "David I",
+              "initials": "DI",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6025-0939"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5869-3274"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6025-0939"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4179-1446"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "recommended_reviews"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "7",
+          "journalIssueId": 1912489,
+          "dateOfPublication": "2012 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2012,
+          "journal": {
+            "medlineAbbreviation": "PLoS One",
+            "title": "PloS one",
+            "essn": "1932-6203",
+            "issn": "1932-6203",
+            "isoabbreviation": "PLoS One",
+            "nlmid": "101285081"
+          },
+          "printPublicationDate": "2012-01-01"
+        },
+        "pubYear": "2012",
+        "pageInfo": "e32988",
+        "abstractText": "<h4>Background</h4>Fruit and vegetable consumption and ingestion of carotenoids have been found to be associated with human skin-color (yellowness) in a recent cross-sectional study. This carotenoid-based coloration contributes beneficially to the appearance of health in humans and is held to be a sexually selected cue of condition in other species.<h4>Methodology and principal findings</h4>Here we investigate the effects of fruit and vegetable consumption on skin-color longitudinally to determine the magnitude and duration of diet change required to change skin-color perceptibly. Diet and skin-color were recorded at baseline and after three and six weeks, in a group of 35 individuals who were without makeup, self-tanning agents and/or recent intensive UV exposure. Six-week changes in fruit and vegetable consumption were significantly correlated with changes in skin redness and yellowness over this period, and diet-linked skin reflectance changes were significantly associated with the spectral absorption of carotenoids and not melanin. We also used psychophysical methods to investigate the minimum color change required to confer perceptibly healthier and more attractive skin-coloration. Modest dietary changes are required to enhance apparent health (2.91 portions per day) and attractiveness (3.30 portions).<h4>Conclusions</h4>Increased fruit and vegetable consumption confers measurable and perceptibly beneficial effects on Caucasian skin appearance within six weeks. This effect could potentially be used as a motivational tool in dietary intervention.",
+        "affiliation": "School of Psychology, Perception Lab, University of St Andrews, St Andrews, Fife, Scotland. rw394@st-andrews.ac.uk",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Fruit"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Vegetables"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carotenoids"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Skin Pigmentation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diet"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Time Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Carotenoids",
+              "registryNumber": "36-88-4"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0032988&type=printable"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1371/journal.pone.0032988"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3296758"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3296758?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 67,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2012-08-02",
+        "dateOfCreation": "2012-03-14",
+        "dateOfRevision": "2021-10-21",
+        "electronicPublicationDate": "2012-03-07",
+        "firstPublicationDate": "2012-03-07",
+        "firstIndexDate": "2012-03-14",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3Acarotenoids+AND+ABSTRACT%3Aindividuals+AND+ABSTRACT%3Areflectance+AND+ABSTRACT%3Aabsorption+AND+ABSTRACT%3Acarotenoid&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:carotenoids AND ABSTRACT:individuals AND ABSTRACT:reflectance AND ABSTRACT:absorption AND ABSTRACT:carotenoid"
+}

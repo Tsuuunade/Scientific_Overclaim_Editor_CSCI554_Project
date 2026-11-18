@@ -1,0 +1,43 @@
+{
+  "check": "numeric extraction from provided text",
+  "expected": "14587",
+  "actual": "14587",
+  "passed": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "14587"
+        }
+      }
+    ],
+    "created": 1794951334,
+    "model": "qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf",
+    "system_fingerprint": "b12483-08a9b3589",
+    "object": "chat.completion",
+    "usage": {
+      "completion_tokens": 6,
+      "prompt_tokens": 57,
+      "total_tokens": 63,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "id": "chatcmpl-KlXKey4qByJ2zWtQiO9ej5Sh1UXGBaBe",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 57,
+      "prompt_ms": 207.725,
+      "prompt_per_token_ms": 3.644298245614035,
+      "prompt_per_second": 274.4012516548321,
+      "predicted_n": 6,
+      "predicted_ms": 119.018,
+      "predicted_per_token_ms": 23.8036,
+      "predicted_per_second": 42.01045220050749
+    }
+  },
+  "interpretation": "runtime sanity only; not scientific editing evaluation"
+}

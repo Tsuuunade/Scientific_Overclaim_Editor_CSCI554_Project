@@ -1,0 +1,7 @@
+{
+  "protocol_sha256": "deb2c5a33e8ec192b65aeeade1fd7f1c310bf6fb36f8c168bd7fc7614d0edb74",
+  "outputs_sha256": "785c60a75ecedba42debff369bb7de13280e95eb2a58eb6fbdb04fbc4ce60933",
+  "model_weights_unchanged_from_v1": true,
+  "automatic_retries": false,
+  "discard_failed_outputs": false
+}

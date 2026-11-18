@@ -1,0 +1,17 @@
+{
+  "version": "6.9",
+  "hitCount": 0,
+  "request": {
+    "queryString": "ABSTRACT:\"Study 2 shows that individuals with higher dietary intakes of\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": []
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22Study+2+shows+that+individuals+with+higher+dietary+intakes+of%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"Study 2 shows that individuals with higher dietary intakes of\""
+}

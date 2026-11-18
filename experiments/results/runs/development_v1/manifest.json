@@ -1,0 +1,8 @@
+{
+  "protocol_sha256": "1f1e9d324d999fedf8e09e843b4bc23de1e620f15b04d8c8194074cf7ecb7803",
+  "started_model_run": true,
+  "elapsed_this_invocation_seconds": 38.06,
+  "outputs_sha256": "e2f928928df60eb1a352c0192ebc1057289f41c458c5324d044990e52922ae4f",
+  "resume_policy": "skip existing input IDs; no retries or regenerated selections",
+  "source_commit": "b4104bb8d18ca44cf6299a98864d19b78e9827d5"
+}

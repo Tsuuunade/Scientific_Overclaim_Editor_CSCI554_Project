@@ -1,0 +1,64 @@
+{
+  "n_cases": 24,
+  "matched_paper_ids": 24,
+  "scientific_text_loss_cases_fixed": 5,
+  "fixes": [
+    {
+      "example_id": "PILOT-03-11-014-1",
+      "old_chars": 2249,
+      "new_chars": 2462,
+      "removed_chunks": [
+        {
+          "length": 217,
+          "preview": "< 0.001). Closed loop delivery reduced overnight time spent hypoglycaemic (plasma glucose ≤ 3.9 mmol/L) by a median 3% (0-20%), P=0.04, and eliminated plasma glucose concentrations"
+        }
+      ]
+    },
+    {
+      "example_id": "PILOT-25-162",
+      "old_chars": 1713,
+      "new_chars": 2145,
+      "removed_chunks": [
+        {
+          "length": 443,
+          "preview": "<0.001) and slightly higher costs of care per admission (adjusted costs $1145 (£950; €1080) v $1098; adjusted difference $47, 95% confidence interval $39 to $55, P<0.001). Readmiss"
+        }
+      ]
+    },
+    {
+      "example_id": "PILOT-02-11-009-1",
+      "old_chars": 1475,
+      "new_chars": 1982,
+      "removed_chunks": [
+        {
+          "length": 511,
+          "preview": "< 0.001). The percentage of regular cyclists increased from 7.0% to 11.8%, but this was not statistically significant. In 2007, regular walkers were more likely to be female, under"
+        }
+      ]
+    },
+    {
+      "example_id": "PILOT-10-11-001-1",
+      "old_chars": 1823,
+      "new_chars": 1960,
+      "removed_chunks": [
+        {
+          "length": 141,
+          "preview": "< 0.001). In 3 patients, pain intensity after IVIG was less than after saline by 50% or more. No serious adverse reactions were reported.<h4>"
+        }
+      ]
+    },
+    {
+      "example_id": "PILOT-25-199",
+      "old_chars": 1271,
+      "new_chars": 1787,
+      "removed_chunks": [
+        {
+          "length": 532,
+          "preview": "<40 (95% confidence interval 10.7% to 10.9%), 11.1% for physicians aged 40-49 (11.0% to 11.3%), 11.3% for physicians aged 50-59 (11.1% to 11.5%), and 12.1% for physicians aged ≥60 "
+        }
+      ]
+    }
+  ],
+  "raw_original_files_overwritten": false,
+  "source_jsonl_sha256": "2accd3e590e8e3fc02ed36ff565d7f0ba199715c11e5861e0fbc542364795c70"
+}

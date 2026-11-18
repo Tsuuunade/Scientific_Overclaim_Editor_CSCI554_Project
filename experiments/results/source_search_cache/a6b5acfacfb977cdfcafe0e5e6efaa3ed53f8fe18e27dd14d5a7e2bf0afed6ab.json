@@ -1,0 +1,290 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "ABSTRACT:\"The results show that pain thresholds are significantly higher after laughter than in the control condition.\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "21920973",
+        "source": "MED",
+        "pmid": "21920973",
+        "pmcid": "PMC3267132",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3267132"
+          ]
+        },
+        "doi": "10.1098/rspb.2011.1373",
+        "title": "Social laughter is correlated with an elevated pain threshold.",
+        "authorString": "Dunbar RI, Baron R, Frangou A, Pearce E, van Leeuwen EJ, Stow J, Partridge G, MacDonald I, Barra V, van Vugt M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Dunbar RI",
+              "lastName": "Dunbar",
+              "firstName": "R I M",
+              "initials": "RI",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9982-9702"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "British Academy Centenary Research Project, University of Oxford, Oxford, UK. robin.dunbar@anthro.ox.ac.uk"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Baron R",
+              "lastName": "Baron",
+              "firstName": "Rebecca",
+              "initials": "R"
+            },
+            {
+              "fullName": "Frangou A",
+              "lastName": "Frangou",
+              "firstName": "Anna",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6990-2756"
+              }
+            },
+            {
+              "fullName": "Pearce E",
+              "lastName": "Pearce",
+              "firstName": "Eiluned",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4347-317X"
+              }
+            },
+            {
+              "fullName": "van Leeuwen EJ",
+              "lastName": "van Leeuwen",
+              "firstName": "Edwin J C",
+              "initials": "EJ"
+            },
+            {
+              "fullName": "Stow J",
+              "lastName": "Stow",
+              "firstName": "Julie",
+              "initials": "J"
+            },
+            {
+              "fullName": "Partridge G",
+              "lastName": "Partridge",
+              "firstName": "Giselle",
+              "initials": "G"
+            },
+            {
+              "fullName": "MacDonald I",
+              "lastName": "MacDonald",
+              "firstName": "Ian",
+              "initials": "I"
+            },
+            {
+              "fullName": "Barra V",
+              "lastName": "Barra",
+              "firstName": "Vincent",
+              "initials": "V"
+            },
+            {
+              "fullName": "van Vugt M",
+              "lastName": "van Vugt",
+              "firstName": "Mark",
+              "initials": "M"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6990-2756"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4347-317X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9982-9702"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1731",
+          "volume": "279",
+          "journalIssueId": 1905233,
+          "dateOfPublication": "2012 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2012,
+          "journal": {
+            "medlineAbbreviation": "Proc Biol Sci",
+            "title": "Proceedings. Biological sciences",
+            "essn": "1471-2954",
+            "issn": "0962-8452",
+            "nlmid": "101245157",
+            "isoabbreviation": "Proc Biol Sci"
+          },
+          "printPublicationDate": "2012-03-01"
+        },
+        "pubYear": "2012",
+        "pageInfo": "1161-1167",
+        "abstractText": "Although laughter forms an important part of human non-verbal communication, it has received rather less attention than it deserves in both the experimental and the observational literatures. Relaxed social (Duchenne) laughter is associated with feelings of wellbeing and heightened affect, a proximate explanation for which might be the release of endorphins. We tested this hypothesis in a series of six experimental studies in both the laboratory (watching videos) and naturalistic contexts (watching stage performances), using change in pain threshold as an assay for endorphin release. The results show that pain thresholds are significantly higher after laughter than in the control condition. This pain-tolerance effect is due to laughter itself and not simply due to a change in positive affect. We suggest that laughter, through an endorphin-mediated opiate effect, may play a crucial role in social bonding.",
+        "affiliation": "British Academy Centenary Research Project, University of Oxford, Oxford, UK. robin.dunbar@anthro.ox.ac.uk",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Endorphins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Laughter"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Social Behavior"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pain Threshold",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PX",
+                    "qualifierName": "psychology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Endorphins",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1098/rspb.2011.1373"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3267132"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3267132?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1098/rspb.2011.1373"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 103,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2012-10-02",
+        "dateOfCreation": "2011-09-17",
+        "dateOfRevision": "2023-11-04",
+        "electronicPublicationDate": "2011-09-14",
+        "firstPublicationDate": "2011-09-14",
+        "firstIndexDate": "2011-09-17",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22The+results+show+that+pain+thresholds+are+significantly+higher+after+laughter+than+in+the+control+condition.%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"The results show that pain thresholds are significantly higher after laughter than in the control condition.\""
+}

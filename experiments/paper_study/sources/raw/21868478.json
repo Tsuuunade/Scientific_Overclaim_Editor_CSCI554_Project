@@ -1,0 +1,420 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:21868478 AND SRC:MED",
+    "internalQuery": "EXT_ID:21868478 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 2,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "21868478",
+        "source": "MED",
+        "pmid": "21868478",
+        "pmcid": "PMC3162042",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3162042"
+          ]
+        },
+        "doi": "10.1136/bmj.d5094",
+        "title": "Vitamin A supplements for preventing mortality, illness, and blindness in children aged under 5: systematic review and meta-analysis.",
+        "authorString": "Mayo-Wilson E, Imdad A, Herzer K, Yakoob MY, Bhutta ZA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Mayo-Wilson E",
+              "lastName": "Mayo-Wilson",
+              "firstName": "Evan",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6126-2459"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Evidence-Based Intervention, Department of Social Policy and Intervention, University of Oxford, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Imdad A",
+              "lastName": "Imdad",
+              "firstName": "Aamer",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7026-0006"
+              }
+            },
+            {
+              "fullName": "Herzer K",
+              "lastName": "Herzer",
+              "firstName": "Kurt",
+              "initials": "K"
+            },
+            {
+              "fullName": "Yakoob MY",
+              "lastName": "Yakoob",
+              "firstName": "Mohammad Yawar",
+              "initials": "MY"
+            },
+            {
+              "fullName": "Bhutta ZA",
+              "lastName": "Bhutta",
+              "firstName": "Zulfiqar A",
+              "initials": "ZA"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6126-2459"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7026-0006"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0004-1374-302X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "wikipedia",
+            "outdated_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "343",
+          "journalIssueId": 2470043,
+          "dateOfPublication": "2011 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "BMJ",
+            "title": "BMJ (Clinical research ed.)",
+            "essn": "1756-1833",
+            "issn": "0959-8138",
+            "isoabbreviation": "BMJ",
+            "nlmid": "8900488"
+          },
+          "printPublicationDate": "2011-08-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "d5094",
+        "abstractText": "<h4>Objective</h4>To determine if vitamin A supplementation is associated with reductions in mortality and morbidity in children aged 6 months to 5 years.<h4>Design</h4>Systematic review and meta-analysis. Two reviewers independently assessed studies for inclusion. Data were double extracted; discrepancies were resolved by discussion. Meta-analyses were performed for mortality, illness, vision, and side effects.<h4>Data sources</h4>Cochrane Central Register of Controlled Trials (CENTRAL) in the Cochrane Library, Medline, Embase, Global Health, Latin American and Caribbean Health Sciences, metaRegister of Controlled Trials, and African Index Medicus. Databases were searched to April 2010 without restriction by language or publication status.<h4>Eligibility criteria for selecting studies</h4>Randomised trials of synthetic oral vitamin A supplements in children aged 6 months to 5 years. Studies of children with current illness (such as diarrhoea, measles, and HIV), studies of children in hospital, and studies of food fortification or β carotene were excluded.<h4>Results</h4>43 trials with about 215,633 children were included. Seventeen trials including 194,483 participants reported a 24% reduction in all cause mortality (rate ratio=0.76, 95% confidence interval 0.69 to 0.83). Seven trials reported a 28% reduction in mortality associated with diarrhoea (0.72, 0.57 to 0.91). Vitamin A supplementation was associated with a reduced incidence of diarrhoea (0.85, 0.82 to 0.87) and measles (0.50, 0.37 to 0.67) and a reduced prevalence of vision problems, including night blindness (0.32, 0.21 to 0.50) and xerophthalmia (0.31, 0.22 to 0.45). Three trials reported an increased risk of vomiting within the first 48 hours of supplementation (2.75, 1.81 to 4.19).<h4>Conclusions</h4>Vitamin A supplementation is associated with large reductions in mortality, morbidity, and vision problems in a range of settings, and these results cannot be explained by bias. Further placebo controlled trials of vitamin A supplementation in children between 6 and 59 months of age are not required. However, there is a need for further studies comparing different doses and delivery mechanisms (for example, fortification). Until other sources are available, vitamin A supplements should be given to all children at risk of deficiency, particularly in low and middle income countries.",
+        "affiliation": "Centre for Evidence-Based Intervention, Department of Social Policy and Intervention, University of Oxford, UK.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Meta-Analysis",
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Systematic Review",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Respiratory Tract Infections",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Measles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xerophthalmia",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Night Blindness",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vitamin A Deficiency",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diarrhea",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vomiting",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vitamin A",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Morbidity"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mortality"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child Mortality"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Infant Mortality"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Primary Prevention",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Developing Countries"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "MEDLINE"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child, Preschool"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Infant"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Randomized Controlled Trials as Topic"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bias"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Vitamin A",
+              "registryNumber": "11103-57-4"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1136/bmj.d5094"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3162042"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "21868480",
+              "reference": "BMJ. 2011 Aug 25;343:d5294. doi: 10.1136/bmj.d5294.",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 197,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2011-10-24",
+        "dateOfCreation": "2011-08-27",
+        "dateOfRevision": "2025-06-26",
+        "electronicPublicationDate": "2011-08-25",
+        "firstPublicationDate": "2011-08-25",
+        "firstIndexDate": "2011-08-27",
+        "fullTextReceivedDate": "2026-10-13",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_source_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21868478+AND+SRC%3AMED&format=json&resultType=core&pageSize=2"
+}

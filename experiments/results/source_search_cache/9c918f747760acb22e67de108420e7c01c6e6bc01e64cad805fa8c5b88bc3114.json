@@ -1,0 +1,17 @@
+{
+  "version": "6.9",
+  "hitCount": 0,
+  "request": {
+    "queryString": "ABSTRACT:longitudinal AND ABSTRACT:childhood AND ABSTRACT:wellbeing AND ABSTRACT:conclude AND ABSTRACT:positive",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": []
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3Alongitudinal+AND+ABSTRACT%3Achildhood+AND+ABSTRACT%3Awellbeing+AND+ABSTRACT%3Aconclude+AND+ABSTRACT%3Apositive&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:longitudinal AND ABSTRACT:childhood AND ABSTRACT:wellbeing AND ABSTRACT:conclude AND ABSTRACT:positive"
+}

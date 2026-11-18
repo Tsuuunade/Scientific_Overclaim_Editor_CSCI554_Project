@@ -1,0 +1,272 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "ABSTRACT:\"Exposure to television food commercials enhanced high television viewers' preferences for branded foods and increased reported preferences for all food items (branded and nonbranded) relative to the low television viewers.\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "21708808",
+        "source": "MED",
+        "pmid": "21708808",
+        "doi": "10.1542/peds.2010-1859",
+        "title": "Food commercials increase preference for energy-dense foods, particularly in children who watch more television.",
+        "authorString": "Boyland EJ, Harrold JA, Kirkham TC, Corker C, Cuddy J, Evans D, Dovey TM, Lawton CL, Blundell JE, Halford JC.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Boyland EJ",
+              "lastName": "Boyland",
+              "firstName": "Emma J",
+              "initials": "EJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8384-4994"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Kissileff Laboratory for the Study of Human Ingestive Behaviour, Department of Experimental Psychology, University of Liverpool, Eleanor Rathbone Building, Bedford Street South, Liverpool L69 7ZA, United Kingdom. e.boyland@liv.ac.uk"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Harrold JA",
+              "lastName": "Harrold",
+              "firstName": "Joanne A",
+              "initials": "JA"
+            },
+            {
+              "fullName": "Kirkham TC",
+              "lastName": "Kirkham",
+              "firstName": "Tim C",
+              "initials": "TC"
+            },
+            {
+              "fullName": "Corker C",
+              "lastName": "Corker",
+              "firstName": "Catherine",
+              "initials": "C"
+            },
+            {
+              "fullName": "Cuddy J",
+              "lastName": "Cuddy",
+              "firstName": "Jenna",
+              "initials": "J"
+            },
+            {
+              "fullName": "Evans D",
+              "lastName": "Evans",
+              "firstName": "Deborah",
+              "initials": "D"
+            },
+            {
+              "fullName": "Dovey TM",
+              "lastName": "Dovey",
+              "firstName": "Terence M",
+              "initials": "TM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6469-2438"
+              }
+            },
+            {
+              "fullName": "Lawton CL",
+              "lastName": "Lawton",
+              "firstName": "Clare L",
+              "initials": "CL"
+            },
+            {
+              "fullName": "Blundell JE",
+              "lastName": "Blundell",
+              "firstName": "John E",
+              "initials": "JE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7085-9596"
+              }
+            },
+            {
+              "fullName": "Halford JC",
+              "lastName": "Halford",
+              "firstName": "Jason C G",
+              "initials": "JC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1629-3189"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6469-2438"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8384-4994"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7085-9596"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1629-3189"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "128",
+          "journalIssueId": 1844675,
+          "dateOfPublication": "2011 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "Pediatrics",
+            "title": "Pediatrics",
+            "essn": "1098-4275",
+            "issn": "0031-4005",
+            "nlmid": "0376422",
+            "isoabbreviation": "Pediatrics"
+          },
+          "printPublicationDate": "2011-07-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "e93-100",
+        "abstractText": "<h4>Objective</h4>Our aim was to determine if levels of television viewing (a proxy measure for habitual commercial exposure) affect children's food preference responses to television food commercials.<h4>Methods</h4>A total of 281 children aged 6 to 13 years from northwest England viewed toy or food television commercials followed by a cartoon on 2 separate occasions; they then completed 3 food preference measures, a commercial recognition task, and a television viewing questionnaire.<h4>Results</h4>After viewing the food commercials, all children selected more branded and nonbranded fat-rich and carbohydrate-rich items from food preference checklists compared with after viewing the toy commercials. The food preferences of children with higher habitual levels of television viewing were more affected by food commercial exposure than those of low television viewers. After viewing food commercials, high television viewing children selected a greater number of branded food items compared with after the toy commercials as well as compared with the low television viewers. Children correctly recognized more food commercials than toy commercials.<h4>Conclusions</h4>Exposure to television food commercials enhanced high television viewers' preferences for branded foods and increased reported preferences for all food items (branded and nonbranded) relative to the low television viewers. This is the first study to demonstrate that children with greater previous exposure to commercials (high television viewers) seemed to be more responsive to food promotion messages than children with lower previous advertising exposure.",
+        "affiliation": "Kissileff Laboratory for the Study of Human Ingestive Behaviour, Department of Experimental Psychology, University of Liverpool, Eleanor Rathbone Building, Bedford Street South, Liverpool L69 7ZA, United Kingdom. e.boyland@liv.ac.uk",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Food Preferences"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Energy Intake"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Advertising",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Television",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Food"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1542/peds.2010-1859"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 73,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2011-09-01",
+        "dateOfCreation": "2011-06-29",
+        "dateOfRevision": "2022-03-09",
+        "electronicPublicationDate": "2011-06-27",
+        "firstPublicationDate": "2011-06-27",
+        "firstIndexDate": "2011-06-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22Exposure+to+television+food+commercials+enhanced+high+television+viewers%27+preferences+for+branded+foods+and+increased+reported+preferences+for+all+food+items+%28branded+and+nonbranded%29+relative+to+the+low+television+viewers.%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"Exposure to television food commercials enhanced high television viewers' preferences for branded foods and increased reported preferences for all food items (branded and nonbranded) relative to the low television viewers.\""
+}

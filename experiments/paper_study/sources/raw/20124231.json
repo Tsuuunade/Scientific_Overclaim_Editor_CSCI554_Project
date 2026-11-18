@@ -1,0 +1,271 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:20124231 AND SRC:MED",
+    "internalQuery": "EXT_ID:20124231 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 2,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "20124231",
+        "source": "MED",
+        "pmid": "20124231",
+        "doi": "10.7326/0003-4819-152-3-201002020-00006",
+        "title": "Intravenous immunoglobulin treatment of the complex regional pain syndrome: a randomized trial.",
+        "authorString": "Goebel A, Baranowski A, Maurer K, Ghiai A, McCabe C, Ambler G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Goebel A",
+              "lastName": "Goebel",
+              "firstName": "Andreas",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University of Liverpool, Clinical Sciences Building, University Hospital Aintree, Liverpool L9 7AL, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Baranowski A",
+              "lastName": "Baranowski",
+              "firstName": "Andrew",
+              "initials": "A"
+            },
+            {
+              "fullName": "Maurer K",
+              "lastName": "Maurer",
+              "firstName": "Konrad",
+              "initials": "K"
+            },
+            {
+              "fullName": "Ghiai A",
+              "lastName": "Ghiai",
+              "firstName": "Artemis",
+              "initials": "A"
+            },
+            {
+              "fullName": "McCabe C",
+              "lastName": "McCabe",
+              "firstName": "Candy",
+              "initials": "C"
+            },
+            {
+              "fullName": "Ambler G",
+              "lastName": "Ambler",
+              "firstName": "Gareth",
+              "initials": "G"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "152",
+          "journalIssueId": 1694645,
+          "dateOfPublication": "2010 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2010,
+          "journal": {
+            "medlineAbbreviation": "Ann Intern Med",
+            "title": "Annals of internal medicine",
+            "essn": "1539-3704",
+            "issn": "0003-4819",
+            "isoabbreviation": "Ann Intern Med",
+            "nlmid": "0372351"
+          },
+          "printPublicationDate": "2010-02-01"
+        },
+        "pubYear": "2010",
+        "pageInfo": "152-158",
+        "abstractText": "<h4>Background</h4>Treatment of long-standing complex regional pain syndrome (CRPS) is empirical and often of limited efficacy. Preliminary data suggest that the immune system is involved in sustaining this condition and that treatment with low-dose intravenous immunoglobulin (IVIG) may substantially reduce pain in some patients.<h4>Objective</h4>To evaluate the efficacy of IVIG in patients with longstanding CRPS under randomized, controlled conditions.<h4>Design</h4>A randomized, double-blind, placebo-controlled crossover trial. (National Research Registry number: N0263177713; International Standard Randomised Controlled Trial Number Registry: 63918259)<h4>Setting</h4>University College London Hospitals Pain Management Centre.<h4>Patients</h4>Persons who had pain intensity greater than 4 on an 11-point (0 to 10) numerical rating scale and had CRPS for 6 to 30 months that was refractory to standard treatment.<h4>Intervention</h4>IVIG, 0.5 g/kg, and normal saline in separate treatments, divided by a washout period of at least 28 days.<h4>Measurements</h4>The primary outcome was pain intensity 6 to 19 days after the initial treatment and the crossover treatment.<h4>Results</h4>13 eligible participants were randomly assigned between November 2005 and May 2008; 12 completed the trial. The average pain intensity was 1.55 units lower after IVIG treatment than after saline (95% CI, 1.29 to 1.82; P < 0.001). In 3 patients, pain intensity after IVIG was less than after saline by 50% or more. No serious adverse reactions were reported.<h4>Limitation</h4>The trial was small, and recruitment bias and chance variation could have influenced results and their interpretation.<h4>Conclusion</h4>IVIG, 0.5 g/kg, can reduce pain in refractory CRPS. Studies are required to determine the best immunoglobulin dose, the duration of effect, and when repeated treatments are needed.<h4>Primary funding source</h4>Association of Anaesthetists of Great Britain and Ireland, University College London Hospitals Charity, and CSL-Behring.",
+        "affiliation": "University of Liverpool, Clinical Sciences Building, University Hospital Aintree, Liverpool L9 7AL, United Kingdom.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Institute for Health Research (NIHR)",
+              "acronym": "DH_",
+              "grantId": "CDF-2009-02-38",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Complex Regional Pain Syndromes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoglobulins, Intravenous",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunologic Factors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cross-Over Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Double-Blind Method"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Immunologic Factors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoglobulins, Intravenous",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "abs",
+              "site": "www.annals.org",
+              "url": "http://www.annals.org/cgi/content/abstract/152/3/152"
+            },
+            {
+              "availability": "Free after 12 months",
+              "availabilityCode": "F12",
+              "documentStyle": "html",
+              "site": "www.annals.org",
+              "url": "http://www.annals.org/cgi/content/full/152/3/152"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.7326/0003-4819-152-3-201002020-00006"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "20124227",
+              "reference": "Ann Intern Med. 2010 Feb 2;152(3):I48. doi: 10.7326/0003-4819-152-3-201002020-00003.",
+              "type": "Summary for patients in",
+              "orderIn": 1
+            },
+            {
+              "source": "MED",
+              "id": "20124237",
+              "reference": "Ann Intern Med. 2010 Feb 2;152(3):188-9. doi: 10.7326/0003-4819-152-3-201002020-00013.",
+              "type": "Comment in",
+              "orderIn": 2
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 115,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2010-02-22",
+        "dateOfCreation": "2010-02-04",
+        "dateOfRevision": "2025-05-29",
+        "firstPublicationDate": "2010-02-01",
+        "firstIndexDate": "2010-02-23",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_source_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A20124231+AND+SRC%3AMED&format=json&resultType=core&pageSize=2"
+}

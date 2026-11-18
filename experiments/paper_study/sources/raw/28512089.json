@@ -1,0 +1,395 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:28512089 AND SRC:MED",
+    "internalQuery": "EXT_ID:28512089 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 2,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "28512089",
+        "source": "MED",
+        "pmid": "28512089",
+        "pmcid": "PMC5431772",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5431772"
+          ]
+        },
+        "doi": "10.1136/bmj.j1797",
+        "title": "Physician age and outcomes in elderly patients in hospital in the US: observational study.",
+        "authorString": "Tsugawa Y, Newhouse JP, Zaslavsky AM, Blumenthal DM, Jena AB.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Tsugawa Y",
+              "lastName": "Tsugawa",
+              "firstName": "Yusuke",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1937-4833"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Health Policy and Management, Harvard T. H. Chan School of Public Health, Boston, MA, USA ytsugawa@hsph.harvard.edu."
+                  },
+                  {
+                    "affiliation": "Division of General Internal Medicine and Primary Care, Brigham and Women's Hospital, Boston, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Newhouse JP",
+              "lastName": "Newhouse",
+              "firstName": "Joseph P",
+              "initials": "JP",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5837-3203"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Health Policy and Management, Harvard T. H. Chan School of Public Health, Boston, MA, USA."
+                  },
+                  {
+                    "affiliation": "Department of Health Care Policy, Harvard Medical School, Boston, MA, USA."
+                  },
+                  {
+                    "affiliation": "Harvard Kennedy School, Cambridge, MA, USA."
+                  },
+                  {
+                    "affiliation": "National Bureau of Economic Research, Cambridge, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zaslavsky AM",
+              "lastName": "Zaslavsky",
+              "firstName": "Alan M",
+              "initials": "AM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Health Care Policy, Harvard Medical School, Boston, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Blumenthal DM",
+              "lastName": "Blumenthal",
+              "firstName": "Daniel M",
+              "initials": "DM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cardiology Division, Massachusetts General Hospital, Boston, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jena AB",
+              "lastName": "Jena",
+              "firstName": "Anupam B",
+              "initials": "AB",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Health Care Policy, Harvard Medical School, Boston, MA, USA."
+                  },
+                  {
+                    "affiliation": "National Bureau of Economic Research, Cambridge, MA, USA."
+                  },
+                  {
+                    "affiliation": "Department of Medicine, Massachusetts General Hospital, Boston, MA, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5837-3203"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1937-4833"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "357",
+          "journalIssueId": 2552778,
+          "dateOfPublication": "2017 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "BMJ",
+            "title": "BMJ (Clinical research ed.)",
+            "essn": "1756-1833",
+            "issn": "0959-8138",
+            "isoabbreviation": "BMJ",
+            "nlmid": "8900488"
+          },
+          "printPublicationDate": "2017-05-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "j1797",
+        "abstractText": "<b>Objectives</b> To investigate whether outcomes of patients who were admitted to hospital differ between those treated by younger and older physicians.<b>Design</b> Observational study.<b>Setting</b> US acute care hospitals.<b>Participants</b> 20% random sample of Medicare fee-for-service beneficiaries aged ≥65 admitted to hospital with a medical condition in 2011-14 and treated by hospitalist physicians to whom they were assigned based on scheduled work shifts. To assess the generalizability of findings, analyses also included patients treated by general internists including both hospitalists and non-hospitalists.<b>Main outcome measures</b> 30 day mortality and readmissions and costs of care. <b>Results</b> 736 537 admissions managed by 18 854 hospitalist physicians (median age 41) were included. Patients' characteristics were similar across physician ages. After adjustment for characteristics of patients and physicians and hospital fixed effects (effectively comparing physicians within the same hospital), patients' adjusted 30 day mortality rates were 10.8% for physicians aged <40 (95% confidence interval 10.7% to 10.9%), 11.1% for physicians aged 40-49 (11.0% to 11.3%), 11.3% for physicians aged 50-59 (11.1% to 11.5%), and 12.1% for physicians aged ≥60 (11.6% to 12.5%). Among physicians with a high volume of patients, however, there was no association between physician age and patient mortality. Readmissions did not vary with physician age, while costs of care were slightly higher among older physicians. Similar patterns were observed among general internists and in several sensitivity analyses.<b>Conclusions</b> Within the same hospital, patients treated by older physicians had higher mortality than patients cared for by younger physicians, except those physicians treating high volumes of patients.",
+        "affiliation": "Department of Health Policy and Management, Harvard T. H. Chan School of Public Health, Boston, MA, USA ytsugawa@hsph.harvard.edu.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article",
+            "Observational Study"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIH HHS",
+              "acronym": "OD",
+              "grantId": "DP5 OD017897",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hospitalization"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Patient Readmission",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hospital Mortality",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TD",
+                    "qualifierName": "trends"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cross-Sectional Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Age Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Clinical Competence",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ST",
+                    "qualifierName": "standards"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged, 80 and over"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Physicians",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ST",
+                    "qualifierName": "standards"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hospitals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Medicare"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Quality of Health Care",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ST",
+                    "qualifierName": "standards"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "United States",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Outcome Assessment, Health Care"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1136/bmj.j1797"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5431772"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "28512136",
+              "reference": "BMJ. 2017 May 16;357:j2286. doi: 10.1136/bmj.j2286",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 130,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-06-19",
+        "dateOfCreation": "2017-05-18",
+        "dateOfRevision": "2022-04-09",
+        "electronicPublicationDate": "2017-05-16",
+        "firstPublicationDate": "2017-05-16",
+        "firstIndexDate": "2017-05-17",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_source_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28512089+AND+SRC%3AMED&format=json&resultType=core&pageSize=2"
+}

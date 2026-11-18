@@ -1,0 +1,318 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "ABSTRACT:\"Besides studies showing relief of phantom limb pain using mirrors, this is the first evidence that impeding the processes by which the brain localises a noxious stimulus can reduce pain, and that this effect reflects modulation of multimodal neural activities.\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "21440992",
+        "source": "MED",
+        "pmid": "21440992",
+        "doi": "10.1016/j.pain.2011.02.029",
+        "title": "The analgesic effect of crossing the arms.",
+        "authorString": "Gallace A, Torta DME, Moseley GL, Iannetti GD.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Gallace A",
+              "lastName": "Gallace",
+              "firstName": "A",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4561-8926"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Psychology, University of Milano-Bicocca, Italy Department of Neuroscience, Physiology and Pharmacology, University College London, UK Department of Psychology, University of Turin, Italy The Sansom Institute for Health Research, University of South Australia, Adelaide, and Neuroscience Research Australia, Sydney, Australia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Torta DME",
+              "lastName": "Torta",
+              "firstName": "D M E",
+              "initials": "DME",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3499-3982"
+              }
+            },
+            {
+              "fullName": "Moseley GL",
+              "lastName": "Moseley",
+              "firstName": "G L",
+              "initials": "GL",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3750-4945"
+              }
+            },
+            {
+              "fullName": "Iannetti GD",
+              "lastName": "Iannetti",
+              "firstName": "G D",
+              "initials": "GD",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4364-2068"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3499-3982"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3750-4945"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4364-2068"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4561-8926"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "152",
+          "journalIssueId": 1833904,
+          "dateOfPublication": "2011 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "Pain",
+            "title": "Pain",
+            "essn": "1872-6623",
+            "issn": "0304-3959",
+            "nlmid": "7508686",
+            "isoabbreviation": "Pain"
+          },
+          "printPublicationDate": "2011-06-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "1418-1423",
+        "abstractText": "The ability to determine precisely the location of sensory stimuli is fundamental to how we interact with the world; indeed, to our survival. Crossing the hands over the body midline impairs this ability to localize tactile stimuli. We hypothesized that crossing the arms would modulate the intensity of pain evoked by noxious stimulation of the hand. In two separate experiments, we show (1) that the intensity of both laser-evoked painful sensations and electrically-evoked nonpainful sensations were decreased when the arms were crossed over the midline, and (2) that these effects were associated with changes in the multimodal cortical processing of somatosensory information. Critically, there was no change in the somatosensory-specific cortical processing of somatosensory information. Besides studies showing relief of phantom limb pain using mirrors, this is the first evidence that impeding the processes by which the brain localises a noxious stimulus can reduce pain, and that this effect reflects modulation of multimodal neural activities. By showing that the neural mechanisms by which pain emerges from nociception represent a possible target for analgesia, we raise the possibility of novel approaches to the treatment of painful clinical conditions. Crossing the arms over the midline impairs multimodal processing of somatosensory stimuli and induces significant analgesia to noxious hand stimulation.",
+        "affiliation": "Department of Psychology, University of Milano-Bicocca, Italy Department of Neuroscience, Physiology and Pharmacology, University College London, UK Department of Psychology, University of Turin, Italy The Sansom Institute for Health Research, University of South Australia, Adelaide, and Neuroscience Research Australia, Sydney, Australia.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hand",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IR",
+                    "qualifierName": "innervation"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ET",
+                    "qualifierName": "etiology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pain Measurement",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electromyography"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Analgesia",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Physical Stimulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electric Stimulation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lasers",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biophysics"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Evoked Potentials, Somatosensory",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Functional Laterality",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Pain Management"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.pain.2011.02.029"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 55,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2011-09-23",
+        "dateOfCreation": "2011-03-29",
+        "dateOfRevision": "2022-03-30",
+        "electronicPublicationDate": "2011-03-26",
+        "firstPublicationDate": "2011-03-26",
+        "firstIndexDate": "2011-03-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22Besides+studies+showing+relief+of+phantom+limb+pain+using+mirrors%2C+this+is+the+first+evidence+that+impeding+the+processes+by+which+the+brain+localises+a+noxious+stimulus+can+reduce+pain%2C+and+that+this+effect+reflects+modulation+of+multimodal+neural+activities.%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"Besides studies showing relief of phantom limb pain using mirrors, this is the first evidence that impeding the processes by which the brain localises a noxious stimulus can reduce pain, and that this effect reflects modulation of multimodal neural activities.\""
+}

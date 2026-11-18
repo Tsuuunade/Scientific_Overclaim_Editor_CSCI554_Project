@@ -1,0 +1,310 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "ABSTRACT:\"In this nationally representative sample 75 of older adults would\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "27955707",
+        "source": "MED",
+        "pmid": "27955707",
+        "pmcid": "PMC5153917",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5153917"
+          ]
+        },
+        "doi": "10.1186/s13195-016-0223-9",
+        "title": "Desire for predictive testing for Alzheimer's disease and impact on advance care planning: a cross-sectional study.",
+        "authorString": "Sheffrin M, Stijacic Cenzer I, Steinman MA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Sheffrin M",
+              "lastName": "Sheffrin",
+              "firstName": "Meera",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4003-3002"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Section of Geriatric Medicine, Division of General Internal Medicine Disciplines, Stanford University School of Medicine, Stanford, CA, USA. sheffrin@stanford.edu."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Stijacic Cenzer I",
+              "lastName": "Stijacic Cenzer",
+              "firstName": "Irena",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Geriatrics, University of California at San Francisco, San Francisco, CA, USA."
+                  },
+                  {
+                    "affiliation": "The San Francisco VA Medical Center, 4150 Clement St, Box 181-G, San Francisco, CA, 94121, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Steinman MA",
+              "lastName": "Steinman",
+              "firstName": "Michael A",
+              "initials": "MA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Geriatrics, University of California at San Francisco, San Francisco, CA, USA."
+                  },
+                  {
+                    "affiliation": "The San Francisco VA Medical Center, 4150 Clement St, Box 181-G, San Francisco, CA, 94121, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4003-3002"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "8",
+          "journalIssueId": 2497994,
+          "dateOfPublication": "2016 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Alzheimers Res Ther",
+            "title": "Alzheimer's research & therapy",
+            "essn": "1758-9193",
+            "issn": "1758-9193",
+            "nlmid": "101511643",
+            "isoabbreviation": "Alzheimers Res Ther"
+          },
+          "printPublicationDate": "2016-12-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "55",
+        "abstractText": "<h4>Background</h4>It is unknown whether older adults in the United States would be willing to take a test predictive of future Alzheimer's disease, or whether testing would change behavior. Using a nationally representative sample, we explored who would take a free and definitive test predictive of Alzheimer's disease, and examined how using such a test may impact advance care planning.<h4>Methods</h4>A cross-sectional study within the 2012 Health and Retirement Study of adults aged 65 years or older asked questions about a test predictive of Alzheimer's disease (N = 874). Subjects were asked whether they would want to take a hypothetical free and definitive test predictive of future Alzheimer's disease. Then, imagining they knew they would develop Alzheimer's disease, subjects rated the chance of completing advance care planning activities from 0 to 100. We classified a score > 50 as being likely to complete that activity. We evaluated characteristics associated with willingness to take a test for Alzheimer's disease, and how such a test would impact completing an advance directive and discussing health plans with loved ones.<h4>Results</h4>Overall, 75% (N = 648) of the sample would take a free and definitive test predictive of Alzheimer's disease. Older adults willing to take the test had similar race and educational levels to those who would not, but were more likely to be ≤75 years old (odds ratio 0.71 (95% CI 0.53-0.94)). Imagining they knew they would develop Alzheimer's, 81% would be likely to complete an advance directive, although only 15% had done so already.<h4>Conclusions</h4>In this nationally representative sample, 75% of older adults would take a free and definitive test predictive of Alzheimer's disease. Many participants expressed intent to increase activities of advance care planning with this knowledge. This confirms high public interest in predictive testing for Alzheimer's disease and suggests this may be an opportunity to engage patients in advance care planning discussions.",
+        "affiliation": "Section of Geriatric Medicine, Division of General Internal Medicine Disciplines, Stanford University School of Medicine, Stanford, CA, USA. sheffrin@stanford.edu.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Institute on Aging",
+              "grantId": "K24-AG049057",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIA NIH HHS",
+              "acronym": "AG",
+              "grantId": "P30 AG044281",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIA NIH HHS",
+              "acronym": "AG",
+              "grantId": "T32 AG000212",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIA NIH HHS",
+              "acronym": "AG",
+              "grantId": "K23 AG030999",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIA NIH HHS",
+              "acronym": "AG",
+              "grantId": "RC1 AG036377",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIA NIH HHS",
+              "acronym": "AG",
+              "grantId": "K24 AG049057",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute on Aging",
+              "grantId": "K23-AG030999",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute on Aging",
+              "grantId": "T32 AG000212-21",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Alzheimer Disease",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TH",
+                    "qualifierName": "therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cross-Sectional Studies"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Health Knowledge, Attitudes, Practice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged, 80 and over"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Advance Care Planning"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Patient Acceptance of Health Care"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Alzheimer’s disease",
+            "Advance Care Planning",
+            "Predictive Testing",
+            "Attitudes And Knowledge"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://alzres.biomedcentral.com/track/pdf/10.1186/s13195-016-0223-9"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1186/s13195-016-0223-9"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5153917"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5153917?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 23,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-10-13",
+        "dateOfCreation": "2016-12-14",
+        "dateOfRevision": "2022-03-18",
+        "electronicPublicationDate": "2016-12-13",
+        "firstPublicationDate": "2016-12-13",
+        "firstIndexDate": "2016-12-20",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22In+this+nationally+representative+sample+75+of+older+adults+would%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"In this nationally representative sample 75 of older adults would\""
+}

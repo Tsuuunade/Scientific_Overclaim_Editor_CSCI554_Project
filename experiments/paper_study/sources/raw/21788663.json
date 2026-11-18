@@ -1,0 +1,503 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:21788663 AND SRC:MED",
+    "internalQuery": "EXT_ID:21788663 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 2,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "21788663",
+        "source": "MED",
+        "pmid": "21788663",
+        "pmcid": "PMC3170530",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3170530"
+          ]
+        },
+        "doi": "10.1093/brain/awr170",
+        "title": "A randomized placebo-controlled trial of idebenone in Leber's hereditary optic neuropathy.",
+        "authorString": "Klopstock T, Yu-Wai-Man P, Dimitriadis K, Rouleau J, Heck S, Bailie M, Atawan A, Chattopadhyay S, Schubert M, Garip A, Kernt M, Petraki D, Rummey C, Leinonen M, Metz G, Griffiths PG, Meier T, Chinnery PF.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Klopstock T",
+              "lastName": "Klopstock",
+              "firstName": "Thomas",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Genetic Medicine, Newcastle University, Central Parkway, Newcastle upon Tyne, NE1 3BZ, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yu-Wai-Man P",
+              "lastName": "Yu-Wai-Man",
+              "firstName": "Patrick",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7847-9320"
+              }
+            },
+            {
+              "fullName": "Dimitriadis K",
+              "lastName": "Dimitriadis",
+              "firstName": "Konstantinos",
+              "initials": "K"
+            },
+            {
+              "fullName": "Rouleau J",
+              "lastName": "Rouleau",
+              "firstName": "Jacinthe",
+              "initials": "J"
+            },
+            {
+              "fullName": "Heck S",
+              "lastName": "Heck",
+              "firstName": "Suzette",
+              "initials": "S"
+            },
+            {
+              "fullName": "Bailie M",
+              "lastName": "Bailie",
+              "firstName": "Maura",
+              "initials": "M"
+            },
+            {
+              "fullName": "Atawan A",
+              "lastName": "Atawan",
+              "firstName": "Alaa",
+              "initials": "A"
+            },
+            {
+              "fullName": "Chattopadhyay S",
+              "lastName": "Chattopadhyay",
+              "firstName": "Sandip",
+              "initials": "S"
+            },
+            {
+              "fullName": "Schubert M",
+              "lastName": "Schubert",
+              "firstName": "Marion",
+              "initials": "M"
+            },
+            {
+              "fullName": "Garip A",
+              "lastName": "Garip",
+              "firstName": "Aylin",
+              "initials": "A"
+            },
+            {
+              "fullName": "Kernt M",
+              "lastName": "Kernt",
+              "firstName": "Marcus",
+              "initials": "M"
+            },
+            {
+              "fullName": "Petraki D",
+              "lastName": "Petraki",
+              "firstName": "Diana",
+              "initials": "D"
+            },
+            {
+              "fullName": "Rummey C",
+              "lastName": "Rummey",
+              "firstName": "Christian",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4911-911X"
+              }
+            },
+            {
+              "fullName": "Leinonen M",
+              "lastName": "Leinonen",
+              "firstName": "Mika",
+              "initials": "M"
+            },
+            {
+              "fullName": "Metz G",
+              "lastName": "Metz",
+              "firstName": "Günther",
+              "initials": "G"
+            },
+            {
+              "fullName": "Griffiths PG",
+              "lastName": "Griffiths",
+              "firstName": "Philip G",
+              "initials": "PG"
+            },
+            {
+              "fullName": "Meier T",
+              "lastName": "Meier",
+              "firstName": "Thomas",
+              "initials": "T"
+            },
+            {
+              "fullName": "Chinnery PF",
+              "lastName": "Chinnery",
+              "firstName": "Patrick F",
+              "initials": "PF",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7065-6617"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7847-9320"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7065-6617"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4911-911X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data",
+            "recommended_reviews",
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "issue": "Pt 9",
+          "volume": "134",
+          "journalIssueId": 1863544,
+          "dateOfPublication": "2011 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "Brain",
+            "title": "Brain : a journal of neurology",
+            "essn": "1460-2156",
+            "issn": "0006-8950",
+            "isoabbreviation": "Brain",
+            "nlmid": "0372537"
+          },
+          "printPublicationDate": "2011-09-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "2677-2686",
+        "abstractText": "Major advances in understanding the pathogenesis of inherited metabolic disease caused by mitochondrial DNA mutations have yet to translate into treatments of proven efficacy. Leber's hereditary optic neuropathy is the most common mitochondrial DNA disorder causing irreversible blindness in young adult life. Anecdotal reports support the use of idebenone in Leber's hereditary optic neuropathy, but this has not been evaluated in a randomized controlled trial. We conducted a 24-week multi-centre double-blind, randomized, placebo-controlled trial in 85 patients with Leber's hereditary optic neuropathy due to m.3460G>A, m.11778G>A, and m.14484T>C or mitochondrial DNA mutations. The active drug was idebenone 900 mg/day. The primary end-point was the best recovery in visual acuity. The main secondary end-point was the change in best visual acuity. Other secondary end-points were changes in visual acuity of the best eye at baseline and changes in visual acuity for both eyes in each patient. Colour-contrast sensitivity and retinal nerve fibre layer thickness were measured in subgroups. Idebenone was safe and well tolerated. The primary end-point did not reach statistical significance in the intention to treat population. However, post hoc interaction analysis showed a different response to idebenone in patients with discordant visual acuities at baseline; in these patients, all secondary end-points were significantly different between the idebenone and placebo groups. This first randomized controlled trial in the mitochondrial disorder, Leber's hereditary optic neuropathy, provides evidence that patients with discordant visual acuities are the most likely to benefit from idebenone treatment, which is safe and well tolerated.",
+        "affiliation": "Institute of Genetic Medicine, Newcastle University, Central Parkway, Newcastle upon Tyne, NE1 3BZ, UK.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "G0701386",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute for Health Research (NIHR)",
+              "grantId": "NF-SI-0509-10011",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Retina",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "UL",
+                    "qualifierName": "ultrastructure"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Optic Atrophy, Hereditary, Leber",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ubiquinone",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AA",
+                    "qualifierName": "analogs & derivatives"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA, Mitochondrial",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Placebos"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antioxidants",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prospective Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Double-Blind Method"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Contrast Sensitivity",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Visual Acuity",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mutation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Placebos",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antioxidants",
+              "registryNumber": "0"
+            },
+            {
+              "name": "DNA, Mitochondrial",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Ubiquinone",
+              "registryNumber": "1339-63-5"
+            },
+            {
+              "name": "idebenone",
+              "registryNumber": "HB6PN45W4J"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1093/brain/awr170"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3170530"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3170530?pdf=render"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "21810891",
+              "reference": "Brain. 2011 Sep;134(Pt 9):e188. doi: 10.1093/brain/awr180.",
+              "type": "Comment in",
+              "orderIn": 1
+            },
+            {
+              "source": "MED",
+              "id": "21859767",
+              "reference": "Brain. 2011 Sep;134(Pt 9):2447-50. doi: 10.1093/brain/awr192.",
+              "type": "Comment in",
+              "orderIn": 2
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 399,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "omim",
+            "nct"
+          ]
+        },
+        "dateOfCompletion": "2011-11-08",
+        "dateOfCreation": "2011-07-27",
+        "dateOfRevision": "2025-05-29",
+        "electronicPublicationDate": "2011-07-25",
+        "firstPublicationDate": "2011-07-25",
+        "firstIndexDate": "2011-07-28",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_source_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21788663+AND+SRC%3AMED&format=json&resultType=core&pageSize=2"
+}

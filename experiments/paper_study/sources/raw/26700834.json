@@ -1,0 +1,531 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:26700834 AND SRC:MED",
+    "internalQuery": "EXT_ID:26700834 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 2,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "26700834",
+        "source": "MED",
+        "pmid": "26700834",
+        "pmcid": "PMC4681843",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4681843"
+          ]
+        },
+        "doi": "10.1016/j.jacc.2015.09.099",
+        "title": "Complete Versus Lesion-Only Primary PCI: The Randomized Cardiovascular MR CvLPRIT Substudy.",
+        "authorString": "McCann GP, Khan JN, Greenwood JP, Nazir S, Dalby M, Curzen N, Hetherington S, Kelly DJ, Blackman DJ, Ring A, Ring A, Peebles C, Wong J, Sasikaran T, Flather M, Swanton H, Gershlick AH.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "McCann GP",
+              "lastName": "McCann",
+              "firstName": "Gerry P",
+              "initials": "GP",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5542-8448"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiovascular Sciences, University of Leicester and the National Institute of Health Research (NIHR) Leicester Cardiovascular Biomedical Research Unit, University Hospitals of Leicester National Health Service (NHS) Trust, Glenfield Hospital, Leicester, United Kingdom. Electronic address: gpm12@le.ac.uk."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Khan JN",
+              "lastName": "Khan",
+              "firstName": "Jamal N",
+              "initials": "JN",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3648-3548"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiovascular Sciences, University of Leicester and the National Institute of Health Research (NIHR) Leicester Cardiovascular Biomedical Research Unit, University Hospitals of Leicester National Health Service (NHS) Trust, Glenfield Hospital, Leicester, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Greenwood JP",
+              "lastName": "Greenwood",
+              "firstName": "John P",
+              "initials": "JP",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2861-0914"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Multidisciplinary Cardiovascular Research Centre & Division of Cardiovascular and Diabetes Research, Leeds Institute of Cardiovascular and Metabolic Medicine (LICAMM), University of Leeds, Leeds, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nazir S",
+              "lastName": "Nazir",
+              "firstName": "Sheraz",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiovascular Sciences, University of Leicester and the National Institute of Health Research (NIHR) Leicester Cardiovascular Biomedical Research Unit, University Hospitals of Leicester National Health Service (NHS) Trust, Glenfield Hospital, Leicester, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dalby M",
+              "lastName": "Dalby",
+              "firstName": "Miles",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0823-5093"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology, Royal Brompton and Harefield Foundation Trust, Harefield Hospital, Middlesex, United Kingdom, and the Cardiovascular Biomedical Research Unit of Royal Brompton and Harefield NHS Foundation Trust and Imperial College London, London, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Curzen N",
+              "lastName": "Curzen",
+              "firstName": "Nick",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9651-7829"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology and Radiology, University Hospital Southampton NHS Foundation Trust and University of Southampton, Southampton, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hetherington S",
+              "lastName": "Hetherington",
+              "firstName": "Simon",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology, Kettering General Hospital, Kettering, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kelly DJ",
+              "lastName": "Kelly",
+              "firstName": "Damian J",
+              "initials": "DJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology, Royal Derby Hospital, Derby, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Blackman DJ",
+              "lastName": "Blackman",
+              "firstName": "Daniel J",
+              "initials": "DJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Multidisciplinary Cardiovascular Research Centre & Division of Cardiovascular and Diabetes Research, Leeds Institute of Cardiovascular and Metabolic Medicine (LICAMM), University of Leeds, Leeds, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ring A",
+              "lastName": "Ring",
+              "firstName": "Arne",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3631-3562"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Leicester Clinical Trials Unit, University of Leicester, Leicester, United Kingdom; Department of Mathematical Statistics and Actuarial Science, University of the Free State, Bloemfontein, South Africa."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ring A",
+              "lastName": "Ring",
+              "firstName": "Arne",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4324-5820"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Leicester Clinical Trials Unit, University of Leicester, Leicester, United Kingdom; Department of Mathematical Statistics and Actuarial Science, University of the Free State, Bloemfontein, South Africa."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Peebles C",
+              "lastName": "Peebles",
+              "firstName": "Charles",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology and Radiology, University Hospital Southampton NHS Foundation Trust and University of Southampton, Southampton, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wong J",
+              "lastName": "Wong",
+              "firstName": "Joyce",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology, Royal Brompton and Harefield Foundation Trust, Harefield Hospital, Middlesex, United Kingdom, and the Cardiovascular Biomedical Research Unit of Royal Brompton and Harefield NHS Foundation Trust and Imperial College London, London, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sasikaran T",
+              "lastName": "Sasikaran",
+              "firstName": "Thiagarajah",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Trials & Evaluation Unit, Royal Brompton & Harefield NHS Foundation Trust and Imperial Clinical Trials Unit, Imperial College London, London, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Flather M",
+              "lastName": "Flather",
+              "firstName": "Marcus",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Trials Unit, Norfolk and Norwich University Hospitals NHS Foundation Trust and Norwich Medical School, University of East Anglia, Norwich, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Swanton H",
+              "lastName": "Swanton",
+              "firstName": "Howard",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiology, Heart Hospital, University College London Hospitals, London, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gershlick AH",
+              "lastName": "Gershlick",
+              "firstName": "Anthony H",
+              "initials": "AH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Cardiovascular Sciences, University of Leicester and the National Institute of Health Research (NIHR) Leicester Cardiovascular Biomedical Research Unit, University Hospitals of Leicester National Health Service (NHS) Trust, Glenfield Hospital, Leicester, United Kingdom."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9651-7829"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2861-0914"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3648-3548"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4324-5820"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5542-8448"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0823-5093"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3631-3562"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "24",
+          "volume": "66",
+          "journalIssueId": 2356476,
+          "dateOfPublication": "2015 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2015,
+          "journal": {
+            "medlineAbbreviation": "J Am Coll Cardiol",
+            "title": "Journal of the American College of Cardiology",
+            "essn": "1558-3597",
+            "issn": "0735-1097",
+            "nlmid": "8301365",
+            "isoabbreviation": "J Am Coll Cardiol"
+          },
+          "printPublicationDate": "2015-12-01"
+        },
+        "pubYear": "2015",
+        "pageInfo": "2713-2724",
+        "abstractText": "<h4>Background</h4>Complete revascularization may improve outcomes compared with an infarct-related artery (IRA)-only strategy in patients being treated with primary percutaneous coronary intervention (PPCI) who have multivessel disease presenting with ST-segment elevation myocardial infarction (STEMI). However, there is concern that non-IRA PCI may cause additional non-IRA myocardial infarction (MI).<h4>Objectives</h4>This study sought to determine whether in-hospital complete revascularization was associated with increased total infarct size compared with an IRA-only strategy.<h4>Methods</h4>This multicenter prospective, randomized, open-label, blinded endpoint clinical trial evaluated STEMI patients with multivessel disease having PPCI within 12 h of symptom onset. Patients were randomized to either IRA-only PCI or complete in-hospital revascularization. Contrast-enhanced cardiovascular magnetic resonance (CMR) was performed following PPCI (median day 3) and stress CMR at 9 months. The pre-specified primary endpoint was infarct size on pre-discharge CMR. The study had 80% power to detect a 4% difference in infarct size with 100 patients per group.<h4>Results</h4>Of the 296 patients in the main trial, 205 participated in the CMR substudy, and 203 patients (98 complete revascularization and 105 IRA-only) completed the pre-discharge CMR. The groups were well-matched. Total infarct size (median, interquartile range) was similar to IRA-only revascularization: 13.5% (6.2% to 21.9%) versus complete revascularization, 12.6% (7.2% to 22.6%) of left ventricular mass, p = 0.57 (95% confidence interval for difference in geometric means 0.82 to 1.41). The complete revascularization group had an increase in non-IRA MI on the pre-discharge CMR (22 of 98 vs. 11 of 105, p = 0.02). There was no difference in total infarct size or ischemic burden between treatment groups at follow-up CMR.<h4>Conclusions</h4>Multivessel PCI in the setting of STEMI leads to a small increase in CMR-detected non-IRA MI, but total infarct size was not significantly different from an IRA-only revascularization strategy. (Complete Versus Lesion-Only Primary PCI Pilot Study [CvLPRIT]; ISRCTN70913605).",
+        "affiliation": "Department of Cardiovascular Sciences, University of Leicester and the National Institute of Health Research (NIHR) Leicester Cardiovascular Biomedical Research Unit, University Hospitals of Leicester National Health Service (NHS) Trust, Glenfield Hospital, Leicester, United Kingdom. Electronic address: gpm12@le.ac.uk.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "MC_G1002675",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Myocardium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Myocardial Infarction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SU",
+                    "qualifierName": "surgery"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Magnetic Resonance Imaging, Cine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Coronary Angiography"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Electrocardiography"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prospective Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pilot Projects"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Percutaneous Coronary Intervention",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Stemi",
+            "Cmr",
+            "Multivessel Disease",
+            "Ppci",
+            "Complete Revascularization"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.jacc.2015.09.099"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4681843"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "26700835",
+              "reference": "J Am Coll Cardiol. 2015 Dec 22;66(24):2725-2727. doi: 10.1016/j.jacc.2015.10.039.",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 51,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2016-04-26",
+        "dateOfCreation": "2015-12-25",
+        "dateOfRevision": "2025-05-29",
+        "firstPublicationDate": "2015-12-01",
+        "firstIndexDate": "2015-12-25",
+        "fullTextReceivedDate": "2020-07-12",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_source_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A26700834+AND+SRC%3AMED&format=json&resultType=core&pageSize=2"
+}

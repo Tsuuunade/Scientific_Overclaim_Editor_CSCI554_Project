@@ -1,0 +1,389 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:28153977 AND SRC:MED",
+    "internalQuery": "EXT_ID:28153977 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 2,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "28153977",
+        "source": "MED",
+        "pmid": "28153977",
+        "pmcid": "PMC5415101",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5415101"
+          ]
+        },
+        "doi": "10.1136/bmj.j273",
+        "title": "Quality of care delivered by general internists in US hospitals who graduated from foreign versus US medical schools: observational study.",
+        "authorString": "Tsugawa Y, Jena AB, Orav EJ, Jha AK.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Tsugawa Y",
+              "lastName": "Tsugawa",
+              "firstName": "Yusuke",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1937-4833"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Health Policy and Management, Harvard T H Chan School of Public Health, Boston, MA, USA ytsugawa@hsph.harvard.edu."
+                  },
+                  {
+                    "affiliation": "Division of General Internal Medicine and Primary Care, Brigham and Women's Hospital, Boston, MA, USA."
+                  },
+                  {
+                    "affiliation": "Harvard Global Health Institute, Cambridge, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jena AB",
+              "lastName": "Jena",
+              "firstName": "Anupam B",
+              "initials": "AB",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Health Care Policy, Harvard Medical School, Boston, MA, USA."
+                  },
+                  {
+                    "affiliation": "Department of Medicine, Massachusetts General Hospital, Boston, MA, USA."
+                  },
+                  {
+                    "affiliation": "National Bureau of Economic Research, Cambridge, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Orav EJ",
+              "lastName": "Orav",
+              "firstName": "E John",
+              "initials": "EJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of General Internal Medicine and Primary Care, Brigham and Women's Hospital, Boston, MA, USA."
+                  },
+                  {
+                    "affiliation": "Department of Biostatistics, Harvard T H Chan School of Public Health, Boston, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jha AK",
+              "lastName": "Jha",
+              "firstName": "Ashish K",
+              "initials": "AK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Health Policy and Management, Harvard T H Chan School of Public Health, Boston, MA, USA."
+                  },
+                  {
+                    "affiliation": "Division of General Internal Medicine and Primary Care, Brigham and Women's Hospital, Boston, MA, USA."
+                  },
+                  {
+                    "affiliation": "Harvard Global Health Institute, Cambridge, MA, USA."
+                  },
+                  {
+                    "affiliation": "VA Boston Healthcare System, Boston, MA, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1937-4833"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "volume": "356",
+          "journalIssueId": 2520180,
+          "dateOfPublication": "2017 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "BMJ",
+            "title": "BMJ (Clinical research ed.)",
+            "essn": "1756-1833",
+            "issn": "0959-8138",
+            "isoabbreviation": "BMJ",
+            "nlmid": "8900488"
+          },
+          "printPublicationDate": "2017-02-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "j273",
+        "abstractText": "<h4>Objective</h4> To determine whether patient outcomes differ between general internists who graduated from a medical school outside the United States and those who graduated from a US medical school.<h4>Design</h4> Observational study.<h4>Setting</h4> Medicare, USA.<h4>Participants</h4> 20% national sample of data for Medicare fee-for-service beneficiaries aged 65 years or older admitted to hospital with a medical condition in 2011-14 and treated by international or US medical graduates who were general internists. The study sample for mortality analysis included 1 215 490 admissions to the hospital treated by 44 227 general internists.<h4>Main outcome measures</h4> Patients' 30 day mortality and readmission rates, and costs of care per hospital admission, with adjustment for patient and physician characteristics and hospital fixed effects (effectively comparing physicians within the same hospital). As a sensitivity analysis, we focused on physicians who specialize in the care of patients admitted to hospital (\"hospitalists\"), who typically work in shifts and whose patients are plausibly quasi-randomized based on the physicians' work schedules.<h4>Results</h4> Compared with patients treated by US graduates, patients treated by international graduates had slightly more chronic conditions. After adjustment for patient and physician characteristics and hospital fixed effects, patients treated by international graduates had lower mortality (adjusted mortality 11.2% v 11.6%; adjusted odds ratio 0.95, 95% confidence interval 0.93 to 0.96; P<0.001) and slightly higher costs of care per admission (adjusted costs $1145 (£950; €1080) v $1098; adjusted difference $47, 95% confidence interval $39 to $55, P<0.001). Readmission rates did not differ between the two types of graduates. Similar differences in patient outcomes were observed among hospitalists. Differences in patient mortality were not explained by differences in length of stay, spending level, or discharge location.<h4>Conclusions</h4> Data on older Medicare patients admitted to hospital in the US showed that patients treated by international graduates had lower mortality than patients cared for by US graduates.",
+        "affiliation": "Department of Health Policy and Management, Harvard T H Chan School of Public Health, Boston, MA, USA ytsugawa@hsph.harvard.edu.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "research-article",
+            "Journal Article",
+            "Observational Study"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIH HHS",
+              "acronym": "OD",
+              "grantId": "DP5 OD017897",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Patient Readmission",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hospital Mortality"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Hospitalists",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EC",
+                    "qualifierName": "economics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Internationality"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Schools, Medical",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged, 80 and over"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Foreign Medical Graduates"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inpatients",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hospitals",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Health Care Costs",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fee-for-Service Plans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Medicare",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Quality of Health Care",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EC",
+                    "qualifierName": "economics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "United States"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Outcome Assessment, Health Care"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1136/bmj.j273"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5415101"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 100,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-03-28",
+        "dateOfCreation": "2017-02-04",
+        "dateOfRevision": "2019-12-10",
+        "electronicPublicationDate": "2017-02-02",
+        "firstPublicationDate": "2017-02-02",
+        "firstIndexDate": "2017-02-04",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_source_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28153977+AND+SRC%3AMED&format=json&resultType=core&pageSize=2"
+}

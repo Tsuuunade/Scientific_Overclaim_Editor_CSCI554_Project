@@ -1,0 +1,458 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "ABSTRACT:\"Collectively, the results presented in this report show that exposure to even traces of salad leaf juice may contribute to the persistence of Salmonella on salad leaves as well as priming it for establishing an infection in the consumer.\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "27864173",
+        "source": "MED",
+        "pmid": "27864173",
+        "pmcid": "PMC5165107",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5165107"
+          ]
+        },
+        "doi": "10.1128/aem.02416-16",
+        "title": "Salad Leaf Juices Enhance Salmonella Growth, Colonization of Fresh Produce, and Virulence.",
+        "authorString": "Koukkidis G, Haigh R, Allcock N, Jordan S, Freestone P.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Koukkidis G",
+              "lastName": "Koukkidis",
+              "firstName": "Giannis",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Infection, Immunity and Inflammation, University of Leicester, Leicester, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Haigh R",
+              "lastName": "Haigh",
+              "firstName": "Richard",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8597-9980"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Genetics, University of Leicester, Leicester, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Allcock N",
+              "lastName": "Allcock",
+              "firstName": "Natalie",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0234-1450"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Core Biotechnology Services, University of Leicester, Leicester, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jordan S",
+              "lastName": "Jordan",
+              "firstName": "Suzanne",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Campden BRI, Chipping Campden, Gloucestershire, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Freestone P",
+              "lastName": "Freestone",
+              "firstName": "Primrose",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Infection, Immunity and Inflammation, University of Leicester, Leicester, United Kingdom ppef1@le.ac.uk."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8597-9980"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0234-1450"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "plain_english",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "83",
+          "journalIssueId": 2504988,
+          "dateOfPublication": "2017 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "Appl Environ Microbiol",
+            "title": "Applied and environmental microbiology",
+            "essn": "1098-5336",
+            "issn": "0099-2240",
+            "isoabbreviation": "Appl Environ Microbiol",
+            "nlmid": "7605801"
+          },
+          "printPublicationDate": "2017-01-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "e02416-16",
+        "abstractText": "We show in this report that traces of juices released from salad leaves as they become damaged can significantly enhance colonization of salad leaves by Salmonella enterica Salad juices in water increased Salmonella growth by 110% over the level seen with the unsupplemented control and in host-like serum-based media by more than 2,400-fold over control levels. In serum-based media, salad juices induced growth of Salmonella via provision of Fe from transferrin, and siderophore production was found to be integral to the growth induction process. Other aspects relevant to salad leaf colonization and retention were enhanced, such as motility and biofilm formation, which were increased over control levels by >220% and 250%, respectively; direct attachment to salad leaves increased by >350% when a salad leaf juice was present. In terms of growth and biofilm formation, the endogenous salad leaf microbiota was largely unresponsive to leaf juice, suggesting that Salmonella gains a marked growth advantage from fluids released by salad leaf damage. Salad leaf juices also enhanced pathogen attachment to the salad bag plastic. Over 5 days of refrigeration (a typical storage time for bagged salad leaves), even traces of juice within the salad bag fluids increased Salmonella growth in water by up to 280-fold over control cultures, as well as enhancing salad bag colonization, which could be an unappreciated factor in retention of pathogens in fresh produce. Collectively, the study data show that exposure to salad leaf juice may contribute to the persistence of Salmonella on salad leaves and strongly emphasize the importance of ensuring the microbiological safety of fresh produce.<h4>Importance</h4>Salad leaves are an important part of a healthy diet but have been associated in recent years with a growing risk of food poisoning from bacterial pathogens such as Salmonella enterica Although this is considered a significant public health problem, very little is known about the behavior of Salmonella in the actual salad bag. We show that juices released from the cut ends of the salad leaves enabled the Salmonella cells to grow in water, even when it was refrigerated. Salad juice exposure also helped the Salmonella cells to attach to the salad leaves so strongly that washing could not remove them. Collectively, the results presented in this report show that exposure to even traces of salad leaf juice may contribute to the persistence of Salmonella on salad leaves as well as priming it for establishing an infection in the consumer.",
+        "affiliation": "Department of Infection, Immunity and Inflammation, University of Leicester, Leicester, United Kingdom.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "RCUK | Biotechnology and Biological Sciences Research Council",
+              "grantId": "BB/L016958/1",
+              "orderIn": 0
+            },
+            {
+              "agency": "Biotechnology and Biological Sciences Research Council",
+              "acronym": "BB_",
+              "grantId": "1490815",
+              "orderIn": 0
+            },
+            {
+              "agency": "Biotechnology and Biological Sciences Research Council",
+              "grantId": "BB/L016958/1",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biofilms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GD",
+                    "qualifierName": "growth & development"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Salmonella enterica",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GD",
+                    "qualifierName": "growth & development"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PY",
+                    "qualifierName": "pathogenicity"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Beta vulgaris",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Spinacia oleracea",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Plant Leaves",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transferrin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Siderophores",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BI",
+                    "qualifierName": "biosynthesis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Culture Media",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Colony Count, Microbial"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Food Microbiology"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bacterial Adhesion",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Virulence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lactuca",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Biofilm",
+            "Salmonella",
+            "motility",
+            "Fresh Produce",
+            "Salad Leaf Colonization"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Culture Media",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Siderophores",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Transferrin",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1128/AEM.02416-16"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5165107"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5165107?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 26,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2017-11-02",
+        "dateOfCreation": "2016-11-20",
+        "dateOfRevision": "2024-01-09",
+        "electronicPublicationDate": "2016-12-15",
+        "firstPublicationDate": "2016-12-15",
+        "firstIndexDate": "2016-11-20",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22Collectively%2C+the+results+presented+in+this+report+show+that+exposure+to+even+traces+of+salad+leaf+juice+may+contribute+to+the+persistence+of+Salmonella+on+salad+leaves+as+well+as+priming+it+for+establishing+an+infection+in+the+consumer.%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"Collectively, the results presented in this report show that exposure to even traces of salad leaf juice may contribute to the persistence of Salmonella on salad leaves as well as priming it for establishing an infection in the consumer.\""
+}

@@ -1,0 +1,23 @@
+{
+  "protocol": "development_feasibility_v2",
+  "created_utc": "2026-11-17T21:16:34.319703+00:00",
+  "inputs_sha256": "4fa6a5cf56d1aa6b3ce33e85d8890b672e36babdefe6f16b71f5e8fdebffb63d",
+  "model": "Qwen/Qwen2.5-7B-Instruct-GGUF",
+  "quantization": "Q4_K_M",
+  "fine_tuned": false,
+  "max_new_tokens": 512,
+  "temperature": 0,
+  "seed": 42,
+  "schema_sha256": "2f4275a55c03e1f14c7bac1ebee3d9683a79eb5769da74a8bb0fb4bf28185f87",
+  "revision_reason": "first A-C run found Markdown fences, invalid generated offsets, and changes to editorial attribution",
+  "no_tuning_on_prospective_cases": true,
+  "human_semantic_ratings_complete": false,
+  "changes": [
+    "common scientific-content policy in B and structured prompts",
+    "source evidence IDs copied by program",
+    "offsets derived from exact unique spans",
+    "unchanged returns original bytes",
+    "constrained JSON for structured methods"
+  ],
+  "interpretation": "complete workflow revision; not an isolated prompt ablation; all eight inputs are development exposed"
+}

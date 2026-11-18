@@ -1,0 +1,491 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "ABSTRACT:\"We provide strong support for neurobiological accounts positing that 5-HT significantly influences PFC – amygdala circuits implicated in aggression and other affective behaviors.\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "21920502",
+        "source": "MED",
+        "pmid": "21920502",
+        "pmcid": "PMC3368260",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3368260"
+          ]
+        },
+        "doi": "10.1016/j.biopsych.2011.07.033",
+        "title": "Effects of acute tryptophan depletion on prefrontal-amygdala connectivity while viewing facial signals of aggression.",
+        "authorString": "Passamonti L, Crockett MJ, Apergis-Schoute AM, Clark L, Rowe JB, Calder AJ, Robbins TW.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Passamonti L",
+              "lastName": "Passamonti",
+              "firstName": "Luca",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7937-0615"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Unità di Ricerca Neuroimmagini, Consiglio Nazionale delle Ricerche, Catanzaro, Italy. l.passamonti@isn.cnr.it"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Crockett MJ",
+              "lastName": "Crockett",
+              "firstName": "Molly J",
+              "initials": "MJ"
+            },
+            {
+              "fullName": "Apergis-Schoute AM",
+              "lastName": "Apergis-Schoute",
+              "firstName": "Annemieke M",
+              "initials": "AM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1539-3655"
+              }
+            },
+            {
+              "fullName": "Clark L",
+              "lastName": "Clark",
+              "firstName": "Luke",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1103-2422"
+              }
+            },
+            {
+              "fullName": "Rowe JB",
+              "lastName": "Rowe",
+              "firstName": "James B",
+              "initials": "JB",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7216-8679"
+              }
+            },
+            {
+              "fullName": "Calder AJ",
+              "lastName": "Calder",
+              "firstName": "Andrew J",
+              "initials": "AJ"
+            },
+            {
+              "fullName": "Robbins TW",
+              "lastName": "Robbins",
+              "firstName": "Trevor W",
+              "initials": "TW",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0642-5977"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7216-8679"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7937-0615"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0642-5977"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1103-2422"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1539-3655"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "71",
+          "journalIssueId": 1885355,
+          "dateOfPublication": "2012 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2012,
+          "journal": {
+            "medlineAbbreviation": "Biol Psychiatry",
+            "title": "Biological psychiatry",
+            "essn": "1873-2402",
+            "issn": "0006-3223",
+            "nlmid": "0213264",
+            "isoabbreviation": "Biol Psychiatry"
+          },
+          "printPublicationDate": "2012-01-01"
+        },
+        "pubYear": "2012",
+        "pageInfo": "36-43",
+        "abstractText": "<h4>Background</h4>Reduced levels of serotonin (5-HT) within prefrontal cortex (PFC)-amygdala circuits have long been implicated in impulsive aggression. However, whether lowering 5-HT alters the dynamic interplay between the PFC and the amygdala has not been directly tested in humans. It is known that manipulating 5-HT via acute tryptophan depletion (ATD) causes variable effects on brain responses to a variety of emotional stimuli, but it remains unclear whether ATD affects functional connectivity in neural networks involved in processing social signals of aggression (e.g., angry faces).<h4>Methods</h4>Thirty healthy individuals were enrolled in a randomized, double-blind, placebo-controlled ATD study. On each treatment, brain responses to angry, sad, and neutral faces were measured with functional magnetic resonance imaging. Two methods (psycho-physiological-interaction in a general linear model and dynamic causal modeling) were used to assess the impact of ATD on the functional connectivity between PFC and amygdala.<h4>Results</h4>Data from 19 subjects were available for the final analyses. A whole-brain psycho-physiological-interaction in a general linear model showed that ATD significantly modulated the connectivity between the amygdala and two PFC regions (ventral anterior cingulate cortex and ventrolateral PFC) when processing angry vs. neutral and angry vs. sad but not sad vs. neutral faces. Dynamic causal modeling corroborated and extended these findings by showing that 5-HT depletion reduced the influence of processing angry vs. neutral faces on circuits within PFC and on PFC-amygdala pathways.<h4>Conclusions</h4>We provide strong support for neurobiological accounts positing that 5-HT significantly influences PFC-amygdala circuits implicated in aggression and other affective behaviors.",
+        "affiliation": "Unità di Ricerca Neuroimmagini, Consiglio Nazionale delle Ricerche, Catanzaro, Italy. l.passamonti@isn.cnr.it",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Randomized Controlled Trial",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Wellcome Trust",
+              "acronym": "WT_",
+              "grantId": "088324",
+              "orderIn": 0
+            },
+            {
+              "agency": "Wellcome Trust",
+              "acronym": "WT_",
+              "grantId": "WT 088324",
+              "orderIn": 0
+            },
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "G1000183",
+              "orderIn": 0
+            },
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "MC_US_A060_0017",
+              "orderIn": 0
+            },
+            {
+              "agency": "Lilly",
+              "orderIn": 0
+            },
+            {
+              "agency": "Lundbeck",
+              "orderIn": 0
+            },
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "G0001354",
+              "orderIn": 0
+            },
+            {
+              "agency": "James S. McDonnell Foundation 21st Century Collaborative Award/Bridging Brain, Mind and Behavior",
+              "grantId": "22002015501",
+              "orderIn": 0
+            },
+            {
+              "agency": "J. S. McDonnell Foundation Network",
+              "orderIn": 0
+            },
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "MC_U105597119",
+              "orderIn": 0
+            },
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "G1000183B",
+              "orderIn": 0
+            },
+            {
+              "agency": "GlaxoSmithKline",
+              "orderIn": 0
+            },
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "G0001354B",
+              "orderIn": 0
+            },
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "MC_U105579214",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Amygdala",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BS",
+                    "qualifierName": "blood supply"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prefrontal Cortex",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BS",
+                    "qualifierName": "blood supply"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxygen",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Serotonin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tryptophan",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DF",
+                    "qualifierName": "deficiency"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Amino Acids, Neutral",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Magnetic Resonance Imaging"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Facial Expression"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Brain Mapping"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Analysis of Variance"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Linear Models"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Double-Blind Method"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Photic Stimulation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Anger",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Psychiatric Status Rating Scales"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Time Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Image Processing, Computer-Assisted"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Surveys and Questionnaires"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Amino Acids, Neutral",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Serotonin",
+              "registryNumber": "333DO1RDJY"
+            },
+            {
+              "name": "Tryptophan",
+              "registryNumber": "8DUH1N11BX"
+            },
+            {
+              "name": "Oxygen",
+              "registryNumber": "S88TT14065"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.biopsych.2011.07.033"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3368260"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 105,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2012-03-30",
+        "dateOfCreation": "2011-09-17",
+        "dateOfRevision": "2025-05-29",
+        "electronicPublicationDate": "2011-09-13",
+        "firstPublicationDate": "2011-09-13",
+        "firstIndexDate": "2011-09-17",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22We+provide+strong+support+for+neurobiological+accounts+positing+that+5-HT+significantly+influences+PFC+%E2%80%93+amygdala+circuits+implicated+in+aggression+and+other+affective+behaviors.%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"We provide strong support for neurobiological accounts positing that 5-HT significantly influences PFC – amygdala circuits implicated in aggression and other affective behaviors.\""
+}

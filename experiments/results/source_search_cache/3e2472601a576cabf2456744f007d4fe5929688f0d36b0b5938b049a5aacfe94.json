@@ -1,0 +1,732 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "ABSTRACT:\"ONO/GS-4059 has significant activity in relapsed/refractory B-cell malignancies without major drug-related toxicity.\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "26542378",
+        "source": "MED",
+        "pmid": "26542378",
+        "pmcid": "PMC4731845",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4731845"
+          ]
+        },
+        "doi": "10.1182/blood-2015-08-664086",
+        "title": "A phase 1 clinical trial of the selective BTK inhibitor ONO/GS-4059 in relapsed and refractory mature B-cell malignancies.",
+        "authorString": "Walter HS, Rule SA, Dyer MJ, Karlin L, Jones C, Cazin B, Quittet P, Shah N, Hutchinson CV, Honda H, Duffy K, Birkett J, Jamieson V, Courtenay-Luck N, Yoshizawa T, Sharpe J, Ohno T, Abe S, Nishimura A, Cartron G, Morschhauser F, Fegan C, Salles G.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Walter HS",
+              "lastName": "Walter",
+              "firstName": "Harriet S",
+              "initials": "HS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2618-711X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Ernest and Helen Scott Haematological Research Institute, University of Leicester, Leicester, United Kingdom;"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rule SA",
+              "lastName": "Rule",
+              "firstName": "Simon A",
+              "initials": "SA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Haematology, Plymouth Hospitals NHS Trust, Plymouth, United Kingdom;"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dyer MJ",
+              "lastName": "Dyer",
+              "firstName": "Martin J S",
+              "initials": "MJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5033-2236"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Ernest and Helen Scott Haematological Research Institute, University of Leicester, Leicester, United Kingdom;"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Karlin L",
+              "lastName": "Karlin",
+              "firstName": "Lionel",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hospices Civils de Lyon, Centre Hospitalier Lyon Sud, Service d'Hématologie, Pierre-Bénite, Université Claude Bernard Lyon 1, Lyon, France;"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jones C",
+              "lastName": "Jones",
+              "firstName": "Ceri",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cardiff CLL Research Group, School of Medicine, Heath Park, Cardiff, Wales, United Kingdom;"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cazin B",
+              "lastName": "Cazin",
+              "firstName": "Bruno",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Hematology, Centre Hospitalier Régional Universitaire (CHRU) de Lille, and Unité Groupe de Recherche sur les Formes Injectables et les Technologies Associées (GRITA), Université de Lille 2, Lille, France;"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Quittet P",
+              "lastName": "Quittet",
+              "firstName": "Philippe",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Hematology and Unité Mixte de Recherche (UMR)-Centre National de la Recherche Scientifique (CNRS) 5235, CHRU, Montpellier, France;"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shah N",
+              "lastName": "Shah",
+              "firstName": "Nimish",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Haematology, Plymouth Hospitals NHS Trust, Plymouth, United Kingdom;"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hutchinson CV",
+              "lastName": "Hutchinson",
+              "firstName": "Claire V",
+              "initials": "CV",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2314-6558"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Ernest and Helen Scott Haematological Research Institute, University of Leicester, Leicester, United Kingdom; Department of Haematology, Plymouth Hospitals NHS Trust, Plymouth, United Kingdom;"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Honda H",
+              "lastName": "Honda",
+              "firstName": "Hideyuki",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ONO Pharmaceuticals Co Ltd, Osaka, Japan; and."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Duffy K",
+              "lastName": "Duffy",
+              "firstName": "Kevin",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ONO Pharma UK Ltd, London, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Birkett J",
+              "lastName": "Birkett",
+              "firstName": "Joseph",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ONO Pharma UK Ltd, London, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jamieson V",
+              "lastName": "Jamieson",
+              "firstName": "Virginia",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ONO Pharma UK Ltd, London, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Courtenay-Luck N",
+              "lastName": "Courtenay-Luck",
+              "firstName": "Nigel",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ONO Pharma UK Ltd, London, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yoshizawa T",
+              "lastName": "Yoshizawa",
+              "firstName": "Toshio",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ONO Pharmaceuticals Co Ltd, Osaka, Japan; and."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sharpe J",
+              "lastName": "Sharpe",
+              "firstName": "John",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ONO Pharma UK Ltd, London, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ohno T",
+              "lastName": "Ohno",
+              "firstName": "Tomoya",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ONO Pharmaceuticals Co Ltd, Osaka, Japan; and."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abe S",
+              "lastName": "Abe",
+              "firstName": "Shinichiro",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ONO Pharma UK Ltd, London, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nishimura A",
+              "lastName": "Nishimura",
+              "firstName": "Akihisa",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ONO Pharmaceuticals Co Ltd, Osaka, Japan; and."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cartron G",
+              "lastName": "Cartron",
+              "firstName": "Guillaume",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0659-9635"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Hematology and Unité Mixte de Recherche (UMR)-Centre National de la Recherche Scientifique (CNRS) 5235, CHRU, Montpellier, France;"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Morschhauser F",
+              "lastName": "Morschhauser",
+              "firstName": "Franck",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Clinical Hematology, Centre Hospitalier Régional Universitaire (CHRU) de Lille, and Unité Groupe de Recherche sur les Formes Injectables et les Technologies Associées (GRITA), Université de Lille 2, Lille, France;"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fegan C",
+              "lastName": "Fegan",
+              "firstName": "Christopher",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cardiff CLL Research Group, School of Medicine, Heath Park, Cardiff, Wales, United Kingdom;"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Salles G",
+              "lastName": "Salles",
+              "firstName": "Gilles",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9541-8666"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hospices Civils de Lyon, Centre Hospitalier Lyon Sud, Service d'Hématologie, Pierre-Bénite, Université Claude Bernard Lyon 1, Lyon, France;"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5033-2236"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9541-8666"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0659-9635"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2314-6558"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2618-711X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "127",
+          "journalIssueId": 2368253,
+          "dateOfPublication": "2016 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Blood",
+            "title": "Blood",
+            "essn": "1528-0020",
+            "issn": "0006-4971",
+            "isoabbreviation": "Blood",
+            "nlmid": "7603509"
+          },
+          "printPublicationDate": "2016-01-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "411-419",
+        "abstractText": "We report the results of a multicenter phase 1 dose-escalation study of the selective Bruton tyrosine kinase (BTK) inhibitor ONO/GS-4059 in 90 patients with relapsed/refractory B-cell malignancies. There were 9 dose-escalation cohorts ranging from 20 mg to 600 mg once daily with twice-daily regimens of 240 mg and 300 mg. Twenty-four of 25 evaluable chronic lymphocytic leukemia (CLL) patients (96%) responded to ONO/GS-4059, with a median treatment duration of 80 weeks; 21 CLL patients remain on treatment. Lymph node responses were rapid and associated with a concurrent lymphocytosis. Eleven of 12 evaluable patients with mantle cell lymphoma (92%) responded (median treatment duration, 40 weeks). Eleven of 31 non-germinal center B-cell diffuse large B-cell lymphoma patients (35%) responded but median treatment duration was 12 weeks due to development of progressive disease. ONO/GS-4059 was very well tolerated with 75% of adverse events (AEs) being Common Toxicity Criteria for Adverse Events version 4.0 grade 1 or grade 2. Grade 3/4 AEs were mainly hematologic and recovered spontaneously during therapy. One CLL patient experienced a grade 3 treatment-related bleeding event (spontaneous muscle hematoma) but no clinically significant diarrhea, cardiac dysrhythmias, or arthralgia were observed. No maximal tolerated dose (MTD) was reached in the CLL cohort. In the non-Hodgkin lymphoma cohort, 4 patients developed a dose-limiting toxicity, yielding an MTD of 480 mg once daily. ONO/GS-4059 has significant activity in relapsed/refractory B-cell malignancies without major drug-related toxicity. The selectivity of ONO/GS-4059 should confer advantages in combination therapies. This trial was registered at www.clinicaltrials.gov as #NCT01659255.",
+        "affiliation": "Ernest and Helen Scott Haematological Research Institute, University of Leicester, Leicester, United Kingdom;",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Multicenter Study",
+            "Clinical Trial, Phase I",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Cancer Research UK",
+              "grantId": "C325/A15575",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "B-Lymphocytes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lymphoma, Mantle-Cell",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neoplasm Recurrence, Local",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Imidazoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pyrimidines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein Kinase Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cohort Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged, 80 and over"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Protein-Tyrosine Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Leukemia, Lymphocytic, Chronic, B-Cell",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lymphoma, Large B-Cell, Diffuse",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Agammaglobulinaemia Tyrosine Kinase"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Pyrimidines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Imidazoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Protein Kinase Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Protein-Tyrosine Kinases",
+              "registryNumber": "EC 2.7.10.1"
+            },
+            {
+              "name": "Agammaglobulinaemia Tyrosine Kinase",
+              "registryNumber": "EC 2.7.10.2"
+            },
+            {
+              "name": "BTK protein, human",
+              "registryNumber": "EC 2.7.10.2"
+            },
+            {
+              "name": "tirabrutinib",
+              "registryNumber": "LXG44NDL2T"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1182/blood-2015-08-664086"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4731845"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1182/blood-2015-08-664086"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 230,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct"
+          ]
+        },
+        "dateOfCompletion": "2016-06-14",
+        "dateOfCreation": "2015-11-07",
+        "dateOfRevision": "2021-02-02",
+        "electronicPublicationDate": "2015-11-05",
+        "firstPublicationDate": "2015-11-05",
+        "firstIndexDate": "2015-11-07",
+        "fullTextReceivedDate": "2020-07-12",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22ONO%2FGS-4059+has+significant+activity+in+relapsed%2Frefractory+B-cell+malignancies+without+major+drug-related+toxicity.%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"ONO/GS-4059 has significant activity in relapsed/refractory B-cell malignancies without major drug-related toxicity.\""
+}

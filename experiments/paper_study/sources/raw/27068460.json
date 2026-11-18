@@ -1,0 +1,626 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:27068460 AND SRC:MED",
+    "internalQuery": "EXT_ID:27068460 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 2,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "27068460",
+        "source": "MED",
+        "pmid": "27068460",
+        "pmcid": "PMC4850359",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4850359"
+          ]
+        },
+        "doi": "10.1016/j.celrep.2016.03.041",
+        "title": "Lithium Promotes Longevity through GSK3/NRF2-Dependent Hormesis.",
+        "authorString": "Castillo-Quan JI, Li L, Kinghorn KJ, Ivanov DK, Tain LS, Slack C, Kerr F, Nespital T, Thornton J, Hardy J, Bjedov I, Partridge L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Castillo-Quan JI",
+              "lastName": "Castillo-Quan",
+              "firstName": "Jorge Iván",
+              "initials": "JI",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6324-2854"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Healthy Ageing and Department of Genetics, Evolution and Environment, University College London, Darwin Building, Gower Street, London WC1E 6BT, UK; Max Planck Institute for Biology of Ageing, Joseph-Stelzmann Strasse 9-b, 50931 Köln, Germany; Department of Molecular Neuroscience, Institute of Neurology, University College London, Queen Square, London WC1N 3BG, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li L",
+              "lastName": "Li",
+              "firstName": "Li",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Healthy Ageing and Department of Genetics, Evolution and Environment, University College London, Darwin Building, Gower Street, London WC1E 6BT, UK; Department of Molecular Neuroscience, Institute of Neurology, University College London, Queen Square, London WC1N 3BG, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kinghorn KJ",
+              "lastName": "Kinghorn",
+              "firstName": "Kerri J",
+              "initials": "KJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2048-4332"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Healthy Ageing and Department of Genetics, Evolution and Environment, University College London, Darwin Building, Gower Street, London WC1E 6BT, UK; Department of Molecular Neuroscience, Institute of Neurology, University College London, Queen Square, London WC1N 3BG, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ivanov DK",
+              "lastName": "Ivanov",
+              "firstName": "Dobril K",
+              "initials": "DK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6271-6301"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.",
+                    "affiliationOrgId": "ror.org/02catss52"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tain LS",
+              "lastName": "Tain",
+              "firstName": "Luke S",
+              "initials": "LS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5845-7383"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Max Planck Institute for Biology of Ageing, Joseph-Stelzmann Strasse 9-b, 50931 Köln, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Slack C",
+              "lastName": "Slack",
+              "firstName": "Cathy",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7949-4079"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Healthy Ageing and Department of Genetics, Evolution and Environment, University College London, Darwin Building, Gower Street, London WC1E 6BT, UK; Max Planck Institute for Biology of Ageing, Joseph-Stelzmann Strasse 9-b, 50931 Köln, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kerr F",
+              "lastName": "Kerr",
+              "firstName": "Fiona",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3097-1951"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Healthy Ageing and Department of Genetics, Evolution and Environment, University College London, Darwin Building, Gower Street, London WC1E 6BT, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nespital T",
+              "lastName": "Nespital",
+              "firstName": "Tobias",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Max Planck Institute for Biology of Ageing, Joseph-Stelzmann Strasse 9-b, 50931 Köln, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Thornton J",
+              "lastName": "Thornton",
+              "firstName": "Janet",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.",
+                    "affiliationOrgId": "ror.org/02catss52"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hardy J",
+              "lastName": "Hardy",
+              "firstName": "John",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3122-0423"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Molecular Neuroscience, Institute of Neurology, University College London, Queen Square, London WC1N 3BG, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bjedov I",
+              "lastName": "Bjedov",
+              "firstName": "Ivana",
+              "initials": "I",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5894-6016"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Healthy Ageing and Department of Genetics, Evolution and Environment, University College London, Darwin Building, Gower Street, London WC1E 6BT, UK; UCL Cancer Institute, Paul O'Gorman Building, 72 Huntley Street, London WC1E 6BT, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Partridge L",
+              "lastName": "Partridge",
+              "firstName": "Linda",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9615-0094"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Healthy Ageing and Department of Genetics, Evolution and Environment, University College London, Darwin Building, Gower Street, London WC1E 6BT, UK; Max Planck Institute for Biology of Ageing, Joseph-Stelzmann Strasse 9-b, 50931 Köln, Germany. Electronic address: l.partridge@ucl.ac.uk."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5894-6016"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6271-6301"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9615-0094"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3122-0423"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5845-7383"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6324-2854"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7949-4079"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2048-4332"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3097-1951"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "15",
+          "journalIssueId": 2400182,
+          "dateOfPublication": "2016 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Cell Rep",
+            "title": "Cell reports",
+            "essn": "2211-1247",
+            "issn": "2211-1247",
+            "nlmid": "101573691",
+            "isoabbreviation": "Cell Rep"
+          },
+          "printPublicationDate": "2016-04-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "638-650",
+        "abstractText": "The quest to extend healthspan via pharmacological means is becoming increasingly urgent, both from a health and economic perspective. Here we show that lithium, a drug approved for human use, promotes longevity and healthspan. We demonstrate that lithium extends lifespan in female and male Drosophila, when administered throughout adulthood or only later in life. The life-extending mechanism involves the inhibition of glycogen synthase kinase-3 (GSK-3) and activation of the transcription factor nuclear factor erythroid 2-related factor (NRF-2). Combining genetic loss of the NRF-2 repressor Kelch-like ECH-associated protein 1 (Keap1) with lithium treatment revealed that high levels of NRF-2 activation conferred stress resistance, while low levels additionally promoted longevity. The discovery of GSK-3 as a therapeutic target for aging will likely lead to more effective treatments that can modulate mammalian aging and further improve health in later life.",
+        "affiliation": "Institute of Healthy Ageing and Department of Genetics, Evolution and Environment, University College London, Darwin Building, Gower Street, London WC1E 6BT, UK; Max Planck Institute for Biology of Ageing, Joseph-Stelzmann Strasse 9-b, 50931 Köln, Germany; Department of Molecular Neuroscience, Institute of Neurology, University College London, Queen Square, London WC1N 3BG, UK.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Wellcome Trust",
+              "acronym": "WT",
+              "grantId": "098565/Z/12/Z",
+              "orderIn": 0
+            },
+            {
+              "agency": "Parkinson's UK",
+              "acronym": "PUK_",
+              "grantId": "H-1105",
+              "orderIn": 0
+            },
+            {
+              "agency": "Wellcome Trust",
+              "acronym": "WT_",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drosophila melanogaster",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lithium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Glycogen Synthase Kinase 3",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dietary Carbohydrates"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drosophila Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xenobiotics",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caloric Restriction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Survival Analysis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transcription, Genetic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Longevity",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Models, Biological"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Autophagy",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lipid Metabolism",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "NF-E2-Related Factor 2",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Stress, Physiological",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hormesis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Aging",
+            "Triglycerides",
+            "GSK-3",
+            "Dietary Restriction",
+            "Keap1",
+            "Nrf-2",
+            "Xenobiotic Stress"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "NF-E2-related factor 2",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Dietary Carbohydrates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Drosophila Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Xenobiotics",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Glycogen Synthase Kinase 3",
+              "registryNumber": "EC 2.7.11.26"
+            },
+            {
+              "name": "Lithium",
+              "registryNumber": "9FN79X2M3F"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.celrep.2016.03.041"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4850359"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 160,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "ARXPR"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-01-10",
+        "dateOfCreation": "2016-04-13",
+        "dateOfRevision": "2025-05-30",
+        "electronicPublicationDate": "2016-04-07",
+        "firstPublicationDate": "2016-04-07",
+        "firstIndexDate": "2016-04-22",
+        "fullTextReceivedDate": "2020-07-10",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_source_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27068460+AND+SRC%3AMED&format=json&resultType=core&pageSize=2"
+}

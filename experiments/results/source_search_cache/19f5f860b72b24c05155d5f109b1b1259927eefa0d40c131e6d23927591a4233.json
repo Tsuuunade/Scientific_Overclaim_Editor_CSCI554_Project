@@ -1,0 +1,449 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "ABSTRACT:\"Critically, we find that treatment with a chemical TDO inhibitor is robustly protective in these models.\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "27114543",
+        "source": "MED",
+        "pmid": "27114543",
+        "pmcid": "PMC4868470",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC4868470"
+          ]
+        },
+        "doi": "10.1073/pnas.1604453113",
+        "title": "Tryptophan-2,3-dioxygenase (TDO) inhibition ameliorates neurodegeneration by modulation of kynurenine pathway metabolites.",
+        "authorString": "Breda C, Sathyasaikumar KV, Sograte Idrissi S, Notarangelo FM, Estranero JG, Moore GG, Green EW, Kyriacou CP, Schwarcz R, Giorgini F.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Breda C",
+              "lastName": "Breda",
+              "firstName": "Carlo",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6365-9828"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Genetics, University of Leicester, Leicester LE1 7RH, United Kingdom;"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sathyasaikumar KV",
+              "lastName": "Sathyasaikumar",
+              "firstName": "Korrapati V",
+              "initials": "KV",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Maryland Psychiatric Research Center, Department of Psychiatry, University of Maryland School of Medicine, Baltimore, MD 21228."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sograte Idrissi S",
+              "lastName": "Sograte Idrissi",
+              "firstName": "Shama",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Genetics, University of Leicester, Leicester LE1 7RH, United Kingdom;"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Notarangelo FM",
+              "lastName": "Notarangelo",
+              "firstName": "Francesca M",
+              "initials": "FM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Maryland Psychiatric Research Center, Department of Psychiatry, University of Maryland School of Medicine, Baltimore, MD 21228."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Estranero JG",
+              "lastName": "Estranero",
+              "firstName": "Jasper G",
+              "initials": "JG",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Genetics, University of Leicester, Leicester LE1 7RH, United Kingdom;"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Moore GG",
+              "lastName": "Moore",
+              "firstName": "Gareth G L",
+              "initials": "GG",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Genetics, University of Leicester, Leicester LE1 7RH, United Kingdom;"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Green EW",
+              "lastName": "Green",
+              "firstName": "Edward W",
+              "initials": "EW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Genetics, University of Leicester, Leicester LE1 7RH, United Kingdom;"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kyriacou CP",
+              "lastName": "Kyriacou",
+              "firstName": "Charalambos P",
+              "initials": "CP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Genetics, University of Leicester, Leicester LE1 7RH, United Kingdom;"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Schwarcz R",
+              "lastName": "Schwarcz",
+              "firstName": "Robert",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Maryland Psychiatric Research Center, Department of Psychiatry, University of Maryland School of Medicine, Baltimore, MD 21228."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Giorgini F",
+              "lastName": "Giorgini",
+              "firstName": "Flaviano",
+              "initials": "F",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7881-9508"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Genetics, University of Leicester, Leicester LE1 7RH, United Kingdom; fg36@le.ac.uk."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7881-9508"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6365-9828"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "19",
+          "volume": "113",
+          "journalIssueId": 2407644,
+          "dateOfPublication": "2016 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Proc Natl Acad Sci U S A",
+            "title": "Proceedings of the National Academy of Sciences of the United States of America",
+            "essn": "1091-6490",
+            "issn": "0027-8424",
+            "nlmid": "7505876",
+            "isoabbreviation": "Proc Natl Acad Sci U S A"
+          },
+          "printPublicationDate": "2016-05-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "5435-5440",
+        "abstractText": "Metabolites of the kynurenine pathway (KP) of tryptophan (TRP) degradation have been closely linked to the pathogenesis of several neurodegenerative disorders. Recent work has highlighted the therapeutic potential of inhibiting two critical regulatory enzymes in this pathway-kynurenine-3-monooxygenase (KMO) and tryptophan-2,3-dioxygenase (TDO). Much evidence indicates that the efficacy of KMO inhibition arises from normalizing an imbalance between neurotoxic [3-hydroxykynurenine (3-HK); quinolinic acid (QUIN)] and neuroprotective [kynurenic acid (KYNA)] KP metabolites. However, it is not clear if TDO inhibition is protective via a similar mechanism or if this is instead due to increased levels of TRP-the substrate of TDO. Here, we find that increased levels of KYNA relative to 3-HK are likely central to the protection conferred by TDO inhibition in a fruit fly model of Huntington's disease and that TRP treatment strongly reduces neurodegeneration by shifting KP flux toward KYNA synthesis. In fly models of Alzheimer's and Parkinson's disease, we provide genetic evidence that inhibition of TDO or KMO improves locomotor performance and ameliorates shortened life span, as well as reducing neurodegeneration in Alzheimer's model flies. Critically, we find that treatment with a chemical TDO inhibitor is robustly protective in these models. Consequently, our work strongly supports targeting of the KP as a potential treatment strategy for several major neurodegenerative disorders and suggests that alterations in the levels of neuroactive KP metabolites could underlie several therapeutic benefits.",
+        "affiliation": "Department of Genetics, University of Leicester, Leicester LE1 7RH, United Kingdom;",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "MR/N00373X/1",
+              "orderIn": 0
+            },
+            {
+              "agency": "CHDI Foundation",
+              "grantId": "A-3267",
+              "orderIn": 0
+            },
+            {
+              "agency": "Parkinson&apos;s UK",
+              "grantId": "G-1203",
+              "orderIn": 0
+            },
+            {
+              "agency": "Parkinson's UK",
+              "acronym": "PUK_",
+              "grantId": "G-1203",
+              "orderIn": 0
+            },
+            {
+              "agency": "NINDS NIH HHS",
+              "acronym": "NS",
+              "grantId": "R01 NS057715",
+              "orderIn": 0
+            },
+            {
+              "agency": "HHS | NIH | National Institute of Neurological Disorders and Stroke",
+              "grantId": "NS057715",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drosophila"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neurodegenerative Diseases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tryptophan Oxygenase",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kynurenine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neuroprotective Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Signal Transduction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dose-Response Relationship, Drug"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Neurodegeneration",
+            "Alzheimer’s disease",
+            "TDO",
+            "Parkinson’s Disease",
+            "Kmo"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Tryptophan Oxygenase",
+              "registryNumber": "EC 1.13.11.11"
+            },
+            {
+              "name": "Kynurenine",
+              "registryNumber": "343-65-7"
+            },
+            {
+              "name": "Neuroprotective Agents",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1073/pnas.1604453113"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4868470"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC4868470?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1073/pnas.1604453113"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 121,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2016-12-13",
+        "dateOfCreation": "2016-04-27",
+        "dateOfRevision": "2025-05-29",
+        "electronicPublicationDate": "2016-04-25",
+        "firstPublicationDate": "2016-04-25",
+        "firstIndexDate": "2016-04-27",
+        "fullTextReceivedDate": "2020-07-10",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22Critically%2C+we+find+that+treatment+with+a+chemical+TDO+inhibitor+is+robustly+protective+in+these+models.%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"Critically, we find that treatment with a chemical TDO inhibitor is robustly protective in these models.\""
+}

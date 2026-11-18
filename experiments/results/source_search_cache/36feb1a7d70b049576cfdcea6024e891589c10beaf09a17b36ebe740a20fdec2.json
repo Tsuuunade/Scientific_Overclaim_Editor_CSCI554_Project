@@ -1,0 +1,375 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "ABSTRACT:\"These are the first data investigating myometrium in diabetic patients and they support the hypothesis that there is poorer contractility even in the presence of oxytocin.\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "22101974",
+        "source": "MED",
+        "pmid": "22101974",
+        "pmcid": "PMC3245824",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3245824"
+          ]
+        },
+        "doi": "10.1007/s00125-011-2371-6",
+        "title": "Diabetes is associated with impairment of uterine contractility and high Caesarean section rate.",
+        "authorString": "Al-Qahtani S, Heath A, Quenby S, Dawood F, Floyd R, Burdyga T, Wray S.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Al-Qahtani S",
+              "lastName": "Al-Qahtani",
+              "firstName": "S",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Molecular and Cellular Physiology, Institute of Translational Medicine, University of Liverpool, Crown Street, Liverpool L69 3BX, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Heath A",
+              "lastName": "Heath",
+              "firstName": "A",
+              "initials": "A"
+            },
+            {
+              "fullName": "Quenby S",
+              "lastName": "Quenby",
+              "firstName": "S",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3221-5471"
+              }
+            },
+            {
+              "fullName": "Dawood F",
+              "lastName": "Dawood",
+              "firstName": "F",
+              "initials": "F"
+            },
+            {
+              "fullName": "Floyd R",
+              "lastName": "Floyd",
+              "firstName": "R",
+              "initials": "R"
+            },
+            {
+              "fullName": "Burdyga T",
+              "lastName": "Burdyga",
+              "firstName": "T",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6312-1550"
+              }
+            },
+            {
+              "fullName": "Wray S",
+              "lastName": "Wray",
+              "firstName": "S",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0086-1359"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0086-1359"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6312-1550"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3221-5471"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "55",
+          "journalIssueId": 1890754,
+          "dateOfPublication": "2012 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2012,
+          "journal": {
+            "medlineAbbreviation": "Diabetologia",
+            "title": "Diabetologia",
+            "essn": "1432-0428",
+            "issn": "0012-186X",
+            "isoabbreviation": "Diabetologia",
+            "nlmid": "0006777"
+          },
+          "printPublicationDate": "2012-02-01"
+        },
+        "pubYear": "2012",
+        "pageInfo": "489-498",
+        "abstractText": "<h4>Aims/hypothesis</h4>The prevalence of births worldwide complicated by diabetes mellitus is increasing. In the UK, for example, <25% of diabetic women have a non-instrumental vaginal delivery. Strikingly, more than half the Caesarean sections (CS) in these patients are non-elective, but the reasons for this are not understood. We have tested the hypothesis that poor myometrial contractility as a consequence of the disease contributes to this high CS rate.<h4>Methods</h4>We compared spontaneous, high K depolarisation and oxytocin-induced contractions from diabetic and matched control patients having an elective CS. To investigate the mechanism of any differences we measured intracellular Ca, and performed western blotting and compared the tissues histologically.<h4>Results</h4>There was significantly decreased contraction amplitude and duration in uteri from diabetic compared with control patients, even when possible confounders such as BMI were analysed. Reduced intracellular calcium signals and expression of calcium entry channels were found in uteruses from diabetic patients, which, along with a reduction in muscle content found on histological examination, could explain the reduced force. Myometrium from diabetic patients was responsive to oxytocin, but still did not reach the levels found in non-diabetic patients.<h4>Conclusions/interpretations</h4>These are the first data investigating myometrium in diabetic patients and they support the hypothesis that there is poorer contractility even in the presence of oxytocin. The underlying mechanism is related to reduced Ca channel expression and intracellular calcium signals and a decrease in muscle mass. We conclude that these factors significantly contribute to the increased emergency CS rate in diabetic patients.",
+        "affiliation": "Department of Molecular and Cellular Physiology, Institute of Translational Medicine, University of Liverpool, Crown Street, Liverpool L69 3BX, UK.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Wellcome Trust",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pregnancy Complications"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diabetes, Gestational",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diabetes Mellitus",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diabetes Complications",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Calcium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxytocin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Calcium Channels",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Body Mass Index"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cesarean Section",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Signal Transduction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pregnancy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Uterine Contraction",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Oxytocin",
+              "registryNumber": "50-56-6"
+            },
+            {
+              "name": "Calcium Channels",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Calcium",
+              "registryNumber": "SY7Q814VUP"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://link.springer.com/content/pdf/10.1007/s00125-011-2371-6.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1007/s00125-011-2371-6"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3245824"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3245824?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 43,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2012-06-19",
+        "dateOfCreation": "2011-11-22",
+        "dateOfRevision": "2021-10-21",
+        "electronicPublicationDate": "2011-11-19",
+        "firstPublicationDate": "2011-11-19",
+        "firstIndexDate": "2011-11-22",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22These+are+the+first+data+investigating+myometrium+in+diabetic+patients+and+they+support+the+hypothesis+that+there+is+poorer+contractility+even+in+the+presence+of+oxytocin.%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"These are the first data investigating myometrium in diabetic patients and they support the hypothesis that there is poorer contractility even in the presence of oxytocin.\""
+}

@@ -1,0 +1,428 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "ABSTRACT:\"These two small crossover trials suggest that closed loop delivery of insulin may improve overnight control of glucose levels and reduce the risk of nocturnal hypoglycaemia in adults with type 1 diabetes.\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "21493665",
+        "source": "MED",
+        "pmid": "21493665",
+        "pmcid": "PMC3077739",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3077739"
+          ]
+        },
+        "doi": "10.1136/bmj.d1855",
+        "title": "Overnight closed loop insulin delivery (artificial pancreas) in adults with type 1 diabetes: crossover randomised controlled studies.",
+        "authorString": "Hovorka R, Kumareswaran K, Harris J, Allen JM, Elleri D, Xing D, Kollman C, Nodale M, Murphy HR, Dunger DB, Amiel SA, Heller SR, Wilinska ME, Evans ML.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Hovorka R",
+              "lastName": "Hovorka",
+              "firstName": "Roman",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2901-461X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Metabolic Science, University of Cambridge, Cambridge, UK. rh347@cam.ac.uk"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kumareswaran K",
+              "lastName": "Kumareswaran",
+              "firstName": "Kavita",
+              "initials": "K"
+            },
+            {
+              "fullName": "Harris J",
+              "lastName": "Harris",
+              "firstName": "Julie",
+              "initials": "J"
+            },
+            {
+              "fullName": "Allen JM",
+              "lastName": "Allen",
+              "firstName": "Janet M",
+              "initials": "JM"
+            },
+            {
+              "fullName": "Elleri D",
+              "lastName": "Elleri",
+              "firstName": "Daniela",
+              "initials": "D"
+            },
+            {
+              "fullName": "Xing D",
+              "lastName": "Xing",
+              "firstName": "Dongyuan",
+              "initials": "D"
+            },
+            {
+              "fullName": "Kollman C",
+              "lastName": "Kollman",
+              "firstName": "Craig",
+              "initials": "C"
+            },
+            {
+              "fullName": "Nodale M",
+              "lastName": "Nodale",
+              "firstName": "Marianna",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0333-8918"
+              }
+            },
+            {
+              "fullName": "Murphy HR",
+              "lastName": "Murphy",
+              "firstName": "Helen R",
+              "initials": "HR"
+            },
+            {
+              "fullName": "Dunger DB",
+              "lastName": "Dunger",
+              "firstName": "David B",
+              "initials": "DB",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2566-9304"
+              }
+            },
+            {
+              "fullName": "Amiel SA",
+              "lastName": "Amiel",
+              "firstName": "Stephanie A",
+              "initials": "SA"
+            },
+            {
+              "fullName": "Heller SR",
+              "lastName": "Heller",
+              "firstName": "Simon R",
+              "initials": "SR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2425-9565"
+              }
+            },
+            {
+              "fullName": "Wilinska ME",
+              "lastName": "Wilinska",
+              "firstName": "Malgorzata E",
+              "initials": "ME"
+            },
+            {
+              "fullName": "Evans ML",
+              "lastName": "Evans",
+              "firstName": "Mark L",
+              "initials": "ML",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8122-8987"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8122-8987"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0333-8918"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2425-9565"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2566-9304"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2901-461X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "342",
+          "journalIssueId": 2469520,
+          "dateOfPublication": "2011 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "BMJ",
+            "title": "BMJ (Clinical research ed.)",
+            "essn": "1756-1833",
+            "issn": "0959-8138",
+            "nlmid": "8900488",
+            "isoabbreviation": "BMJ"
+          },
+          "printPublicationDate": "2011-04-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "d1855",
+        "abstractText": "<h4>Objective</h4>To compare the safety and efficacy of overnight closed loop delivery of insulin (artificial pancreas) with conventional insulin pump therapy in adults with type 1 diabetes.<h4>Design</h4>Two sequential, open label, randomised controlled crossover, single centre studies.<h4>Setting</h4>Clinical research facility.<h4>Participants</h4>24 adults (10 men, 14 women) with type 1 diabetes, aged 18-65, who had used insulin pump therapy for at least three months: 12 were tested after consuming a medium sized meal and the other 12 after consuming a larger meal accompanied by alcohol.<h4>Intervention</h4>During overnight closed loop delivery, sensor measurements of glucose were fed into a computer algorithm, which advised on insulin pump infusion rates at 15 minute intervals. During control nights, conventional insulin pump settings were applied. One study compared closed loop delivery of insulin with conventional pump therapy after a medium sized evening meal (60 g of carbohydrates) at 1900, depicting the scenario of \"eating in.\" The other study was carried out after a later large evening meal (100 g of carbohydrates) at 2030, accompanied by white wine (0.75 g/kg ethanol) and depicted the scenario of \"eating out.\"<h4>Main outcome measures</h4>The primary outcome was the time plasma glucose levels were in target (3.91-8.0 mmol/L) during closed loop delivery and a comparable control period. Secondary outcomes included pooled data analysis and time plasma glucose levels were below target (≤ 3.9 mmol/L).<h4>Results</h4>For the eating in scenario, overnight closed loop delivery of insulin increased the time plasma glucose levels were in target by a median 15% (interquartile range 3-35%), P = 0.002. For the eating out scenario, closed loop delivery increased the time plasma glucose levels were in target by a median 28% (2-39%), P = 0.01. Analysis of pooled data showed that the overall time plasma glucose was in target increased by a median 22% (3-37%) with closed loop delivery (P < 0.001). Closed loop delivery reduced overnight time spent hypoglycaemic (plasma glucose ≤ 3.9 mmol/L) by a median 3% (0-20%), P=0.04, and eliminated plasma glucose concentrations below 3.0 mmol/L after midnight.<h4>Conclusion</h4>These two small crossover trials suggest that closed loop delivery of insulin may improve overnight control of glucose levels and reduce the risk of nocturnal hypoglycaemia in adults with type 1 diabetes. Trial registration ClinicalTrials.gov NCT00910767 and NCT00944619.",
+        "affiliation": "Institute of Metabolic Science, University of Cambridge, Cambridge, UK. rh347@cam.ac.uk",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "G0600698B",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute for Health Research (NIHR)",
+              "grantId": "NF-SI-0508-10274",
+              "orderIn": 0
+            },
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "G0600717B",
+              "orderIn": 0
+            },
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "G0600717",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute for Health Research (NIHR)",
+              "acronym": "DH_",
+              "grantId": "PDF/01/036",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Diabetes Mellitus, Type 1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Insulin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Blood Glucose",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hypoglycemic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Insulin Infusion Systems"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cross-Over Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Algorithms"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Blood Glucose",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Hypoglycemic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Insulin",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1136/bmj.d1855"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3077739"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "21493666",
+              "reference": "BMJ. 2011 Apr 13;342:d1911. doi: 10.1136/bmj.d1911.",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 157,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct"
+          ]
+        },
+        "dateOfCompletion": "2011-06-27",
+        "dateOfCreation": "2011-04-16",
+        "dateOfRevision": "2025-05-29",
+        "electronicPublicationDate": "2011-04-13",
+        "firstPublicationDate": "2011-04-13",
+        "firstIndexDate": "2011-04-17",
+        "fullTextReceivedDate": "2020-07-11",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22These+two+small+crossover+trials+suggest+that+closed+loop+delivery+of+insulin+may+improve+overnight+control+of+glucose+levels+and+reduce+the+risk+of+nocturnal+hypoglycaemia+in+adults+with+type+1+diabetes.%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"These two small crossover trials suggest that closed loop delivery of insulin may improve overnight control of glucose levels and reduce the risk of nocturnal hypoglycaemia in adults with type 1 diabetes.\""
+}

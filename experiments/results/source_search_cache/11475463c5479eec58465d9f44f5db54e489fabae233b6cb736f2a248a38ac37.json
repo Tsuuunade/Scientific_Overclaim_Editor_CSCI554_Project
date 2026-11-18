@@ -1,0 +1,372 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "ABSTRACT:\"When primary care physicians prescribed antidepressants for off-label indications, these indications were usually not supported by strong scientific evidence, yet often another antidepressant in the same class existed that had strong evidence for the respective indication.\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "28228380",
+        "source": "MED",
+        "pmid": "28228380",
+        "pmcid": "PMC5320934",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5320934"
+          ]
+        },
+        "doi": "10.1136/bmj.j603",
+        "title": "Off-label indications for antidepressants in primary care: descriptive study of prescriptions from an indication based electronic prescribing system.",
+        "authorString": "Wong J, Motulsky A, Abrahamowicz M, Eguale T, Buckeridge DL, Tamblyn R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wong J",
+              "lastName": "Wong",
+              "firstName": "Jenna",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Epidemiology, Biostatistics, and Occupational Health, McGill University, Montréal, Canada jenna.wong@mail.mcgill.ca."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Motulsky A",
+              "lastName": "Motulsky",
+              "firstName": "Aude",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8052-942X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Epidemiology, Biostatistics, and Occupational Health, McGill University, Montréal, Canada."
+                  },
+                  {
+                    "affiliation": "Centre de recherche du Centre hospitalier de l'Université de Montréal, School of Public Health, University of Montréal, Montréal, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abrahamowicz M",
+              "lastName": "Abrahamowicz",
+              "firstName": "Michal",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3172-3952"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Epidemiology, Biostatistics, and Occupational Health, McGill University, Montréal, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Eguale T",
+              "lastName": "Eguale",
+              "firstName": "Tewodros",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Massachusetts College of Pharmacy and Health Sciences University, Boston, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Buckeridge DL",
+              "lastName": "Buckeridge",
+              "firstName": "David L",
+              "initials": "DL",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1817-5047"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Epidemiology, Biostatistics, and Occupational Health, McGill University, Montréal, Canada."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tamblyn R",
+              "lastName": "Tamblyn",
+              "firstName": "Robyn",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Epidemiology, Biostatistics, and Occupational Health, McGill University, Montréal, Canada."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8052-942X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3172-3952"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1817-5047"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "volume": "356",
+          "journalIssueId": 2520180,
+          "dateOfPublication": "2017 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "BMJ",
+            "title": "BMJ (Clinical research ed.)",
+            "essn": "1756-1833",
+            "issn": "0959-8138",
+            "nlmid": "8900488",
+            "isoabbreviation": "BMJ"
+          },
+          "printPublicationDate": "2017-02-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "j603",
+        "abstractText": "<b>Objective</b> To examine off-label indications for antidepressants in primary care and determine the level of scientific support for off-label prescribing.<b>Design</b> Descriptive study of antidepressant prescriptions written by primary care physicians using an indication based electronic prescribing system.<b>Setting</b> Primary care practices in and around two major urban centres in Quebec, Canada.<b>Participants</b> Patients aged 18 years or older who visited a study physician between 1 January 2003 and 30 September 2015 and were prescribed an antidepressant through the electronic prescribing system.<b>Main outcome measures</b> Prevalence of off-label indications for antidepressant prescriptions by class and by individual drug. Among off-label antidepressant prescriptions, the proportion of prescriptions in each of the following categories was measured: strong evidence supporting use of the prescribed drug for the respective indication; no strong evidence for the prescribed drug but strong evidence supporting use of another drug in the same class for the indication; or no strong evidence supporting use of the prescribed drug and all other drugs in the same class for the indication. <b>Results</b> 106 850 antidepressant prescriptions were written by 174 physicians for 20 920 adults. By class, tricyclic antidepressants had the highest prevalence of off-label indications (81.4%, 95% confidence interval, 77.3% to 85.5%), largely due to a high off-label prescribing rate for amitriptyline (93%, 89.6% to 95.7%). Trazodone use for insomnia was the most common off-label use for antidepressants, accounting for 26.2% (21.9% to 30.4%) of all off-label prescriptions. For only 15.9% (13.0% to 19.3%) of all off-label prescriptions, the prescribed drug had strong scientific evidence for the respective indication. For 39.6% (35.7% to 43.2%) of off-label prescriptions, the prescribed drug did not have strong evidence but another antidepressant in the same class had strong evidence for the respective indication. For the remaining 44.6% (40.2% to 49.0%) of off-label prescriptions, neither the prescribed drug nor any other drugs in the class had strong evidence for the indication.<b>Conclusions</b> When primary care physicians prescribed antidepressants for off-label indications, these indications were usually not supported by strong scientific evidence, yet often another antidepressant in the same class existed that had strong evidence for the respective indication. There is an important need to generate and provide physicians with evidence on off-label antidepressant use to optimise prescribing decisions.",
+        "affiliation": "Department of Epidemiology, Biostatistics, and Occupational Health, McGill University, Montréal, Canada jenna.wong@mail.mcgill.ca.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antidepressive Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prevalence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Evidence-Based Medicine"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Primary Health Care",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Quebec",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electronic Prescribing",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Off-Label Use",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Physicians, Primary Care"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Practice Patterns, Physicians'",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antidepressive Agents",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1136/bmj.j603"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5320934"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "28223288",
+              "reference": "BMJ. 2017 Feb 21;356:j849. doi: 10.1136/bmj.j849.",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 144,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-03-31",
+        "dateOfCreation": "2017-02-24",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2017-02-21",
+        "firstPublicationDate": "2017-02-21",
+        "firstIndexDate": "2017-02-24",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22When+primary+care+physicians+prescribed+antidepressants+for+off-label+indications%2C+these+indications+were+usually+not+supported+by+strong+scientific+evidence%2C+yet+often+another+antidepressant+in+the+same+class+existed+that+had+strong+evidence+for+the+respective+indication.%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"When primary care physicians prescribed antidepressants for off-label indications, these indications were usually not supported by strong scientific evidence, yet often another antidepressant in the same class existed that had strong evidence for the respective indication.\""
+}

@@ -1,0 +1,13 @@
+{
+  "frozen_before_new_source_annotation": true,
+  "prompt_hashes": {
+    "direct.txt": "49fba1e5676e8c1e2cd8b454fa8ac2d7909cc4f2428c2e22db66709322ebf0e7",
+    "matched_simple.txt": "8b55102fe37de9d2fd442d31fc82538cfe88eafc288fc53cd790fcceedf16ba2",
+    "structured.txt": "44e9ab223a4ddcadce5775a0fa618fe414411ad068ad3c6854129fef49fb9c92"
+  },
+  "only_ablation_instruction_change": {
+    "removed": "First assess sufficiency, then compare the scientific content, and choose an action. Preserve supported details and make the smallest supported change.",
+    "replacement": "Correct the claim only when a scientific change is necessary."
+  },
+  "instruction_comparison_scope": "effect of this explicit ordered-assessment instruction with the remaining policy and output contract identical"
+}

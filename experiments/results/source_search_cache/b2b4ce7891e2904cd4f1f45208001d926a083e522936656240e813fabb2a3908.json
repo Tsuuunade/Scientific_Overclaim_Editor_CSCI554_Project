@@ -1,0 +1,222 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "ABSTRACT:\"This study suggests that transport plans aimed at reducing car usage should be considered as a feasible and effective strategy for increasing health-enhancing physical activity among the workforce.\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "21458011",
+        "source": "MED",
+        "pmid": "21458011",
+        "doi": "10.1016/j.puhe.2011.01.005",
+        "title": "Physical activity by stealth? The potential health benefits of a workplace transport plan.",
+        "authorString": "Brockman R, Fox KR.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Brockman R",
+              "lastName": "Brockman",
+              "firstName": "R",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0342-2124"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Exercise, Nutrition and Health Sciences, University of Bristol, Tyndall Avenue, Bristol BS8 1TP, UK. Rowan.Brockman@bristol.ac.uk"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fox KR",
+              "lastName": "Fox",
+              "firstName": "K R",
+              "initials": "KR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2216-4287"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0342-2124"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2216-4287"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "125",
+          "journalIssueId": 1826497,
+          "dateOfPublication": "2011 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "Public Health",
+            "title": "Public health",
+            "essn": "1476-5616",
+            "issn": "0033-3506",
+            "isoabbreviation": "Public Health",
+            "nlmid": "0376507"
+          },
+          "printPublicationDate": "2011-04-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "210-216",
+        "abstractText": "<h4>Objectives</h4>There are few published evaluations of the effects of travel policy on health-enhancing physical activity. The purpose of this study was to investigate the effect of a workplace travel plan, which mainly focused on restricting parking opportunities, on levels of active commuting and its potential to contribute to public health.<h4>Study design</h4>Analysis of a repeated bi-annual travel survey in a workplace setting.<h4>Methods</h4>Usual mode of commuting, gender, age, worksite location and distance commuted to and from work were obtained from the University of Bristol Staff Travel Surveys conducted in 1998 (n = 2292), 2001 (n = 2332), 2003 (n = 1950), 2005 (n = 2647) and 2007 (n = 2829). Z-tests were used to examine the significance of trends in active commuting between 1998 and 2007. The largest and most recent survey (2007) was used to calculate the effects of gender, age and salary band on mode of transport, length of commuter journey, and the extent to which active commuting contributed to meeting national recommendations for physical activity.<h4>Results</h4>Results showed that between 1998 and 2007, in contrast to national trends, the percentage of respondents who reported that they usually walked to work increased from 19.0% to 30.0% (Z = 4.24, P < 0.001). The percentage of regular cyclists increased from 7.0% to 11.8%, but this was not statistically significant. In 2007, regular walkers were more likely to be female, under 35 years of age and earning a middle-band salary. Regular cyclists were more likely to be male, aged 36-45 years and earning a higher-band salary. Approximately 70% of respondents who usually walked or cycled to work achieved greater than 80% of the recommended guidelines for physical activity through their active commuting.<h4>Conclusions</h4>This study suggests that transport plans aimed at reducing car usage should be considered as a feasible and effective strategy for increasing health-enhancing physical activity among the workforce.",
+        "affiliation": "Department of Exercise, Nutrition and Health Sciences, University of Bristol, Tyndall Avenue, Bristol BS8 1TP, UK. Rowan.Brockman@bristol.ac.uk",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Exercise"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Walking"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Health Surveys"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Organizational Policy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bicycling"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transportation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Workplace"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Health Promotion",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "England"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.puhe.2011.01.005"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 19,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2011-08-26",
+        "dateOfCreation": "2011-04-05",
+        "dateOfRevision": "2011-04-25",
+        "electronicPublicationDate": "2011-03-31",
+        "firstPublicationDate": "2011-03-31",
+        "firstIndexDate": "2011-04-06",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22This+study+suggests+that+transport+plans+aimed+at+reducing+car+usage+should+be+considered+as+a+feasible+and+effective+strategy+for+increasing+health-enhancing+physical+activity+among+the+workforce.%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"This study suggests that transport plans aimed at reducing car usage should be considered as a feasible and effective strategy for increasing health-enhancing physical activity among the workforce.\""
+}

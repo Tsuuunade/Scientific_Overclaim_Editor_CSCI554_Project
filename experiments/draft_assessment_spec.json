@@ -1,0 +1,226 @@
+{
+  "provenance": {
+    "source": "assistant_source_review",
+    "reviewer_provenance": "AI",
+    "reviewer_id": "assistant-source-review",
+    "rating_stage": "draft",
+    "prior_answer_exposure": "exposed",
+    "independent_human_review": false
+  },
+  "case_notes": {
+    "CAL-01": "The source reports a cohort association with mortality. A successful edit must also retain the referral/cancer context.",
+    "CAL-02": "Both human evidence reviews endorse retaining the hedged, source-relative claim. Editorial affiliations are outside the content score.",
+    "CAL-03": "The abstract does not verify 128 species or human inclusion. A reliable complete correction requires abstention under the declared policy.",
+    "CAL-04": "The abstract conclusion conflicts with propensity-matched MACE estimates. The team review leaves the policy unresolved; report separately.",
+    "CAL-05": "The reviewed abstract identifies men. Retaining a broad treatment claim without this qualifier does not repair the population-scope issue.",
+    "CAL-06": "The second human review flags endpoint precision. Excluded from clean controls; experiments support involvement of Endog, but species/endpoint mappings remain qualified.",
+    "CAL-07": "Human review endorses the source-relative claim with the hedge \"suggest the findings\". Text changes are unnecessary on this control.",
+    "CAL-08": "The trial reports global change in health, not a specific pain-symptom outcome. An acceptable repair must correct that outcome."
+  },
+  "ratings": {
+    "A": [
+      [
+        "N N N Y Y",
+        "Association replacement retains the clinical context."
+      ],
+      [
+        "N N N N Y",
+        "Original claim retained exactly."
+      ],
+      [
+        "U N U Y Y",
+        "The local causal phrase is weakened but unverifiable species count and human inclusion remain."
+      ],
+      [
+        "U N N U Y",
+        "Unchanged; source-internal conflict unresolved."
+      ],
+      [
+        "Y N N Y Y",
+        "No population qualifier is added."
+      ],
+      [
+        "U Y U U Y",
+        "The supported experimental involvement is weakened from influences to association; endpoint concerns remain."
+      ],
+      [
+        "N N N N Y",
+        "Original claim retained exactly."
+      ],
+      [
+        "Y Y N Y Y",
+        "May improve still refers to symptoms; it also weakens supported treatment-effect wording."
+      ]
+    ],
+    "B": [
+      [
+        "N N N Y Y",
+        "Association wording keeps referral and suspected-cancer context."
+      ],
+      [
+        "N N N N Y",
+        "Original claim retained exactly."
+      ],
+      [
+        "- - - Y -",
+        "Abstains, as required for missing scientific details."
+      ],
+      [
+        "U N N U Y",
+        "Expands MACE terminology without resolving source conflict."
+      ],
+      [
+        "Y N N Y Y",
+        "Removes publication timing but still omits the men-only population."
+      ],
+      [
+        "U Y U U Y",
+        "Drops mice despite direct mouse deletion evidence; qualified endpoint interpretation remains unresolved."
+      ],
+      [
+        "N N N N Y",
+        "Original claim retained exactly."
+      ],
+      [
+        "Y N N Y Y",
+        "Original symptom-outcome mismatch is retained."
+      ]
+    ],
+    "C": [
+      [
+        "N Y N Y Y",
+        "Removes causal overstatement but drops the original GP and suspected-cancer context."
+      ],
+      [
+        "N N N N Y",
+        "Reorders and drops editorial details even though the supported claim needs no edit; rationale incorrectly questions the stated sample size."
+      ],
+      [
+        "U N U Y Y",
+        "Rewrites confidently while retaining the unverified 128-species and human-inclusion assertions."
+      ],
+      [
+        "U N N U Y",
+        "Relies on the conclusion; internally conflicting estimates remain unresolved."
+      ],
+      [
+        "U Y N Y N",
+        "Returns only a relative-clause fragment and removes exposure and outcome."
+      ],
+      [
+        "U Y Y U Y",
+        "States specific fat-related effects are not directly supported although steatotic mouse cardiomyocytes are reported; excludes a supported detail."
+      ],
+      [
+        "N N N N N",
+        "The scientific relation is retained, but output begins with a sentence fragment and changes a supported control."
+      ],
+      [
+        "Y N N Y Y",
+        "Renames therapy but retains the unsupported symptom outcome."
+      ]
+    ],
+    "D_v1": [
+      [
+        "N N N Y Y",
+        "Conditional survival wording matches the source conclusion and preserves original clinical context."
+      ],
+      [
+        "U Y N N N",
+        "Returns a survey-attribution fragment; the scientific claim is lost."
+      ],
+      [
+        "U N U Y Y",
+        "Retains the unverified species count and human inclusion."
+      ],
+      [
+        "U N N U Y",
+        "Editorial change does not resolve the MACE conflict."
+      ],
+      [
+        "Y N N Y Y",
+        "Still omits men; span is not uniquely verbatim, so the response also fails structural validation."
+      ],
+      [
+        "- - - U -",
+        "Abstains with insufficient selected context; flagged control is not used for primary rates."
+      ],
+      [
+        "U Y N N N",
+        "Returns only attribution and loses the birth-defect claim."
+      ],
+      [
+        "Y Y Y Y Y",
+        "Changes the intervention to a combined treatment and retains the unsupported symptom outcome."
+      ]
+    ],
+    "D_v2": [
+      [
+        "N Y N Y Y",
+        "Conditional wording is supported, but clinical context is dropped."
+      ],
+      [
+        "N N N N Y",
+        "Scientific content is retained in an unnecessary rewrite."
+      ],
+      [
+        "U N U Y Y",
+        "Retains unverified count and human inclusion instead of abstaining."
+      ],
+      [
+        "U N N U Y",
+        "Source conflict remains unresolved."
+      ],
+      [
+        "U Y N Y N",
+        "Outputs only a relative-clause fragment."
+      ],
+      [
+        "U Y U U Y",
+        "Replaces the original supported details with a broad mechanistic statement; species and direction remain qualified."
+      ],
+      [
+        "U Y N N N",
+        "Output contains only attribution and loses the scientific result."
+      ],
+      [
+        "Y N N Y Y",
+        "Therapy label is clarified but symptom-outcome mismatch remains."
+      ]
+    ],
+    "D_matched": [
+      [
+        "N N N Y Y",
+        "Associational survival wording retains the original clinical context."
+      ],
+      [
+        "U Y N N N",
+        "The scientific relationship and treatment-outcome statement are removed."
+      ],
+      [
+        "U Y U Y Y",
+        "Deletes unverifiable quantities rather than abstaining and loses the original mammal-study scope."
+      ],
+      [
+        "U N N U Y",
+        "Source conflict remains unresolved."
+      ],
+      [
+        "U Y N Y N",
+        "Outputs only a relative-clause fragment."
+      ],
+      [
+        "U Y U U Y",
+        "Drops the supported steatotic/fat-related detail and compresses qualified species-specific findings."
+      ],
+      [
+        "N N N N Y",
+        "Coherent scientific wording is retained, but the supported claim was changed unnecessarily."
+      ],
+      [
+        "Y N N Y Y",
+        "Does not change symptoms to the measured global health outcome."
+      ]
+    ]
+  }
+}

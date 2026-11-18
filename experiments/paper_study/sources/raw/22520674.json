@@ -1,0 +1,287 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:22520674 AND SRC:MED",
+    "internalQuery": "EXT_ID:22520674 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 2,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "22520674",
+        "source": "MED",
+        "pmid": "22520674",
+        "pmcid": "PMC3252538",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3252538"
+          ]
+        },
+        "doi": "10.3399/bjgp12x616355",
+        "title": "Identifying patients with suspected pancreatic cancer in primary care: derivation and validation of an algorithm.",
+        "authorString": "Hippisley-Cox J, Coupland C.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Hippisley-Cox J",
+              "lastName": "Hippisley-Cox",
+              "firstName": "Julia",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2479-7283"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Primary Care, University of Nottingham. julia.hippisley-cox@nottingham.ac.uk"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Coupland C",
+              "lastName": "Coupland",
+              "firstName": "Carol",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2327-3306"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2327-3306"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2479-7283"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "594",
+          "volume": "62",
+          "journalIssueId": 1925173,
+          "dateOfPublication": "2012 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2012,
+          "journal": {
+            "medlineAbbreviation": "Br J Gen Pract",
+            "title": "The British journal of general practice : the journal of the Royal College of General Practitioners",
+            "essn": "1478-5242",
+            "issn": "0960-1643",
+            "nlmid": "9005323",
+            "isoabbreviation": "Br J Gen Pract"
+          },
+          "printPublicationDate": "2012-01-01"
+        },
+        "pubYear": "2012",
+        "pageInfo": "e38-45",
+        "abstractText": "<h4>Background</h4>Pancreatic cancer has the worst survival for any cancer and is often diagnosed late when the cancer is advanced. Chances of survival are more likely if patients can be diagnosed earlier.<h4>Aim</h4>To derive and validate an algorithm to estimate absolute risk of having pancreatic cancer in patients with and without symptoms in primary care.<h4>Design and setting</h4>Cohort study using data from 375 UK QResearch® general practices for development and 189 for validation.<h4>Method</h4>Included patients were aged 30-84 years, free at baseline from a diagnosis of pancreatic cancer and had not had dysphagia, abdominal pain, abdominal distension, appetite loss, or weight loss recorded in the preceding 12 months. The primary outcome was incident diagnosis of pancreatic cancer recorded in the following 2 years. Risk factors examined included: age, body mass index, smoking status, alcohol, deprivation, diabetes, pancreatitis, previous diagnosis of cancer apart from pancreatic cancer, dysphagia, abdominal pain, abdominal distension, appetite loss, weight loss, diarrhoea, constipation, tiredness, itching, and anaemia. Cox proportional hazards models were used to develop separate risk equations in males and females. Measures of calibration and discrimination assessed performance in the validation cohort.<h4>Results</h4>There were a total of 1415 incident cases of pancreatic cancer from 4.1 million person-years in the derivation cohort. Independent predictors in both males and females were age, smoking, type 2 diabetes, chronic pancreatitis, abdominal pain, appetite loss, and weight loss. Abdominal distension was a predictor for females only; dysphagia and constipation were predictors for males only. On validation, the algorithms explained 59% of the variation in females and 62% in males. The receiver operating characteristic statistics were 0.84 (females) and 0.87 (males). The D statistic was 2.44 (females) and 2.61 (males). The 10% of patients with the highest predicted risks contained 62% of all pancreatic cancers diagnosed over the following 2 years.<h4>Conclusion</h4>The algorithm has good discrimination and calibration and could potentially be used to help identify those at highest risk of pancreatic cancer to facilitate early referral and investigation.",
+        "affiliation": "Division of Primary Care, University of Nottingham. julia.hippisley-cox@nottingham.ac.uk",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Validation Study",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pancreatic Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DI",
+                    "qualifierName": "diagnosis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prognosis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Incidence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Risk Assessment"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Risk Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Age Distribution"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Algorithms"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged, 80 and over"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "England",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Wales",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Early Detection of Cancer"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3399/bjgp12X616355"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3252538"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3252538?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3399/bjgp12x616355"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "22429415",
+              "reference": "Br J Gen Pract. 2012 Mar;62(596):124-6. doi: 10.3399/bjgp12X629991",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 62,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2012-06-29",
+        "dateOfCreation": "2012-04-24",
+        "dateOfRevision": "2021-10-21",
+        "firstPublicationDate": "2012-01-01",
+        "firstIndexDate": "2012-04-24",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_source_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22520674+AND+SRC%3AMED&format=json&resultType=core&pageSize=2"
+}

@@ -1,0 +1,9 @@
+{
+  "protocol_sha256": "8557f18b4de167f36b2a4554edbc7cde6d63d7904ec97eab06399395ab46c03f",
+  "outputs_sha256": "f3cef21f8d73e43276f3a118f6c27fbd2c4dbf751d2f1e642c5c43a8e0cfb0ce",
+  "n_outputs": 168,
+  "evaluation_mode": "AUTOMATED_REFERENCE_FEASIBILITY",
+  "model_weights_same_as_development": true,
+  "completed_utc": "2026-11-17T22:44:17.275179+00:00",
+  "raw_failures_preserved": true
+}

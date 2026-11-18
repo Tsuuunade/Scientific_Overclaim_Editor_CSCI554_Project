@@ -1,0 +1,11 @@
+{
+  "n_raw_outputs_assessed": 168,
+  "unique_edited_text_assessments_used": 90,
+  "assessment_file_sha256": "66ef98b114135945fd3db053cd41833f1a01866d896635febc0781bcfac05ef6",
+  "human_assessments": 0,
+  "assessor": "one coding assistant, also author of provisional references",
+  "identifiers_masked_during_text_review": true,
+  "perfect_blinding_claimed": false,
+  "exact_duplicates": "same paper, displayed text, action and validation status share an assessment; each raw record retains its own exact-output hash",
+  "abstentions_and_invalid_outputs": "not counted as claim-text semantic success; action and failure metrics computed separately"
+}

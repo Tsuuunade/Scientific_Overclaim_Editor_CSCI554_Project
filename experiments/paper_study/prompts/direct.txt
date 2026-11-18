@@ -1,0 +1,9 @@
+Correct the draft claim only when a scientific change is necessary. Return exactly the original claim if it is supported. Return exactly ABSTAIN if no complete reliable correction is supported. Otherwise return only the minimally corrected claim. Add no commentary.
+
+Assess fidelity to the supplied research evidence, not independent scientific validity. Check population, outcome, quantities, direction, comparison, causal strength and uncertainty. A source can support equally hedged reporting; cautious wording does not always require further weakening. Read findings and limitations, not just the conclusion. If material results conflict without a reliable resolution, abstain. If a scientific detail in the claim cannot be verified, abstain rather than deleting it or assuming it is correct. Institutional names, editorial attribution, publication timing and ordinary naming aliases are outside the scientific-content assessment. Preserve these details without asserting that the abstract verifies them. Use no outside knowledge.
+
+Draft claim:
+<<ORIGINAL_CLAIM>>
+
+Source:
+<<EVIDENCE>>

@@ -1,0 +1,19 @@
+Edit one scientific claim using only the indexed evidence below.
+
+Assess fidelity to the supplied research evidence, not independent scientific validity. Check population, outcome, quantities, direction, comparison, causal strength and uncertainty. A source can support equally hedged reporting; cautious wording does not always require further weakening. Read findings and limitations, not just the conclusion. If material results conflict without a reliable resolution, abstain. If a scientific detail in the claim cannot be verified, abstain rather than deleting it or assuming it is correct. Institutional names, editorial attribution, publication timing and ordinary naming aliases are outside the scientific-content assessment. Preserve these details without asserting that the abstract verifies them. Use no outside knowledge.
+
+Correct the claim only when a scientific change is necessary.
+Return one JSON object with exactly these fields:
+- decision: revise, unchanged, or abstain
+- claim_span: one exact, uniquely occurring problematic phrase copied from the claim; empty for unchanged; optional for abstain
+- evidence_ids: a list of relevant evidence IDs copied from the indexed evidence; required for revise and unchanged; may be empty for abstain when a needed fact is absent
+- explanation: one or two sentences describing the evidence support or limitation
+- revision: the minimally corrected claim for revise; an empty string for unchanged or abstain
+
+The program will return the original claim exactly for unchanged, derive character offsets from the exact claim_span, and display the original source text for cited evidence IDs. Do not invent character positions or reproduce source quotations. Do not use unsupported information merely because it appears in the draft claim.
+
+Draft claim:
+<<ORIGINAL_CLAIM>>
+
+Indexed evidence:
+<<EVIDENCE>>

@@ -1,0 +1,630 @@
+{
+  "run_name": "development_v2",
+  "study_scope": "development feasibility; all eight papers previously exposed",
+  "category_counts": {
+    "causal_overclaim": 1,
+    "supported_control": 2,
+    "source_insufficient": 1,
+    "unresolved_policy": 1,
+    "population_scope": 1,
+    "flagged_control": 1,
+    "outcome_scope": 1
+  },
+  "human_input_evidence_review": "two reviewers confirmed by project owner; six sufficient sets verified; one insufficiency and one pending-policy case retained",
+  "action_metric_reference": "derived from confirmed human review notes for CAL-02, CAL-07 and CAL-03",
+  "unresolved_case_policy": "CAL-04 and CAL-06 remain in totals and action tables but excluded from causal/control primary rates",
+  "independently_human_scored_editor_outputs": 0,
+  "methods": {
+    "A": {
+      "n": 8,
+      "valid_outputs": {
+        "numerator": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "unnecessary_edits_on_clean_supported_controls": {
+        "numerator": 0,
+        "denominator": 2,
+        "rate": 0.0
+      },
+      "correct_abstention_on_source_insufficient_case": {
+        "numerator": 0,
+        "denominator": 1,
+        "rate": 0.0
+      },
+      "all_abstentions": {
+        "numerator": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "failure_count": 0,
+      "failures": {},
+      "by_category": {
+        "causal_overclaim": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "supported_control": {
+          "n": 2,
+          "actions": {
+            "unchanged": 2
+          }
+        },
+        "source_insufficient": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "unresolved_policy": {
+          "n": 1,
+          "actions": {
+            "unchanged": 1
+          }
+        },
+        "population_scope": {
+          "n": 1,
+          "actions": {
+            "unchanged": 1
+          }
+        },
+        "flagged_control": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "outcome_scope": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        }
+      },
+      "mean_evidence_chars": 0.0,
+      "mean_prompt_tokens": 0.0,
+      "total_generated_tokens": 0
+    },
+    "B": {
+      "n": 8,
+      "valid_outputs": {
+        "numerator": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "unnecessary_edits_on_clean_supported_controls": {
+        "numerator": 0,
+        "denominator": 2,
+        "rate": 0.0
+      },
+      "correct_abstention_on_source_insufficient_case": {
+        "numerator": 1,
+        "denominator": 1,
+        "rate": 1.0
+      },
+      "all_abstentions": {
+        "numerator": 1,
+        "denominator": 8,
+        "rate": 0.125
+      },
+      "failure_count": 0,
+      "failures": {},
+      "by_category": {
+        "causal_overclaim": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "supported_control": {
+          "n": 2,
+          "actions": {
+            "unchanged": 2
+          }
+        },
+        "source_insufficient": {
+          "n": 1,
+          "actions": {
+            "abstain": 1
+          }
+        },
+        "unresolved_policy": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "population_scope": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "flagged_control": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "outcome_scope": {
+          "n": 1,
+          "actions": {
+            "unchanged": 1
+          }
+        }
+      },
+      "mean_evidence_chars": 1861.8,
+      "mean_prompt_tokens": 689.4,
+      "total_generated_tokens": 270
+    },
+    "C": {
+      "n": 8,
+      "valid_outputs": {
+        "numerator": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "unnecessary_edits_on_clean_supported_controls": {
+        "numerator": 2,
+        "denominator": 2,
+        "rate": 1.0
+      },
+      "correct_abstention_on_source_insufficient_case": {
+        "numerator": 0,
+        "denominator": 1,
+        "rate": 0.0
+      },
+      "all_abstentions": {
+        "numerator": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "failure_count": 0,
+      "failures": {},
+      "by_category": {
+        "causal_overclaim": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "supported_control": {
+          "n": 2,
+          "actions": {
+            "revise": 2
+          }
+        },
+        "source_insufficient": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "unresolved_policy": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "population_scope": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "flagged_control": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "outcome_scope": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        }
+      },
+      "mean_evidence_chars": 1372.8,
+      "mean_prompt_tokens": 794.5,
+      "total_generated_tokens": 1037
+    },
+    "D_v1": {
+      "n": 8,
+      "valid_outputs": {
+        "numerator": 7,
+        "denominator": 8,
+        "rate": 0.875
+      },
+      "unnecessary_edits_on_clean_supported_controls": {
+        "numerator": 2,
+        "denominator": 2,
+        "rate": 1.0
+      },
+      "correct_abstention_on_source_insufficient_case": {
+        "numerator": 0,
+        "denominator": 1,
+        "rate": 0.0
+      },
+      "all_abstentions": {
+        "numerator": 1,
+        "denominator": 8,
+        "rate": 0.125
+      },
+      "failure_count": 1,
+      "failures": {
+        "span_not_unique_verbatim": 1
+      },
+      "by_category": {
+        "causal_overclaim": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "supported_control": {
+          "n": 2,
+          "actions": {
+            "revise": 2
+          }
+        },
+        "source_insufficient": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "unresolved_policy": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "population_scope": {
+          "n": 1,
+          "actions": {
+            "failure": 1
+          }
+        },
+        "flagged_control": {
+          "n": 1,
+          "actions": {
+            "abstain": 1
+          }
+        },
+        "outcome_scope": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        }
+      },
+      "mean_evidence_chars": 338.6,
+      "mean_prompt_tokens": 479.5,
+      "total_generated_tokens": 936
+    },
+    "D_v2": {
+      "n": 8,
+      "valid_outputs": {
+        "numerator": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "unnecessary_edits_on_clean_supported_controls": {
+        "numerator": 2,
+        "denominator": 2,
+        "rate": 1.0
+      },
+      "correct_abstention_on_source_insufficient_case": {
+        "numerator": 0,
+        "denominator": 1,
+        "rate": 0.0
+      },
+      "all_abstentions": {
+        "numerator": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "failure_count": 0,
+      "failures": {},
+      "by_category": {
+        "causal_overclaim": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "supported_control": {
+          "n": 2,
+          "actions": {
+            "revise": 2
+          }
+        },
+        "source_insufficient": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "unresolved_policy": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "population_scope": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "flagged_control": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "outcome_scope": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        }
+      },
+      "mean_evidence_chars": 758.9,
+      "mean_prompt_tokens": 584.9,
+      "total_generated_tokens": 949
+    },
+    "D_matched": {
+      "n": 8,
+      "valid_outputs": {
+        "numerator": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "unnecessary_edits_on_clean_supported_controls": {
+        "numerator": 2,
+        "denominator": 2,
+        "rate": 1.0
+      },
+      "correct_abstention_on_source_insufficient_case": {
+        "numerator": 0,
+        "denominator": 1,
+        "rate": 0.0
+      },
+      "all_abstentions": {
+        "numerator": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "failure_count": 0,
+      "failures": {},
+      "by_category": {
+        "causal_overclaim": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "supported_control": {
+          "n": 2,
+          "actions": {
+            "revise": 2
+          }
+        },
+        "source_insufficient": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "unresolved_policy": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "population_scope": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "flagged_control": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        },
+        "outcome_scope": {
+          "n": 1,
+          "actions": {
+            "revise": 1
+          }
+        }
+      },
+      "mean_evidence_chars": 749.2,
+      "mean_prompt_tokens": 591.5,
+      "total_generated_tokens": 941
+    }
+  },
+  "semantic_review_provenance": "AI-assisted draft; not independently human validated",
+  "semantic_review": {
+    "A": {
+      "successful_correction": {
+        "numerator": 1,
+        "denominator": 1,
+        "rate": 1.0
+      },
+      "harmful_weakening": {
+        "numerator": 0,
+        "denominator": 2,
+        "rate": 0.0
+      },
+      "factual_preservation_non_abstained": {
+        "numerator": 5,
+        "denominator": 8,
+        "rate": 0.625
+      },
+      "unrated_outputs": 0,
+      "uncertain_answers": 7,
+      "by_category": {
+        "population_scope": {
+          "n": 1,
+          "successful_scope_repairs": 0
+        },
+        "outcome_scope": {
+          "n": 1,
+          "successful_scope_repairs": 0
+        }
+      }
+    },
+    "B": {
+      "successful_correction": {
+        "numerator": 1,
+        "denominator": 1,
+        "rate": 1.0
+      },
+      "harmful_weakening": {
+        "numerator": 0,
+        "denominator": 2,
+        "rate": 0.0
+      },
+      "factual_preservation_non_abstained": {
+        "numerator": 6,
+        "denominator": 7,
+        "rate": 0.8571428571428571
+      },
+      "unrated_outputs": 0,
+      "uncertain_answers": 5,
+      "by_category": {
+        "population_scope": {
+          "n": 1,
+          "successful_scope_repairs": 0
+        },
+        "outcome_scope": {
+          "n": 1,
+          "successful_scope_repairs": 0
+        }
+      }
+    },
+    "C": {
+      "successful_correction": {
+        "numerator": 0,
+        "denominator": 1,
+        "rate": 0.0
+      },
+      "harmful_weakening": {
+        "numerator": 0,
+        "denominator": 2,
+        "rate": 0.0
+      },
+      "factual_preservation_non_abstained": {
+        "numerator": 4,
+        "denominator": 8,
+        "rate": 0.5
+      },
+      "unrated_outputs": 0,
+      "uncertain_answers": 7,
+      "by_category": {
+        "population_scope": {
+          "n": 1,
+          "successful_scope_repairs": 0
+        },
+        "outcome_scope": {
+          "n": 1,
+          "successful_scope_repairs": 0
+        }
+      }
+    },
+    "D_v1": {
+      "successful_correction": {
+        "numerator": 1,
+        "denominator": 1,
+        "rate": 1.0
+      },
+      "harmful_weakening": {
+        "numerator": 2,
+        "denominator": 2,
+        "rate": 1.0
+      },
+      "factual_preservation_non_abstained": {
+        "numerator": 2,
+        "denominator": 7,
+        "rate": 0.2857142857142857
+      },
+      "unrated_outputs": 0,
+      "uncertain_answers": 7,
+      "by_category": {
+        "population_scope": {
+          "n": 1,
+          "successful_scope_repairs": 0
+        },
+        "outcome_scope": {
+          "n": 1,
+          "successful_scope_repairs": 0
+        }
+      }
+    },
+    "D_v2": {
+      "successful_correction": {
+        "numerator": 0,
+        "denominator": 1,
+        "rate": 0.0
+      },
+      "harmful_weakening": {
+        "numerator": 1,
+        "denominator": 2,
+        "rate": 0.5
+      },
+      "factual_preservation_non_abstained": {
+        "numerator": 3,
+        "denominator": 8,
+        "rate": 0.375
+      },
+      "unrated_outputs": 0,
+      "uncertain_answers": 9,
+      "by_category": {
+        "population_scope": {
+          "n": 1,
+          "successful_scope_repairs": 0
+        },
+        "outcome_scope": {
+          "n": 1,
+          "successful_scope_repairs": 0
+        }
+      }
+    },
+    "D_matched": {
+      "successful_correction": {
+        "numerator": 1,
+        "denominator": 1,
+        "rate": 1.0
+      },
+      "harmful_weakening": {
+        "numerator": 1,
+        "denominator": 2,
+        "rate": 0.5
+      },
+      "factual_preservation_non_abstained": {
+        "numerator": 4,
+        "denominator": 8,
+        "rate": 0.5
+      },
+      "unrated_outputs": 0,
+      "uncertain_answers": 9,
+      "by_category": {
+        "population_scope": {
+          "n": 1,
+          "successful_scope_repairs": 0
+        },
+        "outcome_scope": {
+          "n": 1,
+          "successful_scope_repairs": 0
+        }
+      }
+    }
+  }
+}

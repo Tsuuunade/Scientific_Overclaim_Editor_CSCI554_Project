@@ -1,0 +1,11 @@
+{
+  "candidates": 44,
+  "previous_full_abstracts": 8,
+  "new_exact_excerpt_matches": 33,
+  "unresolved": 3,
+  "proposed_development": 17,
+  "proposed_evaluation": 24,
+  "paper_overlap": 0,
+  "human_verified_new_cases": 0,
+  "evaluation_status": "prospective only; human annotation and final split approval pending; not used to tune prompts"
+}

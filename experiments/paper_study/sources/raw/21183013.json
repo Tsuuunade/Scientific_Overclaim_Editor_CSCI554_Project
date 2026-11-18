@@ -1,0 +1,262 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:21183013 AND SRC:MED",
+    "internalQuery": "EXT_ID:21183013 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 2,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "21183013",
+        "source": "MED",
+        "pmid": "21183013",
+        "doi": "10.3168/jds.2010-3331",
+        "title": "Fat composition of organic and conventional retail milk in northeast England.",
+        "authorString": "Butler G, Stergiadis S, Seal C, Eyre M, Leifert C.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Butler G",
+              "lastName": "Butler",
+              "firstName": "G",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0561-2797"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Nafferton Ecological Farming Group, School of Agriculture, Food and Rural Development, Newcastle University, Nafferton Farm, Stocksfield, Northumberland, NE43 7XD, United Kingdom. gillian.butler@ncl.ac.uk"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Stergiadis S",
+              "lastName": "Stergiadis",
+              "firstName": "S",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7293-182X"
+              }
+            },
+            {
+              "fullName": "Seal C",
+              "lastName": "Seal",
+              "firstName": "C",
+              "initials": "C"
+            },
+            {
+              "fullName": "Eyre M",
+              "lastName": "Eyre",
+              "firstName": "M",
+              "initials": "M"
+            },
+            {
+              "fullName": "Leifert C",
+              "lastName": "Leifert",
+              "firstName": "C",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2974-3612"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2974-3612"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7293-182X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0561-2797"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "94",
+          "journalIssueId": 1793855,
+          "dateOfPublication": "2011 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "J Dairy Sci",
+            "title": "Journal of dairy science",
+            "essn": "1525-3198",
+            "issn": "0022-0302",
+            "isoabbreviation": "J Dairy Sci",
+            "nlmid": "2985126R"
+          },
+          "printPublicationDate": "2011-01-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "24-36",
+        "abstractText": "This study of UK retail milk identified highly significant variations in fat composition. The survey, conducted over 2 yr replicating summer and winter, sampled 22 brands, 10 of which indicated organic production systems. Results corroborate earlier farm-based findings considering fat composition of milk produced under conventional and organic management. Organic milk had higher concentrations of beneficial fatty acids (FA) than conventional milk, including total polyunsaturated fatty acids (PUFA; 39.4 vs. 31.8 g/kg of total FA), conjugated linoleic acid cis-9,trans-11 (CLA9; 7.4 v 5.6 g/kg of FA), and α-linolenic acid (α-LN; 6.9 vs. 4.4 g/kg of FA). As expected, purchase season had a strong effect on fat composition: compared with milk purchased in winter, summer milk had a lower concentration of saturated fatty acids (682 vs. 725 g/kg of FA) and higher concentrations of PUFA (37.6 vs. 32.8 g/kg of FA), CLA9 (8.1 vs. 4.7 g/kg of FA), and α-LN (6.5 vs. 4.6 g/kg of FA). Differences identified between sampling years were more surprising: compared with that in yr 2, milk purchased in year 1 had higher concentrations of PUFA (37.5 vs. 32.9 g/kg of FA), α-LN (6.0 vs. 5.1 g/kg of FA), and linoleic acid (19.9 vs. 17.5 g/kg of FA) and lower concentrations of C16:0 and C14:0 (332 vs. 357 and 110 vs. 118 g/kg of FA, respectively). Strong interactions were identified between management and season as well as between season and year of the study. As in the earlier farm studies, differences in fat composition between systems were greater for summer compared with winter milk. Large between-year differences may be due to changes in weather influencing milk composition through forage availability, quality, and intake. If climate change predictions materialize, both forage and dairy management may have to adapt to maintain current milk quality. Considerable variation existed in milk fat composition between brands.",
+        "affiliation": "Nafferton Ecological Farming Group, School of Agriculture, Food and Rural Development, Newcastle University, Nafferton Farm, Stocksfield, Northumberland, NE43 7XD, United Kingdom. gillian.butler@ncl.ac.uk",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "QUALITYLOWINPUTFOOD",
+              "grantId": "FP6-FOOD-CT-2003- 506358",
+              "orderIn": 0
+            },
+            {
+              "agency": "Yorkshire Agricultural Society",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Milk",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fatty Acids",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Seasons"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "England"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Food, Organic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Fatty Acids",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free after 12 months",
+              "availabilityCode": "F12",
+              "documentStyle": "abs",
+              "site": "jds.fass.org",
+              "url": "http://jds.fass.org/cgi/content/abstract/94/1/24"
+            },
+            {
+              "availability": "Free after 12 months",
+              "availabilityCode": "F12",
+              "documentStyle": "html",
+              "site": "jds.fass.org",
+              "url": "http://jds.fass.org/cgi/content/full/94/1/24"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3168/jds.2010-3331"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 76,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2011-03-07",
+        "dateOfCreation": "2010-12-25",
+        "dateOfRevision": "2015-11-19",
+        "firstPublicationDate": "2011-01-01",
+        "firstIndexDate": "2010-12-29",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_source_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21183013+AND+SRC%3AMED&format=json&resultType=core&pageSize=2"
+}

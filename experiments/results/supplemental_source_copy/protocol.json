@@ -1,0 +1,13 @@
+{
+  "control_id": "CAL-06-source-copy",
+  "paper_group_id": "PMID:21979051",
+  "claim": "Inhibition of Endog in cultured cardiomyocytes resulted in an increase in cell size and hypertrophic biomarkers in the absence of pro-hypertrophic stimulation.",
+  "reference_source_sha256": "8ae6f7bfebe45077cd084f72911ea54e60c242cb5b3aa3e80025ed04752d0077",
+  "expected_action": "unchanged",
+  "reference_basis": "verbatim sentence in reviewed source and curated passages",
+  "independent_new_paper": false,
+  "pooled_with_primary_eight": false,
+  "human_output_ratings": 0,
+  "reason": "original CAL-06 control flagged by reviewer for imprecise endpoints",
+  "created_before_generation_utc": "2026-11-17T21:40:40.519433+00:00"
+}

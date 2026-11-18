@@ -1,0 +1,202 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "ABSTRACT:\"In conclusion, the sequence of neural network development highlights the possibility of early contact or interaction in securing long-distance and high-degree connectivity.\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "21253561",
+        "source": "MED",
+        "pmid": "21253561",
+        "pmcid": "PMC3017107",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3017107"
+          ]
+        },
+        "doi": "10.1371/journal.pcbi.1001044",
+        "title": "Neural development features: spatio-temporal development of the Caenorhabditis elegans neuronal network.",
+        "authorString": "Varier S, Kaiser M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Varier S",
+              "lastName": "Varier",
+              "firstName": "Sreedevi",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Computing Science, Newcastle University, Newcastle upon Tyne, United Kingdom."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kaiser M",
+              "lastName": "Kaiser",
+              "firstName": "Marcus",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4654-3110"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4654-3110"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "7",
+          "journalIssueId": 1803635,
+          "dateOfPublication": "2011 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "PLoS Comput Biol",
+            "title": "PLoS computational biology",
+            "essn": "1553-7358",
+            "issn": "1553-734X",
+            "isoabbreviation": "PLoS Comput Biol",
+            "nlmid": "101238922"
+          },
+          "printPublicationDate": "2011-01-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "e1001044",
+        "abstractText": "The nematode Caenorhabditis elegans, with information on neural connectivity, three-dimensional position and cell linage, provides a unique system for understanding the development of neural networks. Although C. elegans has been widely studied in the past, we present the first statistical study from a developmental perspective, with findings that raise interesting suggestions on the establishment of long-distance connections and network hubs. Here, we analyze the neuro-development for temporal and spatial features, using birth times of neurons and their three-dimensional positions. Comparisons of growth in C. elegans with random spatial network growth highlight two findings relevant to neural network development. First, most neurons which are linked by long-distance connections are born around the same time and early on, suggesting the possibility of early contact or interaction between connected neurons during development. Second, early-born neurons are more highly connected (tendency to form hubs) than later-born neurons. This indicates that the longer time frame available to them might underlie high connectivity. Both outcomes are not observed for random connection formation. The study finds that around one-third of electrically coupled long-range connections are late forming, raising the question of what mechanisms are involved in ensuring their accuracy, particularly in light of the extremely invariant connectivity observed in C. elegans. In conclusion, the sequence of neural network development highlights the possibility of early contact or interaction in securing long-distance and high-degree connectivity.",
+        "affiliation": "School of Computing Science, Newcastle University, Newcastle upon Tyne, United Kingdom.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Engineering and Physical Sciences Research Council",
+              "grantId": "EP/G03950X/1",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Nerve Net"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Caenorhabditis elegans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GD",
+                    "qualifierName": "growth & development"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1001044&type=printable"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1371/journal.pcbi.1001044"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3017107"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3017107?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 57,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2011-05-24",
+        "dateOfCreation": "2011-01-22",
+        "dateOfRevision": "2021-10-20",
+        "electronicPublicationDate": "2011-01-06",
+        "firstPublicationDate": "2011-01-06",
+        "firstIndexDate": "2011-01-22",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22In+conclusion%2C+the+sequence+of+neural+network+development+highlights+the+possibility+of+early+contact+or+interaction+in+securing+long-distance+and+high-degree+connectivity.%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"In conclusion, the sequence of neural network development highlights the possibility of early contact or interaction in securing long-distance and high-degree connectivity.\""
+}

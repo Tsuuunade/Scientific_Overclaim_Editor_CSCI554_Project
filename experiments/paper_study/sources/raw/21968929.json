@@ -1,0 +1,362 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:21968929 AND SRC:MED",
+    "internalQuery": "EXT_ID:21968929 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 2,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "21968929",
+        "source": "MED",
+        "pmid": "21968929",
+        "pmcid": "PMC3526729",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3526729"
+          ]
+        },
+        "doi": "10.1038/mp.2011.127",
+        "title": "Depression uncouples brain hate circuit.",
+        "authorString": "Tao H, Guo S, Ge T, Kendrick KM, Xue Z, Liu Z, Feng J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Tao H",
+              "lastName": "Tao",
+              "firstName": "H",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Mental Health, Second Xiangya Hospital, Central South University, Changsha, PR China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guo S",
+              "lastName": "Guo",
+              "firstName": "S",
+              "initials": "S"
+            },
+            {
+              "fullName": "Ge T",
+              "lastName": "Ge",
+              "firstName": "T",
+              "initials": "T"
+            },
+            {
+              "fullName": "Kendrick KM",
+              "lastName": "Kendrick",
+              "firstName": "K M",
+              "initials": "KM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0371-5904"
+              }
+            },
+            {
+              "fullName": "Xue Z",
+              "lastName": "Xue",
+              "firstName": "Z",
+              "initials": "Z"
+            },
+            {
+              "fullName": "Liu Z",
+              "lastName": "Liu",
+              "firstName": "Z",
+              "initials": "Z",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6893-2427"
+              }
+            },
+            {
+              "fullName": "Feng J",
+              "lastName": "Feng",
+              "firstName": "J",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9328-5732"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6893-2427"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0371-5904"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9328-5732"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "18",
+          "journalIssueId": 1994023,
+          "dateOfPublication": "2013 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2013,
+          "journal": {
+            "medlineAbbreviation": "Mol Psychiatry",
+            "title": "Molecular psychiatry",
+            "essn": "1476-5578",
+            "issn": "1359-4184",
+            "nlmid": "9607835",
+            "isoabbreviation": "Mol Psychiatry"
+          },
+          "printPublicationDate": "2013-01-01"
+        },
+        "pubYear": "2013",
+        "pageInfo": "101-111",
+        "abstractText": "It is increasingly recognized that we need a better understanding of how mental disorders such as depression alter the brain's functional connections to improve both early diagnosis and therapy. A new holistic approach has been used to investigate functional connectivity changes in the brains of patients suffering from major depression using resting-state functional magnetic resonance imaging (fMRI) data. A canonical template of connectivity in 90 different brain regions was constructed from healthy control subjects and this identified a six-community structure with each network corresponding to a different functional system. This template was compared with functional networks derived from fMRI scans of both first-episode and longer-term, drug resistant, patients suffering from severe depression. The greatest change in both groups of depressed patients was uncoupling of the so-called 'hate circuit' involving the superior frontal gyrus, insula and putamen. Other major changes occurred in circuits related to risk and action responses, reward and emotion, attention and memory processing. A voxel-based morphometry analysis was also carried out but this revealed no evidence in the depressed patients for altered gray or white matter densities in the regions showing altered functional connectivity. This is the first evidence for the involvement of the 'hate circuit' in depression and suggests a potential reappraisal of the key neural circuitry involved. We have hypothesized that this may reflect reduced cognitive control over negative feelings toward both self and others.",
+        "affiliation": "Institute of Mental Health, Second Xiangya Hospital, Central South University, Changsha, PR China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Brain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BS",
+                    "qualifierName": "blood supply"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nerve Net",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BS",
+                    "qualifierName": "blood supply"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neural Pathways",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BS",
+                    "qualifierName": "blood supply"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxygen",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Magnetic Resonance Imaging"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Brain Mapping"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Case-Control Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Depression",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Psychiatric Status Rating Scales"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Algorithms"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Community Networks"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Image Processing, Computer-Assisted"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adolescent"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Oxygen",
+              "registryNumber": "S88TT14065"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.nature.com/articles/mp2011127.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/mp.2011.127"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3526729"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3526729?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 184,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-sa",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2013-05-30",
+        "dateOfCreation": "2011-10-05",
+        "dateOfRevision": "2022-04-09",
+        "electronicPublicationDate": "2011-10-04",
+        "firstPublicationDate": "2011-10-04",
+        "firstIndexDate": "2011-10-06",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_source_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21968929+AND+SRC%3AMED&format=json&resultType=core&pageSize=2"
+}

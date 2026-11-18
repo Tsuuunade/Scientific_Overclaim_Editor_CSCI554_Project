@@ -1,0 +1,222 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:21559020 AND SRC:MED",
+    "internalQuery": "EXT_ID:21559020 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 2,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "21559020",
+        "source": "MED",
+        "pmid": "21559020",
+        "pmcid": "PMC3111162",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3111162"
+          ]
+        },
+        "doi": "10.1038/bjc.2011.149",
+        "title": "The changing association between socioeconomic circumstances and the incidence of colorectal cancer: a population-based study.",
+        "authorString": "Oliphant R, Brewster DH, Morrison DS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Oliphant R",
+              "lastName": "Oliphant",
+              "firstName": "R",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "West of Scotland Cancer Surveillance Unit, Department of Public Health, 1 Lilybank Gardens, University of Glasgow, Glasgow G12 8RZ, UK. raymondoliphant@nhs.net"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Brewster DH",
+              "lastName": "Brewster",
+              "firstName": "D H",
+              "initials": "DH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5346-5608"
+              }
+            },
+            {
+              "fullName": "Morrison DS",
+              "lastName": "Morrison",
+              "firstName": "D S",
+              "initials": "DS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0617-3047"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0617-3047"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5346-5608"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "11",
+          "volume": "104",
+          "journalIssueId": 1834842,
+          "dateOfPublication": "2011 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "Br J Cancer",
+            "title": "British journal of cancer",
+            "essn": "1532-1827",
+            "issn": "0007-0920",
+            "nlmid": "0370635",
+            "isoabbreviation": "Br J Cancer"
+          },
+          "printPublicationDate": "2011-05-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "1791-1796",
+        "abstractText": "<h4>Background</h4>There is emerging evidence to suggest that the association between socioeconomic circumstances and colorectal cancer incidence has changed over recent decades.<h4>Methods</h4>We conducted a descriptive population-based study to describe the relationship between socioeconomic circumstances and the incidence of colorectal cancer in a pre-screened population. Incident cases of colorectal cancer from the West of Scotland were identified from the Scottish Cancer Registry and European age-standardised incidence rates (EASR) were calculated. Socioeconomic circumstances were measured using the area-based Scottish Index of Multiple Deprivation (SIMD).<h4>Results</h4>In total, 14,051 incident cases of colorectal cancer were recorded from 1999 to 2007. Incidence of colorectal cancer was associated with increased deprivation in men but not among women; an association that became evident from 2005 onwards. From 2005 to 2007, the deprivation gap in incidence among men was 13.3 per 100,000 (95% confidence interval 3.2-23.4), with rates 19.5% lower among the least deprived compared with the most deprived. This deprivation gap now accounts for an estimated 75 excess cases per year of male colorectal cancer in the West of Scotland.<h4>Conclusion</h4>Deprivation was associated with higher incidence rates of male, but not female, colorectal cancer before the implementation of a national bowel screening programme.",
+        "affiliation": "West of Scotland Cancer Surveillance Unit, Department of Public Health, 1 Lilybank Gardens, University of Glasgow, Glasgow G12 8RZ, UK. raymondoliphant@nhs.net",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Colorectal Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Population Surveillance"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Incidence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sex Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Poverty"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Socioeconomic Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/bjc.2011.149"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3111162"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3111162?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 25,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2011-07-21",
+        "dateOfCreation": "2011-05-12",
+        "dateOfRevision": "2021-10-20",
+        "electronicPublicationDate": "2011-05-10",
+        "firstPublicationDate": "2011-05-10",
+        "firstIndexDate": "2011-05-12",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_source_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21559020+AND+SRC%3AMED&format=json&resultType=core&pageSize=2"
+}

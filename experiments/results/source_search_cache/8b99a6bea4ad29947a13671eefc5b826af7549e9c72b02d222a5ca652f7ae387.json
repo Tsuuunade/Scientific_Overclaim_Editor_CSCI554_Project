@@ -1,0 +1,343 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "ABSTRACT:\"The best compound identified, SMT C1100, demonstrated significant disease modifying effects in DMD models.\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "21573153",
+        "source": "MED",
+        "pmid": "21573153",
+        "pmcid": "PMC3089598",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3089598"
+          ]
+        },
+        "doi": "10.1371/journal.pone.0019189",
+        "title": "Daily treatment with SMTC1100, a novel small molecule utrophin upregulator, dramatically reduces the dystrophic symptoms in the mdx mouse.",
+        "authorString": "Tinsley JM, Fairclough RJ, Storer R, Wilkes FJ, Potter AC, Squire SE, Powell DS, Cozzoli A, Capogrosso RF, Lambert A, Wilson FX, Wren SP, De Luca A, Davies KE.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Tinsley JM",
+              "lastName": "Tinsley",
+              "firstName": "Jonathon M",
+              "initials": "JM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Summit plc, Abingdon, United Kingdom. Jon.Tinsley@summitplc.com"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fairclough RJ",
+              "lastName": "Fairclough",
+              "firstName": "Rebecca J",
+              "initials": "RJ"
+            },
+            {
+              "fullName": "Storer R",
+              "lastName": "Storer",
+              "firstName": "Richard",
+              "initials": "R"
+            },
+            {
+              "fullName": "Wilkes FJ",
+              "lastName": "Wilkes",
+              "firstName": "Fraser J",
+              "initials": "FJ"
+            },
+            {
+              "fullName": "Potter AC",
+              "lastName": "Potter",
+              "firstName": "Allyson C",
+              "initials": "AC"
+            },
+            {
+              "fullName": "Squire SE",
+              "lastName": "Squire",
+              "firstName": "Sarah E",
+              "initials": "SE"
+            },
+            {
+              "fullName": "Powell DS",
+              "lastName": "Powell",
+              "firstName": "Dave S",
+              "initials": "DS"
+            },
+            {
+              "fullName": "Cozzoli A",
+              "lastName": "Cozzoli",
+              "firstName": "Anna",
+              "initials": "A"
+            },
+            {
+              "fullName": "Capogrosso RF",
+              "lastName": "Capogrosso",
+              "firstName": "Roberta F",
+              "initials": "RF"
+            },
+            {
+              "fullName": "Lambert A",
+              "lastName": "Lambert",
+              "firstName": "Adam",
+              "initials": "A"
+            },
+            {
+              "fullName": "Wilson FX",
+              "lastName": "Wilson",
+              "firstName": "Francis X",
+              "initials": "FX"
+            },
+            {
+              "fullName": "Wren SP",
+              "lastName": "Wren",
+              "firstName": "Stephen P",
+              "initials": "SP"
+            },
+            {
+              "fullName": "De Luca A",
+              "lastName": "De Luca",
+              "firstName": "Annamaria",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5652-7341"
+              }
+            },
+            {
+              "fullName": "Davies KE",
+              "lastName": "Davies",
+              "firstName": "Kay E",
+              "initials": "KE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7790-3003"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7790-3003"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5652-7341"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "6",
+          "journalIssueId": 2469660,
+          "dateOfPublication": "2011 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "PLoS One",
+            "title": "PloS one",
+            "essn": "1932-6203",
+            "issn": "1932-6203",
+            "nlmid": "101285081",
+            "isoabbreviation": "PLoS One"
+          },
+          "printPublicationDate": "2011-05-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "e19189",
+        "abstractText": "<h4>Background</h4>Duchenne muscular dystrophy (DMD) is a lethal, progressive muscle wasting disease caused by a loss of sarcolemmal bound dystrophin, which results in the death of the muscle fibers leading to the gradual depletion of skeletal muscle. There is significant evidence demonstrating that increasing levels of the dystrophin-related protein, utrophin, in mouse models results in sarcolemmal bound utrophin and prevents the muscular dystrophy pathology. The aim of this work was to develop a small molecule which increases the levels of utrophin in muscle and thus has therapeutic potential.<h4>Methodology and principal findings</h4>We describe the in vivo activity of SMT C1100; the first orally bioavailable small molecule utrophin upregulator. Once-a-day daily-dosing with SMT C1100 reduces a number of the pathological effects of dystrophin deficiency. Treatment results in reduced pathology, better muscle physiology leading to an increase in overall strength, and an ability to resist fatigue after forced exercise; a surrogate for the six minute walk test currently recommended as the pivotal outcome measure in human trials for DMD.<h4>Conclusions and significance</h4>This study demonstrates proof-of-principle for the use of in vitro screening methods in allowing identification of pharmacological agents for utrophin transcriptional upregulation. The best compound identified, SMT C1100, demonstrated significant disease modifying effects in DMD models. Our data warrant the full evaluation of this compound in clinical trials in DMD patients.",
+        "affiliation": "Summit plc, Abingdon, United Kingdom. Jon.Tinsley@summitplc.com",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Telethon",
+              "acronym": "TI_",
+              "grantId": "GGP05130",
+              "orderIn": 0
+            },
+            {
+              "agency": "Howard Hughes Medical Institute",
+              "acronym": "HHMI",
+              "grantId": "GGP05130",
+              "orderIn": 0
+            },
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "MC_U137761449",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cells, Cultured"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred mdx"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Muscular Dystrophy, Animal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Utrophin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reverse Transcriptase Polymerase Chain Reaction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electrophysiology"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Utrophin",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1371/journal.pone.0019189"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3089598"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3089598?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 139,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2011-10-24",
+        "dateOfCreation": "2011-05-17",
+        "dateOfRevision": "2025-05-29",
+        "electronicPublicationDate": "2011-05-06",
+        "firstPublicationDate": "2011-05-06",
+        "firstIndexDate": "2011-05-17",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22The+best+compound+identified%2C+SMT+C1100%2C+demonstrated+significant+disease+modifying+effects+in+DMD+models.%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"The best compound identified, SMT C1100, demonstrated significant disease modifying effects in DMD models.\""
+}

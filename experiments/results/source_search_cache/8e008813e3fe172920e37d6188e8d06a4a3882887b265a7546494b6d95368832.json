@@ -1,0 +1,571 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "ABSTRACT:\"We show that a recently described syndrome of monocytopenia, B and NK lymphoid deficiency additionally includes the near absence of dendritic cells.\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "21242295",
+        "source": "MED",
+        "pmid": "21242295",
+        "pmcid": "PMC3039861",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3039861"
+          ]
+        },
+        "doi": "10.1084/jem.20101459",
+        "title": "The human syndrome of dendritic cell, monocyte, B and NK lymphoid deficiency.",
+        "authorString": "Bigley V, Haniffa M, Doulatov S, Wang XN, Dickinson R, McGovern N, Jardine L, Pagan S, Dimmick I, Chua I, Wallis J, Lordan J, Morgan C, Kumararatne DS, Doffinger R, van der Burg M, van Dongen J, Cant A, Dick JE, Hambleton S, Collin M.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bigley V",
+              "lastName": "Bigley",
+              "firstName": "Venetia",
+              "initials": "V",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3017-2474"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Cellular Medicine, Newcastle University, Framlington Place, Newcastle upon Tyne, England, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Haniffa M",
+              "lastName": "Haniffa",
+              "firstName": "Muzlifah",
+              "initials": "M"
+            },
+            {
+              "fullName": "Doulatov S",
+              "lastName": "Doulatov",
+              "firstName": "Sergei",
+              "initials": "S"
+            },
+            {
+              "fullName": "Wang XN",
+              "lastName": "Wang",
+              "firstName": "Xiao-Nong",
+              "initials": "XN"
+            },
+            {
+              "fullName": "Dickinson R",
+              "lastName": "Dickinson",
+              "firstName": "Rachel",
+              "initials": "R"
+            },
+            {
+              "fullName": "McGovern N",
+              "lastName": "McGovern",
+              "firstName": "Naomi",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5200-2698"
+              }
+            },
+            {
+              "fullName": "Jardine L",
+              "lastName": "Jardine",
+              "firstName": "Laura",
+              "initials": "L"
+            },
+            {
+              "fullName": "Pagan S",
+              "lastName": "Pagan",
+              "firstName": "Sarah",
+              "initials": "S"
+            },
+            {
+              "fullName": "Dimmick I",
+              "lastName": "Dimmick",
+              "firstName": "Ian",
+              "initials": "I"
+            },
+            {
+              "fullName": "Chua I",
+              "lastName": "Chua",
+              "firstName": "Ignatius",
+              "initials": "I"
+            },
+            {
+              "fullName": "Wallis J",
+              "lastName": "Wallis",
+              "firstName": "Jonathan",
+              "initials": "J"
+            },
+            {
+              "fullName": "Lordan J",
+              "lastName": "Lordan",
+              "firstName": "Jim",
+              "initials": "J"
+            },
+            {
+              "fullName": "Morgan C",
+              "lastName": "Morgan",
+              "firstName": "Cliff",
+              "initials": "C"
+            },
+            {
+              "fullName": "Kumararatne DS",
+              "lastName": "Kumararatne",
+              "firstName": "Dinakantha S",
+              "initials": "DS"
+            },
+            {
+              "fullName": "Doffinger R",
+              "lastName": "Doffinger",
+              "firstName": "Rainer",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9841-3617"
+              }
+            },
+            {
+              "fullName": "van der Burg M",
+              "lastName": "van der Burg",
+              "firstName": "Mirjam",
+              "initials": "M"
+            },
+            {
+              "fullName": "van Dongen J",
+              "lastName": "van Dongen",
+              "firstName": "Jacques",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3650-7087"
+              }
+            },
+            {
+              "fullName": "Cant A",
+              "lastName": "Cant",
+              "firstName": "Andrew",
+              "initials": "A"
+            },
+            {
+              "fullName": "Dick JE",
+              "lastName": "Dick",
+              "firstName": "John E",
+              "initials": "JE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9527-8317"
+              }
+            },
+            {
+              "fullName": "Hambleton S",
+              "lastName": "Hambleton",
+              "firstName": "Sophie",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7954-3267"
+              }
+            },
+            {
+              "fullName": "Collin M",
+              "lastName": "Collin",
+              "firstName": "Matthew",
+              "initials": "M"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5200-2698"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7954-3267"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3017-2474"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3650-7087"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9527-8317"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9841-3617"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "recommended_reviews",
+            "related_data",
+            "wikipedia"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "208",
+          "journalIssueId": 1808564,
+          "dateOfPublication": "2011 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "J Exp Med",
+            "title": "The Journal of experimental medicine",
+            "essn": "1540-9538",
+            "issn": "0022-1007",
+            "isoabbreviation": "J Exp Med",
+            "nlmid": "2985109R"
+          },
+          "printPublicationDate": "2011-02-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "227-234",
+        "abstractText": "Congenital or acquired cellular deficiencies in humans have the potential to reveal much about normal hematopoiesis and immune function. We show that a recently described syndrome of monocytopenia, B and NK lymphoid deficiency additionally includes the near absence of dendritic cells. Four subjects showed severe depletion of the peripheral blood HLA-DR(+) lineage(-) compartment, with virtually no CD123(+) or CD11c(+) dendritic cells (DCs) and very few CD14(+) or CD16(+) monocytes. The only remaining HLA-DR(+) lineage(-) cells were circulating CD34(+) progenitor cells. Dermal CD14(+) and CD1a(+) DC were also absent, consistent with their dependence on blood-derived precursors. In contrast, epidermal Langerhans cells and tissue macrophages were largely preserved. Combined loss of peripheral DCs, monocytes, and B and NK lymphocytes was mirrored in the bone marrow by complete absence of multilymphoid progenitors and depletion of granulocyte-macrophage progenitors. Depletion of the HLA-DR(+) peripheral blood compartment was associated with elevated serum fms-like tyrosine kinase ligand and reduced circulating CD4(+)CD25(hi)FoxP3(+) T cells, supporting a role for DC in T reg cell homeostasis.",
+        "affiliation": "Institute of Cellular Medicine, Newcastle University, Framlington Place, Newcastle upon Tyne, England, UK.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article",
+            "Case Reports"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "G0800358",
+              "orderIn": 0
+            },
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "G0701897",
+              "orderIn": 0
+            },
+            {
+              "agency": "Biotechnology and Biological Sciences Research Council",
+              "acronym": "BB_",
+              "grantId": "BB/E012841/1",
+              "orderIn": 0
+            },
+            {
+              "agency": "Wellcome Trust",
+              "acronym": "WT_",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute for Health Research (NIHR)",
+              "grantId": "ACF-2010-01-006",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dendritic Cells",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Monocytes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Bone Marrow Cells",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mycobacterium Infections",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Leukopenia",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CO",
+                    "qualifierName": "complications"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Syndrome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disease Susceptibility",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ET",
+                    "qualifierName": "etiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MI",
+                    "qualifierName": "microbiology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "VI",
+                    "qualifierName": "virology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antigens, CD",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "HLA-DR Antigens",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microscopy, Fluorescence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme-Linked Immunosorbent Assay"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Flow Cytometry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Interferon-gamma",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "BL",
+                    "qualifierName": "blood"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "HLA-DR Antigens",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antigens, CD",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Interferon-gamma",
+              "registryNumber": "82115-62-6"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "abs",
+              "site": "intl.jem.org",
+              "url": "http://intl.jem.org/cgi/content/abstract/208/2/227"
+            },
+            {
+              "availability": "Free after 6 months",
+              "availabilityCode": "F6",
+              "documentStyle": "pdf",
+              "site": "intl.jem.org",
+              "url": "http://intl.jem.org/cgi/reprint/208/2/227.pdf"
+            },
+            {
+              "availability": "Free after 6 months",
+              "availabilityCode": "F6",
+              "documentStyle": "html",
+              "site": "intl.jem.org",
+              "url": "http://intl.jem.org/cgi/content/full/208/2/227"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1084/jem.20101459"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3039861"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3039861?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 241,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "OMIM"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-sa",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2011-04-14",
+        "dateOfCreation": "2011-01-19",
+        "dateOfRevision": "2025-05-29",
+        "electronicPublicationDate": "2011-01-17",
+        "firstPublicationDate": "2011-01-17",
+        "firstIndexDate": "2011-01-19",
+        "fullTextReceivedDate": "2026-10-13",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22We+show+that+a+recently+described+syndrome+of+monocytopenia%2C+B+and+NK+lymphoid+deficiency+additionally+includes+the+near+absence+of+dendritic+cells.%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"We show that a recently described syndrome of monocytopenia, B and NK lymphoid deficiency additionally includes the near absence of dendritic cells.\""
+}

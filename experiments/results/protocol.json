@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-11-17T21:11:17.824722+00:00",
+  "protocol": "development_feasibility_v1",
+  "input_sha256": "d1002e2c48242dabea5d310073f34f4c1dda3125301bc1bb69d284b786f820aa",
+  "method_order": [
+    "A",
+    "B",
+    "C",
+    "D_v1",
+    "D_v2",
+    "D_matched"
+  ],
+  "model": "Qwen/Qwen2.5-7B-Instruct-GGUF",
+  "model_revision": "bb5d59e06d9551d752d08b292a50eb208b07ab1f",
+  "quantization": "Q4_K_M",
+  "runtime": "llama.cpp b12483 CUDA 12.4",
+  "temperature": 0,
+  "max_new_tokens": 512,
+  "seed": 42,
+  "model_fine_tuned": false,
+  "validation": "original member4 validator; raw outputs preserved; deterministic offset recovery reported separately",
+  "primary_claim_limit": "all eight cases are development-exposed; no held-out or population performance claim",
+  "evidence_variants": "D_matched uses as many top-ranked sentences as D_v2, not a matched token budget"
+}

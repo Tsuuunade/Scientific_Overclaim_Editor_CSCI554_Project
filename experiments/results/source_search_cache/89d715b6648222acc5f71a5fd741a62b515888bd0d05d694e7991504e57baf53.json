@@ -1,0 +1,17 @@
+{
+  "version": "6.9",
+  "hitCount": 0,
+  "request": {
+    "queryString": "ABSTRACT:representative AND ABSTRACT:definitive AND ABSTRACT:nationally AND ABSTRACT:predictive AND ABSTRACT:Alzheimer",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": []
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3Arepresentative+AND+ABSTRACT%3Adefinitive+AND+ABSTRACT%3Anationally+AND+ABSTRACT%3Apredictive+AND+ABSTRACT%3AAlzheimer&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:representative AND ABSTRACT:definitive AND ABSTRACT:nationally AND ABSTRACT:predictive AND ABSTRACT:Alzheimer"
+}

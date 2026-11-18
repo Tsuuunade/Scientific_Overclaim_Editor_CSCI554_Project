@@ -1,0 +1,400 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "ABSTRACT:\"Mice in which HCN2 was specifically deleted in nociceptors expressing Na(V)1.8 had normal pain thresholds, but inflammation did not cause hyperalgesia to heat stimuli.\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "21903816",
+        "source": "MED",
+        "pmid": "21903816",
+        "doi": "10.1126/science.1206243",
+        "title": "HCN2 ion channels play a central role in inflammatory and neuropathic pain.",
+        "authorString": "Emery EC, Young GT, Berrocoso EM, Chen L, McNaughton PA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Emery EC",
+              "lastName": "Emery",
+              "firstName": "Edward C",
+              "initials": "EC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9723-8661"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmacology, University of Cambridge, Cambridge CB2 1PD, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Young GT",
+              "lastName": "Young",
+              "firstName": "Gareth T",
+              "initials": "GT"
+            },
+            {
+              "fullName": "Berrocoso EM",
+              "lastName": "Berrocoso",
+              "firstName": "Esther M",
+              "initials": "EM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0208-7472"
+              }
+            },
+            {
+              "fullName": "Chen L",
+              "lastName": "Chen",
+              "firstName": "Lubin",
+              "initials": "L"
+            },
+            {
+              "fullName": "McNaughton PA",
+              "lastName": "McNaughton",
+              "firstName": "Peter A",
+              "initials": "PA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1946-9610"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9723-8661"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0208-7472"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1946-9610"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "recommended_reviews",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "6048",
+          "volume": "333",
+          "journalIssueId": 1863250,
+          "dateOfPublication": "2011 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "Science",
+            "title": "Science (New York, N.Y.)",
+            "essn": "1095-9203",
+            "issn": "0036-8075",
+            "nlmid": "0404511",
+            "isoabbreviation": "Science"
+          },
+          "printPublicationDate": "2011-09-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "1462-1466",
+        "abstractText": "The rate of action potential firing in nociceptors is a major determinant of the intensity of pain. Possible modulators of action potential firing include the HCN ion channels, which generate an inward current, I(h), after hyperpolarization of the membrane. We found that genetic deletion of HCN2 removed the cyclic adenosine monophosphate (cAMP)-sensitive component of I(h) and abolished action potential firing caused by an elevation of cAMP in nociceptors. Mice in which HCN2 was specifically deleted in nociceptors expressing Na(V)1.8 had normal pain thresholds, but inflammation did not cause hyperalgesia to heat stimuli. After a nerve lesion, these mice showed no neuropathic pain in response to thermal or mechanical stimuli. Neuropathic pain is therefore initiated by HCN2-driven action potential firing in Na(V)1.8-expressing nociceptors.",
+        "affiliation": "Department of Pharmacology, University of Cambridge, Cambridge CB2 1PD, UK.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Biotechnology and Biological Sciences Research Council",
+              "acronym": "BB_",
+              "grantId": "BB/F009860/1",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ganglia, Spinal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CY",
+                    "qualifierName": "cytology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nociceptors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PH",
+                    "qualifierName": "physiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pain",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neuralgia",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hyperalgesia",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inflammation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PP",
+                    "qualifierName": "physiopathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ion Channels",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Potassium Channels"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sodium Channels",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cyclic AMP",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Patch-Clamp Techniques"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pain Threshold"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Action Potentials"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cold Temperature"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hot Temperature"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "NAV1.8 Voltage-Gated Sodium Channel"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hyperpolarization-Activated Cyclic Nucleotide-Gated Channels"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Ion Channels",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Sodium Channels",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Potassium Channels",
+              "registryNumber": "0"
+            },
+            {
+              "name": "NAV1.8 Voltage-Gated Sodium Channel",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Scn10a protein, mouse",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cyclic AMP",
+              "registryNumber": "E0399OZS9N"
+            },
+            {
+              "name": "Hyperpolarization-Activated Cyclic Nucleotide-Gated Channels",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Hcn2 protein, mouse",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1126/science.1206243"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 299,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "OMIM"
+          ]
+        },
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2011-09-23",
+        "dateOfCreation": "2011-09-10",
+        "dateOfRevision": "2025-05-29",
+        "firstPublicationDate": "2011-09-01",
+        "firstIndexDate": "2011-09-10",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22Mice+in+which+HCN2+was+specifically+deleted+in+nociceptors+expressing+Na%28V%291.8+had+normal+pain+thresholds%2C+but+inflammation+did+not+cause+hyperalgesia+to+heat+stimuli.%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"Mice in which HCN2 was specifically deleted in nociceptors expressing Na(V)1.8 had normal pain thresholds, but inflammation did not cause hyperalgesia to heat stimuli.\""
+}

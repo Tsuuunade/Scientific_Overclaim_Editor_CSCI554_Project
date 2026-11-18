@@ -1,0 +1,18 @@
+{
+  "scope": "one supplemental source-copy control on an already exposed paper",
+  "pooled_with_primary_eight": false,
+  "methods": {
+    "A": {
+      "valid": true,
+      "unchanged": true
+    },
+    "B": {
+      "valid": true,
+      "unchanged": true
+    },
+    "C": {
+      "valid": false,
+      "unchanged": false
+    }
+  }
+}

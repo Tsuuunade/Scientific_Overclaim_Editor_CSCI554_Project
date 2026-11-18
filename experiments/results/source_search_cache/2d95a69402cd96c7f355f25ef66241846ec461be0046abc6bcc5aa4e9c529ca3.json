@@ -1,0 +1,17 @@
+{
+  "version": "6.9",
+  "hitCount": 0,
+  "request": {
+    "queryString": "ABSTRACT:\"From this longitudinal study we conclude that childhood well being\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": []
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22From+this+longitudinal+study+we+conclude+that+childhood+well+being%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"From this longitudinal study we conclude that childhood well being\""
+}

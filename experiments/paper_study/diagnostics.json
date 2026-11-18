@@ -1,0 +1,63 @@
+{
+  "retrieval_adequacy_13_resolvable_cases": {
+    "adequate": 7,
+    "insufficient": 3,
+    "partial": 3
+  },
+  "adequate_retrieval_case_ids": [
+    "PILOT-03-11-014-1",
+    "PILOT-19-11-006-1",
+    "PILOT-15-11-010-1",
+    "PILOT-20-11-012-1",
+    "PILOT-25-199",
+    "PILOT-20-11-007-1",
+    "PILOT-06-11-012-1"
+  ],
+  "C_task_success_on_adequate_retrieval_cases": 2,
+  "D_task_success_on_adequate_retrieval_cases": 1,
+  "baseline_mixed_claim_and_abstain_outputs": [
+    "PILOT-03-11-014-1__B_direct_full",
+    "PILOT-25-162__B_direct_full",
+    "PILOT-15-11-015-1__B_direct_full",
+    "PILOT-20-11-012-1__B_direct_full",
+    "PILOT-10-11-001-1__B_direct_full",
+    "PILOT-06-11-012-1__B_direct_full"
+  ],
+  "validation_failures": [
+    {
+      "input_id": "PILOT-13-11-015-1__C_structured_curated_AI",
+      "failures": [
+        "span_not_unique_verbatim"
+      ]
+    },
+    {
+      "input_id": "PILOT-22-018__M_simple_full",
+      "failures": [
+        "span_not_unique_verbatim"
+      ]
+    },
+    {
+      "input_id": "PILOT-13-11-015-1__M_structured_full",
+      "failures": [
+        "span_not_unique_verbatim"
+      ]
+    },
+    {
+      "input_id": "PILOT-22-018__M_simple_curated_AI",
+      "failures": [
+        "span_not_unique_verbatim"
+      ]
+    },
+    {
+      "input_id": "PILOT-13-11-015-1__D_structured_retrieved",
+      "failures": [
+        "span_not_unique_verbatim"
+      ]
+    }
+  ],
+  "identical_generation_prompt_groups": 22,
+  "redundant_generations_with_identical_prompts": 23,
+  "identical_prompt_groups_with_different_raw_outputs": 0,
+  "repeated_model_generations_note": "Same inputs occur where curated evidence retains all source sentences. They are not additional cases or independent replications.",
+  "assessment_provenance": "automated, not independent human review"
+}

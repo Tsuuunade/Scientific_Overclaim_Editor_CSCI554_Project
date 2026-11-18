@@ -1,0 +1,344 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "ABSTRACT:\"Impulsive choice in the gamblers was correlated with the level of gambling distortions, and we hypothesize that an impulsive decision-making style may increase the acceptance of erroneous beliefs during gambling play.\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 10,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "21733207",
+        "source": "MED",
+        "pmid": "21733207",
+        "pmcid": "PMC3206226",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3206226"
+          ]
+        },
+        "doi": "10.1017/s003329171100095x",
+        "title": "Impulsivity and cognitive distortions in pathological gamblers attending the UK National Problem Gambling Clinic: a preliminary report.",
+        "authorString": "Michalczuk R, Bowden-Jones H, Verdejo-Garcia A, Clark L.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Michalczuk R",
+              "lastName": "Michalczuk",
+              "firstName": "R",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Behavioural and Clinical Neuroscience Institute, Department of Experimental Psychology, University of Cambridge, UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bowden-Jones H",
+              "lastName": "Bowden-Jones",
+              "firstName": "H",
+              "initials": "H"
+            },
+            {
+              "fullName": "Verdejo-Garcia A",
+              "lastName": "Verdejo-Garcia",
+              "firstName": "A",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8874-9339"
+              }
+            },
+            {
+              "fullName": "Clark L",
+              "lastName": "Clark",
+              "firstName": "L",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1103-2422"
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8874-9339"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1103-2422"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "41",
+          "journalIssueId": 2063499,
+          "dateOfPublication": "2011 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2011,
+          "journal": {
+            "medlineAbbreviation": "Psychol Med",
+            "title": "Psychological medicine",
+            "essn": "1469-8978",
+            "issn": "0033-2917",
+            "nlmid": "1254142",
+            "isoabbreviation": "Psychol Med"
+          },
+          "printPublicationDate": "2011-12-01"
+        },
+        "pubYear": "2011",
+        "pageInfo": "2625-2635",
+        "abstractText": "<h4>Background</h4>Pathological gambling (PG) is a form of behavioural addiction that has been associated with elevated impulsivity and also cognitive distortions in the processing of chance, probability and skill. We sought to assess the relationship between the level of cognitive distortions and state and trait measures of impulsivity in treatment-seeking pathological gamblers.<h4>Method</h4>Thirty pathological gamblers attending the National Problem Gambling Clinic, the first National Health Service clinic for gambling problems in the UK, were compared with 30 healthy controls in a case-control design. Cognitive distortions were assessed using the Gambling-Related Cognitions Scale (GRCS). Trait impulsivity was assessed using the UPPS-P, which includes scales of urgency, the tendency to be impulsive in positive or negative mood states. Delay discounting rates were taken as a state measure of impulsive choice.<h4>Results</h4>Pathological gamblers had elevated impulsivity on several UPPS-P subscales but effect sizes were largest (Cohen's d>1.4) for positive and negative urgency. The pathological gamblers also displayed higher levels of gambling distortions, and elevated preference for immediate rewards, compared to controls. Within the pathological gamblers, there was a strong relationship between the preference for immediate rewards and the level of cognitive distortions (R2=0.41).<h4>Conclusions</h4>Impulsive choice in the gamblers was correlated with the level of gambling distortions, and we hypothesize that an impulsive decision-making style may increase the acceptance of erroneous beliefs during gambling play.",
+        "affiliation": "Behavioural and Clinical Neuroscience Institute, Department of Experimental Psychology, University of Cambridge, UK.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "G0001354B",
+              "orderIn": 0
+            },
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "G1000183B",
+              "orderIn": 0
+            },
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "G0001354",
+              "orderIn": 0
+            },
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "G1000183",
+              "orderIn": 0
+            },
+            {
+              "agency": "Wellcome Trust",
+              "acronym": "WT_",
+              "grantId": "093875",
+              "orderIn": 0
+            },
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "G0802725",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Case-Control Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Impulsive Behavior",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PX",
+                    "qualifierName": "psychology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gambling",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PX",
+                    "qualifierName": "psychology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TH",
+                    "qualifierName": "therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reward"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cognition Disorders",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PX",
+                    "qualifierName": "psychology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Psychiatric Status Rating Scales"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Psychological Tests"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Psychotherapy"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Young Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "United Kingdom"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/62BC5C73BAA3EC04F1544081AC75A818/S003329171100095Xa.pdf/div-class-title-impulsivity-and-cognitive-distortions-in-pathological-gamblers-attending-the-uk-national-problem-gambling-clinic-a-preliminary-report-div.pdf"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/62BC5C73BAA3EC04F1544081AC75A818/S003329171100095Xa.pdf/div-class-title-impulsivity-and-cognitive-distortions-in-pathological-gamblers-attending-the-uk-national-problem-gambling-clinic-a-preliminary-report-div.pdf"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/62BC5C73BAA3EC04F1544081AC75A818/S003329171100095Xa.pdf/div-class-title-impulsivity-and-cognitive-distortions-in-pathological-gamblers-attending-the-uk-national-problem-gambling-clinic-a-preliminary-report-div.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1017/S003329171100095X"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3206226"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3206226?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 147,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-sa",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2014-04-03",
+        "dateOfCreation": "2011-07-08",
+        "dateOfRevision": "2026-01-28",
+        "electronicPublicationDate": "2011-06-29",
+        "firstPublicationDate": "2011-06-29",
+        "firstIndexDate": "2011-07-08",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N"
+      }
+    ]
+  },
+  "_request_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ABSTRACT%3A%22Impulsive+choice+in+the+gamblers+was+correlated+with+the+level+of+gambling+distortions%2C+and+we+hypothesize+that+an+impulsive+decision-making+style+may+increase+the+acceptance+of+erroneous+beliefs+during+gambling+play.%22&format=json&resultType=core&pageSize=10",
+  "_query": "ABSTRACT:\"Impulsive choice in the gamblers was correlated with the level of gambling distortions, and we hypothesize that an impulsive decision-making style may increase the acceptance of erroneous beliefs during gambling play.\""
+}
