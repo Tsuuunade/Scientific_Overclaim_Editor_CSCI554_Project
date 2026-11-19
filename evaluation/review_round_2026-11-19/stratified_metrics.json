@@ -1,0 +1,515 @@
+{
+  "review_round": "2026-11-19-working-review",
+  "status": "provisional_not_adjudicated",
+  "reference_strata": {
+    "S4": 6,
+    "S2": 6,
+    "UNRESOLVED": 4,
+    "S3": 5,
+    "S1": 3
+  },
+  "methods": {
+    "A_rules": {
+      "n_outputs": 24,
+      "actions": {
+        "unchanged": 23,
+        "revise": 1
+      },
+      "S1_repaired": {
+        "numerator": 0,
+        "denominator": 3
+      },
+      "S1_coverage": {
+        "numerator": 3,
+        "denominator": 3
+      },
+      "S3_repaired": {
+        "numerator": 0,
+        "denominator": 5
+      },
+      "S2_unnecessary_edits": {
+        "numerator": 0,
+        "denominator": 6
+      },
+      "S2_harmful_weakening": {
+        "numerator": 0,
+        "denominator": 6
+      },
+      "factual_preservation": {
+        "numerator": 23,
+        "denominator": 24
+      },
+      "all_abstentions": {
+        "numerator": 0,
+        "denominator": 24
+      },
+      "abstentions_by_stratum": {
+        "S1": {
+          "numerator": 0,
+          "denominator": 3
+        },
+        "S2": {
+          "numerator": 0,
+          "denominator": 6
+        },
+        "S3": {
+          "numerator": 0,
+          "denominator": 5
+        },
+        "S4": {
+          "numerator": 0,
+          "denominator": 6
+        },
+        "UNRESOLVED": {
+          "numerator": 0,
+          "denominator": 4
+        }
+      },
+      "format_failures": 0,
+      "unreadable_nonabstentions": 0,
+      "uncertain_answers_q1_q4": {
+        "q1_remaining_overclaim": 8,
+        "q2_lost_supported_detail": 0,
+        "q3_added_unsupported_information": 0,
+        "q4_necessary_edit": 10
+      },
+      "uncertain_output_count_q1_q4": 10,
+      "evidence_sufficient": {
+        "not_applicable": 24
+      },
+      "UNRESOLVED_outputs": 4
+    },
+    "B_direct_full": {
+      "n_outputs": 24,
+      "actions": {
+        "abstain": 9,
+        "revise": 12,
+        "unchanged": 3
+      },
+      "S1_repaired": {
+        "numerator": 0,
+        "denominator": 3
+      },
+      "S1_coverage": {
+        "numerator": 2,
+        "denominator": 3
+      },
+      "S3_repaired": {
+        "numerator": 0,
+        "denominator": 5
+      },
+      "S2_unnecessary_edits": {
+        "numerator": 2,
+        "denominator": 6
+      },
+      "S2_harmful_weakening": {
+        "numerator": 0,
+        "denominator": 6
+      },
+      "factual_preservation": {
+        "numerator": 12,
+        "denominator": 15
+      },
+      "all_abstentions": {
+        "numerator": 9,
+        "denominator": 24
+      },
+      "abstentions_by_stratum": {
+        "S1": {
+          "numerator": 1,
+          "denominator": 3
+        },
+        "S2": {
+          "numerator": 2,
+          "denominator": 6
+        },
+        "S3": {
+          "numerator": 3,
+          "denominator": 5
+        },
+        "S4": {
+          "numerator": 3,
+          "denominator": 6
+        },
+        "UNRESOLVED": {
+          "numerator": 0,
+          "denominator": 4
+        }
+      },
+      "format_failures": 0,
+      "unreadable_nonabstentions": 7,
+      "uncertain_answers_q1_q4": {
+        "q1_remaining_overclaim": 7,
+        "q2_lost_supported_detail": 0,
+        "q3_added_unsupported_information": 0,
+        "q4_necessary_edit": 10
+      },
+      "uncertain_output_count_q1_q4": 11,
+      "evidence_sufficient": {
+        "no": 6,
+        "yes": 14,
+        "uncertain": 4
+      },
+      "UNRESOLVED_outputs": 4
+    },
+    "C_structured_curated_AI": {
+      "n_outputs": 24,
+      "actions": {
+        "revise": 22,
+        "abstain": 2
+      },
+      "S1_repaired": {
+        "numerator": 2,
+        "denominator": 3
+      },
+      "S1_coverage": {
+        "numerator": 3,
+        "denominator": 3
+      },
+      "S3_repaired": {
+        "numerator": 1,
+        "denominator": 5
+      },
+      "S2_unnecessary_edits": {
+        "numerator": 6,
+        "denominator": 6
+      },
+      "S2_harmful_weakening": {
+        "numerator": 2,
+        "denominator": 6
+      },
+      "factual_preservation": {
+        "numerator": 14,
+        "denominator": 22
+      },
+      "all_abstentions": {
+        "numerator": 2,
+        "denominator": 24
+      },
+      "abstentions_by_stratum": {
+        "S1": {
+          "numerator": 0,
+          "denominator": 3
+        },
+        "S2": {
+          "numerator": 0,
+          "denominator": 6
+        },
+        "S3": {
+          "numerator": 1,
+          "denominator": 5
+        },
+        "S4": {
+          "numerator": 1,
+          "denominator": 6
+        },
+        "UNRESOLVED": {
+          "numerator": 0,
+          "denominator": 4
+        }
+      },
+      "format_failures": 1,
+      "unreadable_nonabstentions": 2,
+      "uncertain_answers_q1_q4": {
+        "q1_remaining_overclaim": 4,
+        "q2_lost_supported_detail": 1,
+        "q3_added_unsupported_information": 0,
+        "q4_necessary_edit": 10
+      },
+      "uncertain_output_count_q1_q4": 11,
+      "evidence_sufficient": {
+        "no": 6,
+        "yes": 14,
+        "uncertain": 4
+      },
+      "UNRESOLVED_outputs": 4
+    },
+    "D_structured_retrieved": {
+      "n_outputs": 24,
+      "actions": {
+        "revise": 21,
+        "abstain": 3
+      },
+      "S1_repaired": {
+        "numerator": 1,
+        "denominator": 3
+      },
+      "S1_coverage": {
+        "numerator": 2,
+        "denominator": 3
+      },
+      "S3_repaired": {
+        "numerator": 1,
+        "denominator": 5
+      },
+      "S2_unnecessary_edits": {
+        "numerator": 6,
+        "denominator": 6
+      },
+      "S2_harmful_weakening": {
+        "numerator": 2,
+        "denominator": 6
+      },
+      "factual_preservation": {
+        "numerator": 11,
+        "denominator": 21
+      },
+      "all_abstentions": {
+        "numerator": 3,
+        "denominator": 24
+      },
+      "abstentions_by_stratum": {
+        "S1": {
+          "numerator": 1,
+          "denominator": 3
+        },
+        "S2": {
+          "numerator": 0,
+          "denominator": 6
+        },
+        "S3": {
+          "numerator": 1,
+          "denominator": 5
+        },
+        "S4": {
+          "numerator": 1,
+          "denominator": 6
+        },
+        "UNRESOLVED": {
+          "numerator": 0,
+          "denominator": 4
+        }
+      },
+      "format_failures": 1,
+      "unreadable_nonabstentions": 1,
+      "uncertain_answers_q1_q4": {
+        "q1_remaining_overclaim": 2,
+        "q2_lost_supported_detail": 1,
+        "q3_added_unsupported_information": 0,
+        "q4_necessary_edit": 10
+      },
+      "uncertain_output_count_q1_q4": 10,
+      "evidence_sufficient": {
+        "no": 14,
+        "yes": 10
+      },
+      "UNRESOLVED_outputs": 4
+    },
+    "M_simple_full": {
+      "n_outputs": 24,
+      "actions": {
+        "revise": 23,
+        "abstain": 1
+      },
+      "S1_repaired": {
+        "numerator": 1,
+        "denominator": 3
+      },
+      "S1_coverage": {
+        "numerator": 3,
+        "denominator": 3
+      },
+      "S3_repaired": {
+        "numerator": 4,
+        "denominator": 5
+      },
+      "S2_unnecessary_edits": {
+        "numerator": 6,
+        "denominator": 6
+      },
+      "S2_harmful_weakening": {
+        "numerator": 2,
+        "denominator": 6
+      },
+      "factual_preservation": {
+        "numerator": 16,
+        "denominator": 23
+      },
+      "all_abstentions": {
+        "numerator": 1,
+        "denominator": 24
+      },
+      "abstentions_by_stratum": {
+        "S1": {
+          "numerator": 0,
+          "denominator": 3
+        },
+        "S2": {
+          "numerator": 0,
+          "denominator": 6
+        },
+        "S3": {
+          "numerator": 0,
+          "denominator": 5
+        },
+        "S4": {
+          "numerator": 1,
+          "denominator": 6
+        },
+        "UNRESOLVED": {
+          "numerator": 0,
+          "denominator": 4
+        }
+      },
+      "format_failures": 1,
+      "unreadable_nonabstentions": 2,
+      "uncertain_answers_q1_q4": {
+        "q1_remaining_overclaim": 6,
+        "q2_lost_supported_detail": 1,
+        "q3_added_unsupported_information": 0,
+        "q4_necessary_edit": 10
+      },
+      "uncertain_output_count_q1_q4": 11,
+      "evidence_sufficient": {
+        "no": 6,
+        "yes": 14,
+        "uncertain": 4
+      },
+      "UNRESOLVED_outputs": 4
+    },
+    "M_structured_full": {
+      "n_outputs": 24,
+      "actions": {
+        "revise": 23,
+        "abstain": 1
+      },
+      "S1_repaired": {
+        "numerator": 1,
+        "denominator": 3
+      },
+      "S1_coverage": {
+        "numerator": 3,
+        "denominator": 3
+      },
+      "S3_repaired": {
+        "numerator": 3,
+        "denominator": 5
+      },
+      "S2_unnecessary_edits": {
+        "numerator": 6,
+        "denominator": 6
+      },
+      "S2_harmful_weakening": {
+        "numerator": 2,
+        "denominator": 6
+      },
+      "factual_preservation": {
+        "numerator": 15,
+        "denominator": 23
+      },
+      "all_abstentions": {
+        "numerator": 1,
+        "denominator": 24
+      },
+      "abstentions_by_stratum": {
+        "S1": {
+          "numerator": 0,
+          "denominator": 3
+        },
+        "S2": {
+          "numerator": 0,
+          "denominator": 6
+        },
+        "S3": {
+          "numerator": 0,
+          "denominator": 5
+        },
+        "S4": {
+          "numerator": 1,
+          "denominator": 6
+        },
+        "UNRESOLVED": {
+          "numerator": 0,
+          "denominator": 4
+        }
+      },
+      "format_failures": 1,
+      "unreadable_nonabstentions": 2,
+      "uncertain_answers_q1_q4": {
+        "q1_remaining_overclaim": 3,
+        "q2_lost_supported_detail": 1,
+        "q3_added_unsupported_information": 0,
+        "q4_necessary_edit": 10
+      },
+      "uncertain_output_count_q1_q4": 10,
+      "evidence_sufficient": {
+        "no": 6,
+        "yes": 14,
+        "uncertain": 4
+      },
+      "UNRESOLVED_outputs": 4
+    },
+    "M_simple_curated_AI": {
+      "n_outputs": 24,
+      "actions": {
+        "revise": 22,
+        "abstain": 2
+      },
+      "S1_repaired": {
+        "numerator": 1,
+        "denominator": 3
+      },
+      "S1_coverage": {
+        "numerator": 2,
+        "denominator": 3
+      },
+      "S3_repaired": {
+        "numerator": 2,
+        "denominator": 5
+      },
+      "S2_unnecessary_edits": {
+        "numerator": 6,
+        "denominator": 6
+      },
+      "S2_harmful_weakening": {
+        "numerator": 2,
+        "denominator": 6
+      },
+      "factual_preservation": {
+        "numerator": 13,
+        "denominator": 22
+      },
+      "all_abstentions": {
+        "numerator": 2,
+        "denominator": 24
+      },
+      "abstentions_by_stratum": {
+        "S1": {
+          "numerator": 1,
+          "denominator": 3
+        },
+        "S2": {
+          "numerator": 0,
+          "denominator": 6
+        },
+        "S3": {
+          "numerator": 0,
+          "denominator": 5
+        },
+        "S4": {
+          "numerator": 1,
+          "denominator": 6
+        },
+        "UNRESOLVED": {
+          "numerator": 0,
+          "denominator": 4
+        }
+      },
+      "format_failures": 1,
+      "unreadable_nonabstentions": 1,
+      "uncertain_answers_q1_q4": {
+        "q1_remaining_overclaim": 6,
+        "q2_lost_supported_detail": 1,
+        "q3_added_unsupported_information": 0,
+        "q4_necessary_edit": 10
+      },
+      "uncertain_output_count_q1_q4": 11,
+      "evidence_sufficient": {
+        "no": 6,
+        "yes": 14,
+        "uncertain": 4
+      },
+      "UNRESOLVED_outputs": 4
+    }
+  }
+}

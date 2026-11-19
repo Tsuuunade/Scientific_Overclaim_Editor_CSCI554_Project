@@ -1,0 +1,44 @@
+[
+  {
+    "example_id": "PILOT-29-002",
+    "previous_category": "UNRESOLVED",
+    "current_category": "S2",
+    "reason": "摘要明确是 90 名复发或难治 B 细胞恶性肿瘤患者的 I 期临床试验，支持人体试验和针对部分血癌的新药研究。breakthrough、机构及首次发表等宣传或归属措辞按既定边界不单独判科学夸大；原句没有声称治愈或已证实普遍疗效。"
+  },
+  {
+    "example_id": "PILOT-13-11-003-1",
+    "previous_category": "S4",
+    "current_category": "UNRESOLVED",
+    "reason": "摘要总体支持有机奶较高，但管理与季节有交互，天气仅为跨年变化的可能解释。regardless 可以指优势方向仍在，也可以被理解为完全不受条件影响；摘要没有列出所有分层差异方向，不能以绝对含量季节变化直接否定比较优势。此语义边界保留未定。"
+  },
+  {
+    "example_id": "PILOT-02-11-028-1",
+    "previous_category": "UNRESOLVED",
+    "current_category": "S3",
+    "reason": "来源仅描述正常妊娠血压轨迹与既知风险因子的关联及风险连续谱，没有比较新定义的筛查检出率。原句把连续谱发现推向能多识别高风险妇女的诊断结局；可改回关联及连续谱。"
+  },
+  {
+    "example_id": "PILOT-25-162",
+    "previous_category": "S3",
+    "current_category": "UNRESOLVED",
+    "reason": "死亡率方向和较多慢性病均获支持。原句是普通新闻摘要，省略 Medicare、65 岁以上和内科医生限定；现有协议明确允许普通摘要省略地域与日期，但未明确年龄及医生专科可否省略。是否构成泛化取决于评分边界，先保留未定，不把省略自动当成因果夸大。"
+  },
+  {
+    "example_id": "PILOT-02-11-009-1",
+    "previous_category": "UNRESOLVED",
+    "current_category": "S2",
+    "reason": "原句是建议性的 suggests / should be considered，基本对应来源的 health-enhancing physical activity 结论和对公共健康潜力的研究目的，没有声称测得健康结局或已证明因果疗效。允许与来源同等谨慎的健康意义概括。"
+  },
+  {
+    "example_id": "PILOT-10-11-003-1",
+    "previous_category": "S2",
+    "current_category": "UNRESOLVED",
+    "reason": "实验支持广告后偏好脂肪及碳水化合物丰富食品增加，但摘要未直接将这些食品统一定义为 unhealthy。将 unhealthy 视为通俗概括还是额外健康属性判断，现有协议没有明确；不以常识代替该边界决定。因果方向本身有暴露比较支持。"
+  },
+  {
+    "example_id": "PILOT-20-11-007-1",
+    "previous_category": "S3",
+    "current_category": "S1",
+    "reason": "体外、人源 LDL、细胞和大鼠结果支持更强致动脉粥样硬化特征，但临床心血管风险仅为 may explain。原句 leading to increased risk 将机制证据提升为已建立的临床风险因果关系；需要保留可能性及具体机制范围。"
+  }
+]

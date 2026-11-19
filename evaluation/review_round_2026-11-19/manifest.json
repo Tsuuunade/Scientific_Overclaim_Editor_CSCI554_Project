@@ -1,0 +1,35 @@
+{
+  "review_round": "2026-11-19-working-review",
+  "review_status": "provisional_not_adjudicated",
+  "prior_answer_exposure": "exposed",
+  "exposure_note": "User supplied prior aggregate findings; study protocols were read. This is an audit and does not establish blind independence.",
+  "n_references": 24,
+  "n_text_groups": 126,
+  "n_outputs": 168,
+  "identical_text_handling": "One text judgment per identical case/action/parse/text group, then expand to actual outputs; evidence adequacy is per actual input.",
+  "publication_identity_check": "Repository PMID/title and source hashes only; no external publication verification in this round.",
+  "source_hash_checks": "All abstract, raw-output and editor-evidence hashes verified.",
+  "prior_records_modified": false,
+  "prior_output_ratings_used_to_assign_judgments": false,
+  "method_lookup_stage": "After all reference and text-group judgments were recorded; no claim of full workflow blinding.",
+  "assessments_sha256_before_method_lookup": "88eb292c8af6e53adaab2644c09a3590d8b6441ebde115bfbb3dea4f94a3622e",
+  "current_assessments_sha256": "88eb292c8af6e53adaab2644c09a3590d8b6441ebde115bfbb3dea4f94a3622e",
+  "original_dependencies": {
+    "experiments/paper_study/sources/cases.jsonl": "2accd3e590e8e3fc02ed36ff565d7f0ba199715c11e5861e0fbc542364795c70",
+    "experiments/paper_study/inputs.jsonl": "75a9da6a3e3753763ae894fef6d567f3ee9c4832dc34debe19936a2836150497",
+    "experiments/paper_study/references.jsonl": "10ad33c7901641ad9c6fc0d760de8fcd550511dcfb46d8177701d01ffb8671ee",
+    "experiments/paper_study/review/masked_outputs.jsonl": "e185c2929874d0d7ee707a8e8b6278ea163ba29ec8ba2831ed7b4e3281633976",
+    "experiments/paper_study/review/withheld_method_key.jsonl": "b81cf876314375348f5886b452665706436b19cc5dd46a55da19b94e20286709",
+    "experiments/paper_study/review/automated_output_ratings.jsonl": "e186d21249fa688627000d6e7e20be4702b388227191ef7265bf3a0084bf63a1"
+  },
+  "protocol_dependencies": {
+    "data_package/docs/annotation_guide.md": "2016d65dd565764948dff3a78caebb74504af8eb34db99daeda56a19e9572ffa",
+    "evaluation/rating_protocol.md": "ffd539cc697e446166af050be15ef0cfa5564c99016d30caa751e247724b7e6b",
+    "evaluation/metric_definitions.md": "ae9c5f120aa2a791e7e6d2e9c14fb23bd68a80095e2172f6065c4ba11b3df9eb"
+  },
+  "build_inputs": {
+    "assessments.json": "88eb292c8af6e53adaab2644c09a3590d8b6441ebde115bfbb3dea4f94a3622e",
+    "evidence_assessments.json": "8668d1fb3c59851732f67aa6c981c4bda1127f41e4292138f35c7d38ebc5c446",
+    "build_review.py": "7613f3685790f219bdbb455b0329c4f343fe27223a9dd5a2a949ec9abd024b07"
+  }
+}
