@@ -65,3 +65,22 @@ missed_exaggeration, unnecessary_weakening, lost_details, added_unsupported_fact
 - Resolve disagreements with the source visible and write a `RESOLVED` row with a short reason. Keep `uncertain` when evidence is inadequate.
 - Record `reviewer_provenance` (human or AI) on every row. AI judgments never substitute for the independent human judgments.
 - An independent rater must rate before reading AI annotations or decision logs; mark `prior_answer_exposure` as none, exposed or uncertain. Exposed ratings are an audit, not blind evidence.
+
+## Support boundary: literal support only (added 2026-11-19)
+
+Three AI review passes and one human check disagreed on all four cases left unresolved by the 2026-11-19 audit. The disagreements came from the rule, not from careless reviewers: each case turned on how much background knowledge a reviewer may use. These rules apply from now on. Earlier rounds were scored without them and are not relabelled.
+
+1. **A claim is supported only by literal evidence.** That means what the abstract states, or what follows from it by plain logic with no outside facts. Example: "the gap is larger in summer than in winter" supports "the gap exists in both seasons".
+2. **A term that needs background or domain knowledge to connect to the abstract is unsupported.** Examples: "fat-rich and carbohydrate-rich foods" does not license "unhealthy foods"; "more growth, biofilm and attachment" does not license "more virulent"; "higher dose" does not license "more toxic".
+3. **Revise or abstain.** If the unsupported part can be replaced by the abstract's own wording while keeping the rest of the claim, the expected action is revise (S1 if the unsupported part is causal, otherwise S3). If the claim's central assertion has no literally supported counterpart, the expected action is abstain (S4).
+4. **Omitted restrictions.** Dropping a population, species, age, setting or comparison restriction that the abstract states explicitly is a scope overclaim (S3). Dropping institution, place of publication, date or attribution is not.
+5. **Still unsure.** Mark UNRESOLVED and name the rule (1-4) that does not settle the case.
+
+Worked boundary cases (human check, reviewer exposed to prior discussion, not adjudicated):
+
+| Case | Boundary | Reading under these rules |
+|---|---|---|
+| PILOT-29-033 salad juice "virulence" | Rule 2 | "virulence" unsupported; growth and attachment are supported, so a literal revision exists (S3, revise). The human check chose abstain before this rule was written. |
+| PILOT-13-11-003-1 organic milk "regardless of season or weather" | Rule 1 | Summer > winter gap read as a persisting gap (S2). Weather is only a possible explanation, so this case may still need adjudication. |
+| PILOT-25-162 foreign graduates | Rule 4 | Age 65+ and internist restrictions dropped (S3, revise). |
+| PILOT-10-11-003-1 TV ads "unhealthy foods" | Rule 2 | "unhealthy" unsupported; replace with "fat-rich and carbohydrate-rich foods" (S3, revise). |
