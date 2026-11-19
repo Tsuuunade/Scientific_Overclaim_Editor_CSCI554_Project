@@ -33,3 +33,10 @@ Strata (see `rating_protocol.md`): S1 verified causal overclaims, S2 clean suppo
 ## Sample size note
 
 With a 24-input evaluation set and four methods the maximum is 96 outputs and 192 human ratings (about 32 per member), per `data_package/docs/data_dictionary.md#pilot-plan`. Report exact counts. Do not present percentages alone when a stratum is small.
+
+## UNRESOLVED cases and overall strict success
+
+Cases the source or policy cannot settle are labelled `UNRESOLVED`. They are never relabelled to balance the sample. They stay in every all-row denominator and are never a success.
+
+- **Overall strict success (main)** = outputs that meet their stratum's success rule / all outputs, including UNRESOLVED. Success rules: S1 and S3 need a revision with q1 = no, q2 = no, q3 = no and q5 = yes; S2 needs an unchanged claim; S4 needs an abstention.
+- **Overall strict success, UNRESOLVED excluded (note)** is reported next to it, never alone, and never chosen because it looks better.

@@ -14,7 +14,9 @@ from collections import defaultdict
 
 S1, S2, S3, S4 = ("S1_causal_overclaim", "S2_supported_control",
                   "S3_scope_only", "S4_source_insufficient")
+UNRES = "UNRESOLVED"
 STRATA = (S1, S2, S3, S4)
+VALID_STRATA = STRATA + (UNRES,)
 AGREE_Q = ("q1_still_exaggerates", "q2_altered_supported",
            "q3_added_unsupported", "q4_change_necessary")
 
@@ -35,6 +37,21 @@ def frac(n, d):
 def is_edit(row):
     return v(row, "output_action") == "revise" and \
         (row.get("output_text") or "") != (row.get("original_claim") or "")
+
+
+def strict_success(row):
+    """Per-stratum success. UNRESOLVED (and unknown) is never a success."""
+    st, act = row["stratum"], v(row, "output_action")
+    if st in (S1, S3):
+        return (act == "revise" and v(row, "q1_still_exaggerates") == "no"
+                and v(row, "q2_altered_supported") == "no"
+                and v(row, "q3_added_unsupported") == "no"
+                and v(row, "q5_understandable") == "yes")
+    if st == S2:
+        return act == "unchanged"
+    if st == S4:
+        return act == "abstain"
+    return False
 
 
 def measures(rows):
@@ -62,6 +79,13 @@ def measures(rows):
         rs = [r for r in rows if r["stratum"] == s]
         out[f"  abstentions in {s}"] = frac(
             sum(v(r, "output_action") == "abstain" for r in rs), len(rs))
+    n_un = sum(r["stratum"] == UNRES for r in rows)
+    known = [r for r in rows if r["stratum"] != UNRES]
+    out["Overall strict success, UNRESOLVED in denominator (main)"] = frac(
+        sum(strict_success(r) for r in rows), len(rows))
+    out["Overall strict success, UNRESOLVED excluded (note)"] = frac(
+        sum(strict_success(r) for r in known), len(known))
+    out["  UNRESOLVED outputs (kept in denominator, never success)"] = str(n_un)
     out["uncertain ratings (q1-q4)"] = str(sum(
         v(r, q) == "uncertain" for r in rows for q in AGREE_Q))
     return out
@@ -89,7 +113,7 @@ def agreement(rows):
 
 def report(rows):
     resolved = [r for r in rows if r["rater_id"].strip().upper() == "RESOLVED"]
-    bad = [r for r in resolved if r["stratum"] not in STRATA]
+    bad = [r for r in resolved if r["stratum"] not in VALID_STRATA]
     if bad:
         sys.exit(f"{len(bad)} resolved rows have an invalid stratum; fix before computing.")
     groups = defaultdict(list)
@@ -135,6 +159,9 @@ def self_test():
             q2_altered_supported="yes", q3_added_unsupported="no", rater_id="RESOLVED"),
         # S4 abstain
         row(output_id="8", stratum=S4, method_code="X", original_claim="e", output_text="", output_action="abstain", rater_id="RESOLVED"),
+        # UNRESOLVED stays in the denominator and is never a success
+        row(output_id="9", stratum=UNRES, method_code="X", original_claim="f", output_text="f", output_action="unchanged",
+            q2_altered_supported="no", q3_added_unsupported="no", rater_id="RESOLVED"),
         # two independent raters on output 1: agree on q1, disagree on q2
         row(output_id="1", q1_still_exaggerates="no", q2_altered_supported="no", rater_id="R1"),
         row(output_id="1", q1_still_exaggerates="no", q2_altered_supported="yes", rater_id="R2"),
@@ -146,8 +173,11 @@ def self_test():
         "  S1 coverage (non-abstained)": "3/4 (75.0%)",
         "Unnecessary edit rate (S2)": "2/3 (66.7%)",
         "Harmful weakening rate (S2)": "1/3 (33.3%)",
-        "Factual preservation (non-abstained)": "5/6 (83.3%)",
-        "Abstention rate (all)": "2/8 (25.0%)",
+        "Factual preservation (non-abstained)": "6/7 (85.7%)",
+        "Abstention rate (all)": "2/9 (22.2%)",
+        "Overall strict success, UNRESOLVED in denominator (main)": "3/9 (33.3%)",
+        "Overall strict success, UNRESOLVED excluded (note)": "3/8 (37.5%)",
+        "  UNRESOLVED outputs (kept in denominator, never success)": "1",
         "uncertain ratings (q1-q4)": "1",
     }
     for k, want in expect.items():
